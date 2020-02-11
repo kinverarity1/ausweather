@@ -69,3 +69,14 @@ def fetch_station_list(ncc_obs_code):
     df["ncc_obs_code"] = ncc_obs_code
     df["ncc_obs_descr"] = ncc_obs_codes[ncc_obs_code]
     return df
+
+
+def fetch_c_values(ncc_obs_code, station_code, radius_km=10):
+    url = (
+        f"http://www.bom.gov.au/jsp/ncc/cdio/weatherStationDirectory"
+        f"/d?p_display_type=ajaxStnListing"
+        f"&p_nccObsCode={ncc_obs_code}&p_stnNum={station_code}&p_radius={radius_km}"
+    )
+    r = requests.get(url)
+    buffer = io.StringIO(r.text)
+    return pd.read_html(buffer)[0].rename(columns={"Unnamed: 10": "c"})
