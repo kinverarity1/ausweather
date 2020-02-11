@@ -8,6 +8,9 @@ Note you can find all stations within a ``p_radius`` (km). Then once you have ``
 
 - http://www.bom.gov.au/jsp/ncc/cdio/weatherData/av?p_display_type=dailyZippedDataFile&p_stn_num=023343&p_nccObsCode=122&p_c=-108975703
 - http://www.bom.gov.au/jsp/ncc/cdio/weatherData/av?p_display_type=dailyZippedDataFile&p_stn_num=023343&p_nccObsCode=136&p_c=-108978592
+- http://www.bom.gov.au/jsp/ncc/cdio/weatherData/av?p_display_type=monthlyZippedDataFile&p_stn_num=023343&p_nccObsCode=139&p_c=-108979252
+
+Note daily vs monthly for different reporting frequency ``nccObsCode``s.
 
 Some BoM stations are available from SILO:
 
