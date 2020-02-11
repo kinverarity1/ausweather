@@ -5,3 +5,6 @@ try:
 except DistributionNotFound:
     # package is not installed
     pass
+
+from ausweather.database import *
+from ausweather.bom import *
