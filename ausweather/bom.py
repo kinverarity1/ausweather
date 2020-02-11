@@ -1,3 +1,20 @@
+"""
+
+BoM climate data. Use station code and ``p_nccObsCode`` to find ``p_c``, which is the long negative integer in the last column of this table:
+
+- http://www.bom.gov.au/jsp/ncc/cdio/weatherStationDirectory/d?p_display_type=ajaxStnListing&p_nccObsCode=136&p_stnNum=023107&p_radius=100
+
+Note you can find all stations within a ``p_radius`` (km). Then once you have ``p_c`` you can access the data itself:
+
+- http://www.bom.gov.au/jsp/ncc/cdio/weatherData/av?p_display_type=dailyZippedDataFile&p_stn_num=023343&p_nccObsCode=122&p_c=-108975703
+- http://www.bom.gov.au/jsp/ncc/cdio/weatherData/av?p_display_type=dailyZippedDataFile&p_stn_num=023343&p_nccObsCode=136&p_c=-108978592
+
+Some BoM stations are available from SILO:
+
+https://www.longpaddock.qld.gov.au/cgi-bin/silo/PatchedPointDataset.php?start=19950101&finish=20110110&station=023343&format=alldata&username=<email-address>
+
+
+"""
 import io
 import logging
 
@@ -6,7 +23,11 @@ import pandas as pd
 
 
 logger = logging.getLogger(__name__)
-ncc_obs_codes = {136: "Daily total rainfall", 122: "Daily max temp"}
+ncc_obs_codes = {
+    136: "Daily total rainfall",
+    122: "Daily max temp",
+    139: "Monthly total rainfall",
+}
 
 
 def fetch_station_list(ncc_obs_code):
@@ -41,10 +62,10 @@ def fetch_station_list(ncc_obs_code):
     ]
     df = pd.read_fwf(buffer, skiprows=skiprows, colspecs=colspecs)
     df["Name"] = df["Name"].astype(str)
-    for month_col in ("Start", "End"):
-        df[month_col] = [
-            str(dt) for dt in pd.to_datetime(df[month_col], format="%b %Y")
-        ]
+    # for month_col in ("Start", "End"):
+    #     df[month_col] = [
+    #         str(dt) for dt in pd.to_datetime(df[month_col], format="%b %Y")
+    #     ]
     df["ncc_obs_code"] = ncc_obs_code
     df["ncc_obs_descr"] = ncc_obs_codes[ncc_obs_code]
     return df
