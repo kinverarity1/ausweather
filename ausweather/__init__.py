@@ -8,3 +8,4 @@ except DistributionNotFound:
 
 from ausweather.database import *
 from ausweather.bom import *
+from ausweather.silo import *
