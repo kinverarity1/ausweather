@@ -47,7 +47,7 @@ class Database:
                 oc for oc in bom.ncc_obs_codes.keys() if not oc in existing_oc
             ]
             logger.info(f'ncc_obs_codes="auto" -> still missing: {ncc_obs_codes}')
-        dfs = [bom.fetch_station_list(oc) for oc in ncc_obs_codes]
+        dfs = [bom.fetch_bom_station_list(oc) for oc in ncc_obs_codes]
         if len(dfs):
             df = pd.concat(dfs)
             try:

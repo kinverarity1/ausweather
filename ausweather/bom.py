@@ -12,9 +12,6 @@ Note you can find all stations within a ``p_radius`` (km). Then once you have ``
 
 Note daily vs monthly for different reporting frequency ``nccObsCode``s.
 
-Some BoM stations are available from SILO:
-
-https://www.longpaddock.qld.gov.au/cgi-bin/silo/PatchedPointDataset.php?start=19950101&finish=20110110&station=023343&format=alldata&username=<email-address>
 
 
 """
@@ -33,7 +30,7 @@ ncc_obs_codes = {
 }
 
 
-def fetch_station_list(ncc_obs_code):
+def fetch_bom_station_list(ncc_obs_code):
     """Fetch the BoM station list for nccObsCode (for all Australia).
 
     Args:
@@ -74,7 +71,7 @@ def fetch_station_list(ncc_obs_code):
     return df
 
 
-def fetch_c_values(ncc_obs_code, station_code, radius_km=10):
+def fetch_bom_c_values(ncc_obs_code, station_code, radius_km=10):
     url = (
         f"http://www.bom.gov.au/jsp/ncc/cdio/weatherStationDirectory"
         f"/d?p_display_type=ajaxStnListing"
