@@ -9,17 +9,25 @@ import pandas as pd
 import requests
 
 
-def silo_alldata(station_code, email, start=None, finish=None):
+def silo_alldata(station_code, email, start=None, finish=None, return_comments=False):
     """Retrieve alldata result from SILO (daily timeseries with temperature,
     rainfall etc).
 
     Args:
         station_code (int or str): BoM station number
-        email (str): used for querying SILO - no need for an account
+        email (str): used for querying SILO - no need for an account, but you
+            need to supply a valid email address.
         start ('auto', datetime, pd.Timestamp, str in YYYYMMDD or int): start of
             time period to retrieve data for
         finish ('auto', datetime, pd.Timestamp, str in YYYYMMDD or int): end of
             time period to retrieve data for
+        return_comments (bool): if True, return a dictionary. if False, return
+            a pandas DataFrame.
+
+    Returns:
+        pandas DataFrame, if return_comments is False. Otherwise, return a
+        dictionary {"df": pandas DataFrame, "comments": comments from SILO
+        call}.
 
     """
     if start is None:
@@ -75,4 +83,11 @@ def silo_alldata(station_code, email, start=None, finish=None):
         "MSLPres",
     ):
         df[col] = df[col].astype(float)
-    return df
+    if return_comments:
+        comments = []
+        for line in r.text.splitlines():
+            if line.strip().startswith('"'):
+                comments.append(line)
+        return {"df": df, "comments": "\n".join(comments)}
+    else:
+        return df
