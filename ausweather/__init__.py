@@ -31,10 +31,15 @@ def fetch_bom_station_from_silo(
     rex = re.compile(r'\W+')
 
     title = ""
+    name = ''
     for line in rf_data['comments'].splitlines():
         if 'Patched Point data for station' in line:
-            title = ' '.join(rex.sub(' ', line.split(':', 1)[1]).split()[:2])
+            colon_parts = line.split(':')
+            title = colon_parts[1].replace('Lat', '').strip()
+            name = title.replace(str(bom_station), '').strip()
+            break
     title += f' (fetched from SILO on {datetime.now()})'
+    print(f'station #: {bom_station} name: {name} title: {title}')
 
     if only_use_complete_years:
         df = df.groupby([df.Date.dt.year]).filter(lambda x: len(x) >= 365)
@@ -51,7 +56,7 @@ def fetch_bom_station_from_silo(
     return {
         "silo_returned": rf_data,
         'station_no': bom_station,
-        'station_name': title.split()[1],
+        'station_name': name,
         "title": title,
         "df": df,
         "annual": rf_annual,
