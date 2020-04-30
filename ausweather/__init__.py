@@ -7,6 +7,7 @@ except DistributionNotFound:
     pass
 
 
+from ausweather.core import *
 from ausweather.database import *
 from ausweather.bom import *
 from ausweather.silo import *
