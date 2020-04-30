@@ -8,6 +8,8 @@ import io
 import pandas as pd
 import requests
 
+__all__ = ["silo_alldata"]
+
 
 def silo_alldata(station_code, email, start=None, finish=None, return_comments=False):
     """Retrieve alldata result from SILO (daily timeseries with temperature,

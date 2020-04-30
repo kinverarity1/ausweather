@@ -11,6 +11,8 @@ from matplotlib import ticker as mticker
 import pandas as pd
 import numpy as np
 
+__all__ = ["plot_silo_station"]
+
 
 def plot_silo_station(rf_annual, rf_mean, rf_annual_srn, title=""):
     colour = {"rainfall": (0 / 255, 176 / 255, 240 / 255, 1), "mean": "#bebebe"}
@@ -67,5 +69,5 @@ def plot_silo_station(rf_annual, rf_mean, rf_annual_srn, title=""):
     ax_interp.set_ylim(0, 100)
     ax_interp.xaxis.set_major_locator(mticker.MultipleLocator(5))
     fig.tight_layout()
-    plt.setp(ax_interp.get_xticklabels(), rotation=90, ha='center')
+    plt.setp(ax_interp.get_xticklabels(), rotation=90, ha="center")
     return {"fig": fig, "ax_rf": ax_rf, "ax_interp": ax_interp}
