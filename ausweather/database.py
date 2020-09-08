@@ -7,6 +7,7 @@ from . import bom
 
 
 logger = logging.getLogger(__name__)
+__all__ = ["Database"]
 
 
 class Database:
@@ -21,6 +22,7 @@ class Database:
         filename (str)
 
     """
+
     def __init__(self, filename="ausweather.sqlite"):
         self.conn = sqlite3.connect(filename)
         self.filename = filename

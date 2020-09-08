@@ -23,11 +23,37 @@ import pandas as pd
 
 
 logger = logging.getLogger(__name__)
-ncc_obs_codes = {
-    136: "Daily total rainfall",
-    122: "Daily max temp",
-    139: "Monthly total rainfall",
-}
+
+NCC_OBS_CODES = [
+    {
+        "name": "Rainfall - daily total",
+        "ncc_obs_code": 136,
+        "interval": "daily",
+        "aliases": ["daily_rain"],
+    },
+    {
+        "name": "Rainfall - monthly total",
+        "ncc_obs_code": 139,
+        "interval": "monthly",
+        "aliases": ["monthly_rain"],
+    },
+    {
+        "name": "Temperature - maximum daily",
+        "ncc_obs_code": 122,
+        "interval": "daily",
+        "aliases": ["daily_max_temp"],
+    },
+]
+
+
+def resolve_ncc_obs_code(ncc_obs_code):
+    for var in NCC_OBS_CODES:
+        if ncc_obs_code == var["ncc_obs_code"]:
+            return var
+    for var in NCC_OBS_CODES:
+        if str(ncc_obs_code).lower() in var["aliases"]:
+            return var
+    raise KeyError(f"Unknown ncc_obs_code: {ncc_obs_code}")
 
 
 def fetch_bom_station_list(ncc_obs_code):
@@ -41,6 +67,9 @@ def fetch_bom_station_list(ncc_obs_code):
 
     """
     logger.info(f"Fetching BoM station list for AUS obsCode {ncc_obs_code}")
+    variable = resolve_ncc_obs_code(ncc_obs_code)
+    ncc_obs_code = variable["ncc_obs_code"]
+    logger.debug(f"Using resolved ncc_obs_code {ncc_obs_code}")
     r = requests.get(
         f"http://www.bom.gov.au/climate/data/lists_by_element/alphaAUS_{ncc_obs_code}.txt"
     )
@@ -62,16 +91,14 @@ def fetch_bom_station_list(ncc_obs_code):
     ]
     df = pd.read_fwf(buffer, skiprows=skiprows, colspecs=colspecs)
     df["Name"] = df["Name"].astype(str)
-    # for month_col in ("Start", "End"):
-    #     df[month_col] = [
-    #         str(dt) for dt in pd.to_datetime(df[month_col], format="%b %Y")
-    #     ]
     df["ncc_obs_code"] = ncc_obs_code
-    df["ncc_obs_descr"] = ncc_obs_codes[ncc_obs_code]
+    df["ncc_obs_descr"] = variable["name"]
     return df
 
 
 def fetch_bom_c_values(ncc_obs_code, station_code, radius_km=10):
+    ncc_obs_code = resolve_ncc_obs_code(ncc_obs_code)["ncc_obs_code"]
+    logger.debug(f"Using resolved ncc_obs_code {ncc_obs_code}")
     url = (
         f"http://www.bom.gov.au/jsp/ncc/cdio/weatherStationDirectory"
         f"/d?p_display_type=ajaxStnListing"
