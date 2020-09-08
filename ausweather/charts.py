@@ -46,7 +46,7 @@ def plot_silo_station(rf_annual, rf_mean, rf_annual_srn, title=""):
             heights,
             bottom=bottom,
             label=column,
-            color=rf_srn_colours[column],
+            color=rf_srn_colours.get(column, "gray"),
         )
         bottom += heights
 
