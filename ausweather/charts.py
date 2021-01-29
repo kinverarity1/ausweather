@@ -40,7 +40,9 @@ def plot_silo_station(rf_annual, rf_mean, rf_annual_srn, title=""):
     )
 
     bottom = np.zeros(len(rf_annual_srn))
-    for column in rf_annual_srn.columns:
+    srn_cols = ["Date"] + list(rf_srn_colours.keys())
+    srn_cols = [c for c in srn_cols if c in rf_annual_srn.columns]
+    for column in srn_cols:
         rf_srn = rf_annual_srn[column]
         heights = rf_srn.values
         ax_interp.bar(
