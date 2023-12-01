@@ -17,6 +17,6 @@ setup(
         "Topic :: Scientific/Engineering",
     ),
     keywords="science",
-    install_requires=("pandas", "requests"),
+    install_requires=("pandas", "requests", "matplotlib"),
     include_package_data=True,
 )
