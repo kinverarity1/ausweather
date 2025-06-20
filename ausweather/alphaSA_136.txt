@@ -1,0 +1,1648 @@
+Bureau of Meteorology product IDCJMC0014.                                       Produced: 19 Jun 2025
+South Australian stations measuring rainfall
+Site    Name                                     Lat       Lon      Start    End       Years   %  AWS
+-----------------------------------------------------------------------------------------------------
+  17000 ABMINGA RAILWAY SIDING                   -26.1317  134.8517 Jan 1939 Oct 1980   39.6   94   N
+  23828 ADELAIDE ABERFOYLE PARK                  -35.0678  138.6097 Jan 1974 Sep 1992   18.8   99   N
+  23034 ADELAIDE AIRPORT                         -34.9524  138.5196 Mar 1955 Jun 2025   70.3  100   Y
+  23055 ADELAIDE AIRPORT ALERT                   -34.9517  138.5214 Oct 2003 Jun 2025   20.1   91   N
+  23046 ADELAIDE AIRPORT OLD SITE                -34.9566  138.5356 Aug 2002 Jan 2005    2.5   90   Y
+  23097 ADELAIDE (BLACK HILL CONSERVATION PARK)  -34.8833  138.7167 May 1979 Feb 1989    9.2   93   N
+  23035 ADELAIDE BOTANIC GARDENS                 -34.9167  138.6167 Apr 1952 Apr 1976   23.9   99   N
+  23001 ADELAIDE (BRIGHTON)                      -35.0199  138.5200 Oct 1898 Dec 2019   77.0   63   N
+  23075 ADELAIDE (CLAPHAM)                       -34.9964  138.6039 Mar 1954 Sep 2008   53.3   96   N
+  23093 ADELAIDE (CLARENCE GARDENS BOWLING CLUB) -34.9726  138.5790 Jan 1978 Jun 2024   38.8   79   N
+  23079 ADELAIDE (DRY CREEK SALTWORKS)           -34.8276  138.5783 Dec 1960 May 2013   52.0   99   N
+  23005 ADELAIDE (GLEN OSMOND)                   -34.9464  138.6519 Jan 1884 Jun 2025  127.3   85   N
+  23014 ADELAIDE (GLENSIDE)                      -34.9467  138.6303 Aug 1934 Oct 1994   56.7   91   N
+  23088 ADELAIDE GOVERNMENT HOUSE                -34.9167  138.6000 Jul 1974 Dec 1975    1.5   98   N
+  23096 ADELAIDE (HOPE VALLEY RESERVOIR)         -34.8564  138.6844 Jun 1979 Jun 2025   46.1   99   N
+  23090 ADELAIDE (KENT TOWN)                     -34.9211  138.6216 Feb 1977 Jul 2020   43.5   99   Y
+  23056 ADELAIDE (KENT TOWN ALERT)               -34.9214  138.6219 Jan 2010 May 2015    5.4   99   N
+  23115 ADELAIDE (KESWICK)                       -34.9473  138.5827 Mar 2001 Jun 2025   24.3   99   N
+  23064 ADELAIDE (LARGS BAY)                     -34.8314  138.4884 Jan 1896 Sep 2012   16.7   13   N
+  23072 ADELAIDE (MAGILL SECURE CARE CENTRE)     -34.9065  138.6870 Feb 1968 Jul 2012   43.9   89   N
+  23732 ADELAIDE (MORPHETT VALE)                 -35.1351  138.5274 Oct 1886 Jun 2025  120.3   83   N
+  23098 ADELAIDE (MORPHETTVILLE RACECOURSE)      -34.9742  138.5425 Jan 1947 Jul 2019   66.3   88   N
+  23057 ADELAIDE (NORTHFIELD RESEARCH CENTRE)    -34.8533  138.6517 Aug 1966 Dec 1994   28.2   98   N
+  23037 ADELAIDE (PARAFIELD PLANT INTRODUCTION C -34.7833  138.6242 Jan 1907 Jun 1995   50.3   56   N
+  23026 ADELAIDE (POORAKA)                       -34.8324  138.6125 Jan 1878 May 2023  138.8   92   N
+  23016 ADELAIDE (PORT DOCK RAILWAY STATION)     -34.5100  138.5167 Jun 1925 Dec 1986   61.4   97   N
+  23023 ADELAIDE (SALISBURY BOWLING CLUB)        -34.7674  138.6434 Feb 1874 Apr 2025  140.3   89   N
+  23024 ADELAIDE (SEATON)                        -34.8965  138.5103 Jan 1912 Aug 2023  111.3   98   N
+  23121 ADELAIDE (SOMERTON PARK)                 -35.0002  138.5171 Jan 1996 Jun 2018   17.8   74   N
+  23113 ADELAIDE (TAPEROO)                       -34.8125  138.4906 May 1991 Nov 2000    9.3   76   N
+  23748 ADELAIDE (TEA TREE GULLY COUNCIL)        -34.8307  138.7051 Jan 1884 Sep 2019  133.7   91   N
+  23027 ADELAIDE (THORNDON PARK)                 -34.8744  138.6858 Nov 1878 Dec 2003  115.8   92   N
+  23018 ADELAIDE (TORRENS ISLAND)                -34.7819  138.5218 Jan 1928 Jun 2013   84.0   95   N
+  23033 ADELAIDE (TOWNSEND HOUSE)                -35.0131  138.5147 Mar 1951 Dec 1994   33.7   76   N
+  23040 ADELAIDE (TRINITY GARDENS)               -34.9167  138.6500 Jan 1928 Dec 1978   42.1   82   N
+  23029 ADELAIDE (UNLEY)                         -34.9503  138.6056 Sep 1915 May 1993   77.6   96   N
+  23031 ADELAIDE (WAITE INSTITUTE)               -34.9697  138.6331 Apr 1925 Dec 1999   69.1   92   N
+  23000 ADELAIDE (WEST TERRACE / NGAYIRDAPIRA)   -34.9257  138.5832 Jan 1839 Jun 2025  148.1   79   Y
+  22057 AGERY                                    -34.1614  137.7434 Jul 2009 Apr 2013    3.8   97   N
+  25000 ALAWOONA                                 -34.7314  140.5036 Aug 1921 Jun 2025  103.5   95   N
+  25033 ALAWOONA (KARINYA)                       -34.9500  140.4167 Apr 1929 Apr 1936    7.1   99   N
+  25018 ALAWOONA (SCHELLS WELL)                  -34.7884  140.5003 Dec 1909 Dec 2024  110.4   95   N
+  17001 ALBERGA                                  -27.2000  135.4333 Mar 1930 Dec 1979   46.3   92   N
+  17002 ALBERRIE CREEK                           -29.6267  137.5367 Feb 1930 Dec 1977   38.4   79   N
+  23817 ALDGATE                                  -35.0236  138.7419 Feb 1969 Jun 2025   56.4   99   N
+  23768 ALDGATE STATE SCHOOL                     -35.0167  138.7500 Jan 1890 May 1928   18.7   48   N
+  23790 ALDINGA (HILDAS DALE)                    -35.2500  138.5000 Jun 1905 Dec 1911    6.6  100   N
+  23700 ALDINGA POST OFFICE                      -35.2692  138.4772 Dec 1893 Mar 1992   98.2   95   N
+  23898 ALDINGA (WINTON LODGE)                   -35.2564  138.4836 Mar 2003 Mar 2006    3.1   97   N
+  21103 ALFORD NO: 2                             -33.8597  137.7664 Feb 1969 Jan 1990   21.0  100   N
+  21092 ALFORD POST OFFICE                       -33.8167  137.8167 Jan 1893 Dec 1898    6.0   99   N
+  26090 ALLENDALE EAST POST OFFICE               -38.0042  140.7078 Jan 1983 Sep 1987    1.4   30   N
+  22029 ALTHORPE ISLAND                          -35.3725  136.8594 May 1968 Apr 1994   20.6   79   N
+  17095 ALTON DOWNS                              -26.1533  138.9383 Jan 1886 Aug 1939    7.5   14   N
+  16008 AMATA AIRSTRIP                           -26.1035  131.2064 Apr 1962 Mar 2015   24.9   47   N
+  22800 AMERICAN RIVER                           -35.7829  137.7697 Jan 1884 Jul 2019  116.9   85   N
+  22831 AMERICAN RIVER (REDBANKS)                -35.7501  137.7217 Oct 1974 Aug 2022   46.8   95   N
+  19072 AMYTON EAST                              -32.5500  138.4167 Feb 1889 Jan 1937   47.8   98   N
+  19000 AMYTON (PINDA SECTION 63)                -32.6033  138.3519 Aug 1902 Mar 1955   49.3   92   N
+  16065 ANDAMOOKA                                -30.4490  137.1692 Jul 1965 Jun 2025   58.9   98   N
+  16071 ANDAMOOKA HOMESTEAD                      -30.7300  137.2000 Jan 1905 Oct 1907    2.6   91   N
+  21069 ANDREWS (GERALKA)                        -33.6184  138.5772 Apr 1957 Apr 2010   53.1  100   N
+  23300 ANGASTON                                 -34.5018  139.0466 Feb 1882 Jun 2016  132.5   92   N
+  23367 ANGASTON CREEK (SALTRAMS GULLY)          -34.4975  139.0300 Jul 1991 Mar 1995    1.6   37   N
+  23382 ANGASTON (MILTON PARK (CORNBROOK))       -34.4968  139.0840 Apr 2018 Jun 2025    7.3   99   N
+  23322 ANGASTON THE GUMS                        -34.5667  139.0667 Jul 1958 Feb 1963    4.7   99   N
+  23342 ANGASTON (THORNS)                        -34.5333  139.0833 Jul 1958 Dec 1962    4.4   96   N
+  17003 ANGORICHINA HOSTEL                       -31.1281  138.5594 Jan 1867 Nov 1977   45.6   41   N
+  23364 ANLABY                                   -34.2167  138.9667 May 1957 Oct 1977   20.4   98   N
+  17004 ANNA CREEK                               -28.8921  136.1688 Jan 1883 Jun 2025  126.6   88   N
+  21121 APOINGA (WILIVERE)                       -33.9595  138.9328 Apr 1957 Dec 2024   67.8   99   N
+  17006 APOLLINARIS WELL                         -29.9267  138.7517 Jan 1925 Jan 1953    8.8   31   N
+  19001 APPILA                                   -33.0524  138.4277 Feb 1882 Jun 2025  137.1   94   N
+  23844 ARCHER HILL (TANDERRA PARK)              -35.1667  138.9333 Mar 1983 Sep 1986    3.3   93   N
+  16093 ARCKARINGA STATION                       -27.9375  134.7390 Jan 1955 Jan 2018   43.9   69   N
+  22000 ARDROSSAN                                -34.4228  137.9175 Feb 1882 Sep 2020  135.8   95   N
+  22032 ARDROSSAN (MULARA)                       -34.5679  137.8225 Mar 1969 Apr 2014   42.0   92   N
+  22033 ARDROSSAN (VITANA)                       -34.4724  137.8850 Mar 1969 May 2025   56.1   99   N
+  22021 ARDROSSAN (WINULTA)                      -34.2782  137.8607 Sep 1890 Dec 2021  131.2  100   N
+  18000 ARKARINGA                                -33.2050  137.1867 Jan 1938 Jul 1955   16.5   93   N
+  17099 ARKAROOLA                                -30.3110  139.3357 Jan 1938 Jun 2025   85.4   97   N
+  16070 ARLCOODABY                               -31.1450  134.9667 Jan 1894 Feb 1903    6.7   72   N
+  18001 ARNO BAY                                 -33.9118  136.5697 Aug 1907 Jun 2025  116.8   95   N
+  17008 ARROWIE                                  -30.8536  139.2933 Dec 1876 Oct 1949   66.3   90   N
+  22039 ARTHURTON (LOWANDALE)                    -34.2975  137.7126 Feb 1959 Nov 2018   59.2   98   N
+  23701 ASHBOURNE                                -35.3114  138.7517 Sep 1886 Oct 1985   94.8   93   N
+  23867 ASHTON                                   -34.9313  138.7500 Mar 2001 Jun 2025   23.2   94   N
+  23702 ASHTON 1                                 -34.9167  138.7333 Feb 1898 Jul 1950   52.5   98   N
+  23803 ASHTON CO-OP                             -34.9423  138.7270 Jan 1952 Jun 2025   72.8   95   N
+  24500 ASHVILLE                                 -35.5144  139.3687 Oct 1935 Jun 1991   50.8   89   N
+  23896 ATHELSTONE (BLACK HILL ALERT)            -34.8757  138.7103 Jan 2003 Jun 2025   22.5   99   N
+  21001 AUBURN                                   -34.0260  138.6846 Jan 1865 Dec 2024  141.0   81   N
+  24501 AUSTRALIA PLAINS                         -34.0971  139.1564 Sep 1890 Jun 2025  132.9   97   N
+  26078 AVENUE                                   -36.9421  140.2363 Jan 1973 May 2018   45.1   97   N
+  26053 AVENUE (SHERACO)                         -36.9989  140.1900 Mar 1969 Oct 2001   28.2   86   N
+  17009 AVONDALE                                 -30.2314  138.4511 Jan 1898 Jan 1953   34.6   62   N
+  23344 BAGOTS WELL (CAMBUS DOON)                -34.2833  138.9833 Jan 1893 Dec 1921   11.4   39   N
+  21002 BALAKLAVA                                -34.1424  138.4225 Feb 1882 Jun 2025  141.6   93   N
+  23128 BALAKLAVA (DONALEEN RNDSUP)              -34.2015  138.5970 Jun 2005 Jun 2025   20.0   97   N
+  21134 BALAKLAVA (SHIROKEE)                     -33.9964  138.5384 Nov 1997 May 2003    5.6   97   N
+  21104 BALAKLAVA (WANAPPE)                      -33.9956  138.4544 Feb 1969 May 2025   56.3   99   N
+  23787 BALHANNAH (GUMBOOYA)                     -35.0220  138.8552 May 2003 Jun 2025   21.8   97   N
+  18038 BALUMBAH                                 -33.3058  136.4175 Sep 1950 Jan 1973   22.4   99   N
+  24001 BARMERA                                  -34.2591  140.4708 Feb 1939 Dec 2022   79.7   90   N
+  24005 BARMERA (COBDOGLA)                       -34.2500  140.4067 Oct 1915 Sep 1997   80.5   96   N
+  24030 BARMERA (LAKE BONNEY)                    -34.2315  140.4322 Jan 2013 Jun 2013    0.5   96   N
+  18121 BARNA                                    -33.1928  136.6336 Jan 1925 Oct 1940   15.8   99   N
+  19085 BAROOTA (MAMBRAY CREEK)                  -32.8294  137.9869 Jan 1882 Jul 1909   25.8   92   N
+  19086 BAROOTA (MOPETA)                         -32.8786  138.0158 Jan 1884 Jul 1910   26.5   98   N
+  23372 BAROSSA VALLEY (DUCKPONDS CREEK)         -34.4491  139.0621 Mar 2001 Jun 2025   24.3   98   N
+  18112 BARTON                                   -30.5183  132.6533 Aug 1916 Dec 1989   70.8   96   N
+  23769 BATTUNGA                                 -35.1167  138.8667 Jan 1884 Dec 1922   39.0  100   N
+  26000 BEACHPORT                                -37.4861  140.0115 Jan 1884 Oct 2023  138.9   95   N
+  26072 BEACHPORT (BRAEMOOR)                     -37.3000  140.0667 Jan 1971 Feb 1976    5.2  100   N
+  26050 BEACHPORT (PATAWITA)                     -37.3981  140.1264 Nov 1968 Dec 2000   32.1   99   N
+  23114 BEAUMONT                                 -34.9542  138.6586 Mar 2001 Jun 2025   24.3   99   N
+  21114 BEETALOO RESERVOIR OLD SITE              -33.1904  138.2131 Jan 1897 Mar 1982   85.3  100   N
+  23846 BELAIR                                   -35.0028  138.6635 Oct 1988 Jun 2025   26.6   70   N
+  23703 BELAIR (KALYRA)                          -35.0042  138.6147 Aug 1895 Jan 1996   91.9   88   N
+  23704 BELAIR (STATE FLORA NURSERY)             -35.0076  138.6498 Feb 1882 Jun 2025  137.4   93   N
+  23890 BELAIR (ST JOHNS)                        -35.0013  138.6214 Dec 2002 Jun 2025   22.6   99   N
+  21049 BELALIE NORTH (TEECARNEE)                -33.1464  138.7219 Aug 1902 Dec 1956   52.4   95   N
+  23916 BELLEVUE HEIGHTS                         -35.0318  138.5878 Apr 2007 Jun 2025   18.3   97   N
+  17011 BELTANA                                  -30.8133  138.4133 Feb 1874 Dec 1985  102.3   91   N
+  17077 BELTANA DEPOT WELL                       -30.5850  138.0592 May 1926 Dec 1936    6.4   60   N
+  17119 BELTANA ROADHOUSE                        -30.8406  138.3224 Jan 1986 Jun 2025   39.5   99   N
+  17012 BELTANA STATION                          -30.8246  138.3822 Mar 1872 Mar 2021   92.4   61   N
+  19004 BELTON (SHADOW VALE)                     -32.2425  138.7105 Jan 1884 Jun 2014  122.3   93   N
+  17013 BERESFORD                                -29.2431  136.6581 Jan 1930 Dec 1977   38.1   79   N
+  24025 BERRI                                    -34.2717  140.5964 Oct 1960 Jun 2025   64.6   95   N
+  24039 BERRI CARAVAN PARK                       -34.2833  140.6167 Sep 1973 Jul 1974    0.9   85   N
+  24002 BERRI IRRIGATION                         -34.2833  140.6000 Jan 1915 May 1965   50.4  100   N
+  21078 BEWS POST OFFICE                         -33.7167  137.8667 Jan 1899 Feb 1931   32.1  100   N
+  20000 BIMBOWRIE                                -32.0498  140.1620 Jan 1882 Apr 2025  110.1   76   N
+  17073 BIRDSVILLE (ANDREWILLA POLICE CAMP)      -26.5133  139.2817 Apr 1894 Dec 1902    8.7   99   N
+  17081 BIRDSVILLE (MOUNT GASON)                 -27.3233  138.7450 Sep 1910 Jun 1927   16.0   95   N
+  23705 BIRDWOOD                                 -34.8041  138.9451 Apr 1887 Jun 2025  137.7   97   N
+  23786 BIRDWOOD (MCVITTIE'S HILL)               -34.8269  139.0086 Mar 2001 Jun 2025   23.5   95   N
+  26030 BISCUIT FLAT (WOOLMIT)                   -37.0153  139.9612 Jan 1901 Sep 2016   90.8   76   N
+  24502 BLACK HILL                               -34.6909  139.4367 May 1936 May 2025   79.8   88   N
+  21061 BLACK SPRINGS SCHOOL                     -33.8986  138.8886 Apr 1957 Nov 1959    1.8   65   N
+  23706 BLACKWOOD POST OFFICE                    -35.0167  138.6167 Aug 1928 Jan 1979   50.4   94   N
+  23839 BLACKWOOD (WITTUNGA)                     -35.0213  138.6097 Feb 1979 Apr 2025   46.3   99   N
+  23770 BLAIR PUBLIC SCHOOL                      -35.0000  138.6333 Oct 1921 Dec 1935   13.5   93   N
+  24503 BLANCHETOWN                              -34.3522  139.6117 Nov 1870 May 1991   81.9   66   N
+  24564 BLANCHETOWN LOCK 1                       -34.3515  139.6153 Mar 1968 Jun 2025   57.3   99   N
+  25056 BLANCHETOWN (WYN-MOOR)                   -34.4177  139.7822 Sep 1899 Apr 2025  125.3   99   N
+  17100 BLANCHEWATER STATION                     -29.5500  139.4667 Jan 1879 Jul 1938   25.6   43   N
+  23771 BLETCHLEY                                -35.2000  138.9833 Aug 1909 Aug 1920    9.7   87   N
+  17014 BLINMAN                                  -31.0939  138.6786 Feb 1874 Jun 2025  141.8   91   N
+  17097 BLINMAN (ANGORICHINA)                    -31.0887  138.7414 Jan 1969 Apr 2025   55.6   98   N
+  17032 BLINMAN (MOOLOOLOO)                      -30.9904  138.5787 Jan 1947 May 2024   76.7   98   N
+  17041 BLINMAN (NARRINA)                        -30.9372  138.8919 Mar 1937 Apr 2025   81.3   92   N
+  17054 BLINMAN (WIRREALPA)                      -31.1278  138.9618 Nov 1875 Jan 2024  138.8   93   N
+  21003 BLYTH                                    -33.8463  138.4893 Feb 1881 Jun 2025  141.4   93   N
+  24021 BOGGY FLAT                               -34.0833  139.9333 Jul 1910 Dec 1918    8.3   96   N
+  23081 BOLIVAR TREATMENT WORKS                  -34.7711  138.5838 Jul 1972 Dec 2022   49.6   96   N
+  16041 BON BON                                  -30.4230  135.4788 Mar 2009 May 2025   16.3   98   N
+  26001 BONLEY                                   -37.4167  140.7500 Jun 1923 Dec 1973   50.6  100   N
+  21004 BOOBOROWIE                               -33.5643  138.7595 Jan 1925 Aug 2023   97.2   93   N
+  21005 BOOBOROWIE (NORTH BUNGAREE)              -33.5744  138.6867 Jul 1939 Dec 1949    9.3   88   N
+  16002 BOOKALOO                                 -31.8967  137.3525 Nov 1897 Jan 1984   81.8   94   N
+  20001 BOOLCOOMATTA                             -31.9695  140.5436 Jun 1882 Jun 2025  138.4   96   N
+  19006 BOOLEROO CENTRE                          -32.8810  138.3515 Jan 1884 Jun 2025  141.2   97   N
+  19047 BOOLEROO CENTRE (WILLOWIE)               -32.6923  138.3247 Feb 1898 Jun 2025  126.9   97   N
+  19116 BOOLEROO WHIM (CALLUM BRAE)              -32.7722  138.3005 Aug 2006 May 2025   18.8   99   N
+  19007 BOOLEROO (WIMONT)                        -32.7775  138.3410 Jan 1878 Jul 2006  115.5   89   N
+  26002 BOOL LAGOON                              -37.1333  140.7167 Aug 1908 Dec 1955   47.3  100   N
+  26092 BOOL LAGOON GAME RESERVE                 -37.1072  140.7242 Jun 1968 May 1998   23.1   74   N
+  26103 BOOL LAGOON (LOCKSLEY FARM)              -37.1340  140.7273 Jan 2001 Jun 2025   24.5   98   N
+  25536 BORDERTOWN                               -36.3000  140.7667 Nov 1967 Jan 1976    8.0   93   N
+  25501 BORDERTOWN                               -36.3125  140.7718 Jan 1884 Jan 2002  115.6   93   N
+  26058 BORDERTOWN (BEEAMMA SECTION 95)          -36.6064  140.7118 Mar 1969 May 2025   56.2   99   N
+  25500 BORDERTOWN (BERANGWEE)                   -36.1270  140.7069 Aug 1944 May 2000   55.8  100   N
+  25553 BORDERTOWN (CUPPA-CUP)                   -36.3194  140.6686 May 1989 Jul 1999   10.3  100   N
+  25560 BORDERTOWN (INDUSTRIAL ESTATE)           -36.3098  140.7400 Feb 2002 Jun 2025   23.4   88   N
+  25525 BORDERTOWN (INGLEWOOD)                   -36.1881  140.7999 Aug 1952 Feb 2017   64.3   99   N
+  25524 BORDERTOWN (KANGARINGA)                  -35.9497  140.7833 Jan 1950 Aug 1998   46.5   95   N
+  25505 BORDERTOWN (KARRAWIRRA)                  -36.3293  140.7112 Jul 1920 Apr 2008   77.4   87   N
+  25528 BORDERTOWN (KOOROON)                     -36.0833  140.8500 Jan 1958 Apr 1964    6.3   99   N
+  25550 BORDERTOWN (MONARD)                      -36.4049  140.8181 Jan 1973 Jun 2002   29.5   99   N
+  25545 BORDERTOWN SECTION 75                    -36.0833  140.8000 Feb 1969 Jan 1980   11.0  100   N
+  25544 BORDERTOWN (WOOLMIT)                     -36.2333  140.6667 Feb 1969 Jun 1984   15.4   99   N
+  26037 BORDERTOWN (YACCA VALE)                  -36.5822  140.7293 May 1959 Jul 2021   59.0   93   N
+  25022 BORRIKA                                  -35.0333  140.0500 May 1913 Jan 1961   31.8   65   N
+  25047 BORRIKA (WOOLDRIDGE)                     -35.1167  140.1833 Jan 1973 Dec 1974    2.0   98   N
+  24504 BOWER                                    -34.1220  139.3563 Aug 1900 Jun 2025  120.2   95   N
+  25027 BOW HILL                                 -34.9000  139.6167 Sep 1902 Dec 1909    7.2   96   N
+  25040 BOWHILL                                  -34.8941  139.6768 Apr 1969 Feb 2015   45.6   98   N
+  21106 BOWILLIA                                 -33.9530  138.3903 Feb 1969 Feb 2025   56.1   99   N
+  21112 BOWMANS (PIGELDEE)                       -34.1209  138.2851 Jan 2008 Sep 2017    9.8   98   N
+  17015 BRACHINA SIDING                          -31.3394  138.4111 May 1950 Jul 1980   27.5   90   N
+  23913 BRADBURY (HOULGRAVES)                    -35.0822  138.7249 Jul 2006 Nov 2012    6.4   99   N
+  20043 BRAEMAR                                  -33.1873  139.6209 Sep 1964 Jun 2025   60.8   98   N
+  20036 BRAESIDE                                 -33.4167  139.6833 Jan 1917 Dec 1928    9.8   81   N
+  18003 BRAMFIELD POST OFFICE                    -33.6250  134.9983 Oct 1886 Dec 1969   82.7   98   N
+  18004 BREEZER PLAINS (KOOLBALLA HILL)          -33.1000  135.0550 Sep 1917 Jun 1947   28.3   94   N
+  22001 BRENTWOOD POST OFFICE                    -34.8667  137.5000 Sep 1897 Nov 1976   69.3   84   N
+  23707 BRIDGEWATER                              -35.0096  138.7568 Feb 1882 Jan 2022  135.9   91   N
+  24505 BRINKLEY EAST                            -35.2667  139.3167 Jan 1948 Jan 1961   12.3   92   N
+  21007 BRINKWORTH                               -33.6903  138.4041 Feb 1897 Jun 2025  125.9   92   N
+  21000 BRINKWORTH (ANAMA PARK)                  -33.7322  138.4922 Jan 1878 Dec 2018  130.0   91   N
+  21010 BRINKWORTH (BUNGAREE)                    -33.7460  138.5625 Jan 1860 Jun 2025  141.3   84   N
+  23069 BROOKSIDE                                -34.8833  138.6833 Sep 1883 Sep 1891    8.0   98   N
+  17106 BROUGHMAN'S GATE HOUSE (QUINYAMBIE)      -30.8715  140.9710 Jan 1973 Apr 2025   48.4   92   N
+  23847 BROWN HILL                               -34.9864  138.6361 Oct 1988 Mar 1992    2.5   71   N
+  23105 BROWNHILL CREEK (SCOTCH COLLEGE)         -34.9828  138.6182 Nov 1989 Jun 2025   26.7   74   N
+  19008 BRUCE                                    -32.4618  138.2004 Sep 1896 Jun 2025  127.4   97   N
+  18008 BUCKLEBOO (BUCLKEBOO POST OFFICE)        -32.9200  136.2133 Jan 1933 Aug 1986   50.3   93   N
+  18172 BUCKLEBOO (HI-VIEW)                      -32.9210  135.9996 Apr 1969 Dec 2024   55.8  100   N
+  18190 BUCKLEBOO (KARINYA)                      -32.9004  136.1858 Aug 1987 Jun 2025   37.8   95   N
+  16003 BULGUNNIA                                -30.1658  134.8928 Aug 1930 Mar 2023   84.4   91   N
+  23789 BULL CREEK 2                             -35.2331  138.7669 Jan 1968 Jul 1987   19.5   99   N
+  23772 BULL CREEK (MARBLE HOUSE)                -35.2500  138.7667 Jun 1899 Dec 1929   30.6  100   N
+  21087 BUMBUNGA                                 -33.9167  138.2275 Jul 1966 Dec 1973    7.5   98   N
+  21008 BUNDALEER FOREST RESERVE                 -33.2758  138.5750 Jan 1879 Feb 1989  104.3   93   N
+  16004 BURANDO                                  -31.2000  136.6167 Oct 1915 Feb 1967   28.5   55   N
+  18122 BURKO                                    -32.9992  134.2517 Aug 1920 Nov 1934   14.1   97   N
+  23042 BURNSIDE                                 -34.9387  138.6607 May 1897 Jun 2025   46.6   36   N
+  21122 BURRA (BALDINA STATION)                  -33.6558  139.0553 Jan 1899 Dec 1917    4.7   25   N
+  21126 BURRA (BASIN FARM)                       -33.6667  138.9667 Jan 1946 Mar 1984   38.1   99   N
+  21136 BURRA (BILLABONG)                        -33.6722  138.9847 Jan 2011 May 2025   14.4   99   N
+  21091 BURRA (CAROONA)                          -33.4706  139.1508 Jan 1897 Dec 1916    5.0   25   N
+  21077 BURRA COMMUNITY SCHOOL                   -33.6781  138.9371 Jan 1961 Jun 2025   64.4   94   N
+  21011 BURRA (KOORINGA)                         -33.6833  138.9333 Nov 1861 May 1964   80.1   75   N
+  21100 BURRA (LEIGHTON)                         -33.6544  138.8264 Mar 1969 May 2025   55.9   98   N
+  21041 BURRA (POONUNDA)                         -33.5616  139.0979 Feb 1881 Oct 2015  128.7   95   N
+  21099 BURRA (THISTLEBEDS)                      -33.6500  139.1333 Jan 1967 Dec 1985   18.3   95   N
+  21097 BURRA (WILDILDIE)                        -33.6036  139.0719 Jan 1883 May 1908   24.5   95   N
+  21086 BURRA (WORLDS END)                       -33.8352  139.0738 Jun 1898 Aug 2013  115.1  100   N
+  21012 BUTE                                     -33.8567  138.0075 Nov 1885 Jun 2025  135.0   91   N
+  21089 BUTE (LINCOLNFIELDS)                     -33.7578  137.9797 Sep 1886 Feb 1918   28.8   91   N
+  21039 BUTE (NINNES)                            -33.9686  138.0186 Oct 1885 Nov 1976   90.3   99   N
+  18123 BUTLER                                   -34.1350  136.1383 Nov 1905 Dec 1928   22.9   98   N
+  18093 BUTLER (ANONA)                           -34.1216  136.2421 Sep 1909 Jan 2004   94.3   99   N
+  18175 BUTLER (MOODY VALE)                      -34.0386  136.0107 Mar 1969 Jan 2016   46.9   99   N
+  18049 BUTLER TANKS (NORTH PARNDA)              -34.1196  136.1607 Jun 1905 Feb 2022  115.6   97   N
+  17062 CADELGA                                  -26.0900  140.4067 Feb 1886 Jun 1962   38.6   50   N
+  24046 CADELL                                   -34.0333  139.7667 Jun 1922 Jun 1986   64.1   99   N
+  16091 CADNEY PARK                              -27.9069  134.0546 Nov 1993 Sep 2002    6.1   68   N
+  25050 CALIPH                                   -34.6345  140.2432 Aug 1974 Jun 2025   50.6   86   N
+  25001 CALIPH POST OFFICE                       -34.6667  140.2833 Jul 1929 Dec 1977   48.3   96   N
+  26003 CALLENDALE                               -37.2454  140.4340 Mar 1923 Mar 2006   77.1   92   N
+  24508 CALLINGTON                               -35.1250  139.0433 Jan 1884 Jun 2025  140.4   96   N
+  24551 CALLINGTON HILL                          -35.1093  139.0806 Jun 2004 May 2025   20.8   97   N
+  24592 CALLINGTON HILL (COLRAE)                 -35.0825  139.0658 May 2017 Jun 2025    8.2   98   N
+  21013 CALTOWIE                                 -33.1854  138.4729 Jan 1878 Mar 2022  137.8   92   N
+  24513 CAMBRAI (KONGOLIA)                       -34.6511  139.3631 Sep 1897 Dec 2024  127.2   99   N
+  17115 CAMERON CORNER (LINDON)                  -29.1266  140.9018 Oct 1987 Dec 2024   37.1   98   N
+  20032 CANEGRASS                                -33.5833  140.0167 Jan 1909 Nov 1984   48.6   64   N
+  25533 CANNAWIGARA                              -36.2833  140.6667 Feb 1882 Jun 1893    9.4   78   N
+  26033 CANTARA                                  -36.3167  139.7167 Jan 1892 May 1927   35.4  100   N
+  22823 CAPE BORDA                               -35.7549  136.5959 Sep 2002 Jun 2025   22.8   96   Y
+  22801 CAPE BORDA COMPARISON                    -35.7529  136.5938 Jan 1867 Jul 2007  138.3   98   N
+  22842 CAPE CASSINI WILDERNESS RETREAT          -35.5976  137.2874 Jun 2003 Jul 2021   18.2   94   N
+  22802 CAPE DE COUEDIC                          -36.0667  136.7000 Nov 1907 Jul 1973   54.6   83   N
+  26004 CAPE JAFFA (JAFFA HILLS)                 -36.9706  139.7100 Jul 1934 Jul 1982   45.4   94   N
+  26095 CAPE JAFFA (THE LIMESTONE)               -36.9655  139.7164 Jun 1994 Jun 2025   31.1   96   Y
+  23814 CAPE JERVIS (HUNT)                       -35.6050  138.1067 Feb 1969 Dec 1985   16.9   99   N
+  23773 CAPE JERVIS LIGHTHOUSE                   -35.6167  138.0833 Jan 1878 Jan 1939   44.2   71   N
+  23774 CAPE JERVIS STATION                      -35.6167  138.0833 Oct 1898 Jul 1921   21.5   93   N
+  26005 CAPE NORTHUMBERLAND                      -38.0573  140.6725 Jan 1868 Mar 2006  137.3   98   N
+  22803 CAPE WILLOUGHBY                          -35.8426  138.1327 Mar 1881 Jun 2025  137.8   94   Y
+  18009 CARAWA                                   -32.3683  134.2300 Dec 1898 Dec 1950   46.3   88   N
+  26074 CAROLINE FOREST RESERVE                  -37.9167  140.8500 Mar 1971 Dec 1991   20.8   89   N
+  26081 CAROLINE (HEININGER)                     -37.9667  140.8500 Jan 1973 Oct 1977    4.6   93   N
+  18010 CARPA                                    -33.7600  136.6867 Jan 1933 Dec 1990   57.6   99   N
+  22042 CARRIBIE (WEBB)                          -35.1367  136.9617 Mar 1973 Jul 1982    9.3   93   N
+  19009 CARRIETON                                -32.4244  138.5304 Jan 1883 Jun 2025  139.4   92   N
+  19098 CARRIETON (GLENROY ESTATE)               -32.2554  138.6377 Feb 1969 May 2021   49.7   94   N
+  19095 CARRIETON (OAKBURNE)                     -32.4654  138.7579 Feb 1967 Nov 2008   41.8  100   N
+  19080 CARRIETON (PAMATTA)                      -32.3139  138.6397 Jan 1883 Aug 1935   51.7   96   N
+  19056 CARRIETON (YACKARA)                      -32.3100  138.5233 Dec 1884 Dec 1985  100.7   98   N
+  19058 CARRIETON (YANYARRIE)                    -32.3294  138.4706 Sep 1882 Feb 1953   56.8   79   N
+  23068 CASTAMBUL                                -34.8500  138.7333 Feb 1880 Dec 1888    5.2   58   N
+  24546 CAURNAMOUNT                              -34.8333  139.6167 Feb 1896 Sep 1926   29.2   93   N
+  19074 CAVENAGH WEST                            -32.6833  138.9667 Jan 1885 Dec 1925   33.2   80   N
+  18012 CEDUNA AMO                               -32.1297  133.6976 Mar 1939 Jun 2025   86.3   99   Y
+  18033 CEDUNA (GOODE)                           -31.9674  133.7658 Oct 1908 May 2025  115.6   98   N
+  18042 CEDUNA (KOONIBBA RESERVE)                -31.9017  133.4217 Aug 1910 Nov 1989   75.3   93   N
+  18047 CEDUNA (MALTEE)                          -32.0723  133.9401 Jun 1929 May 2025   95.8   99   N
+  18218 CEDUNA (NUNONG)                          -32.1133  133.2045 Jun 2007 May 2025   18.0   93   N
+  18011 CEDUNA POST OFFICE                       -32.1267  133.6725 May 1906 Sep 1990   83.9   97   N
+  18182 CEDUNA (UWORRA)                          -31.9661  133.3316 Jan 1973 May 2025   52.4  100   N
+  18013 CHANDADA POST OFFICE                     -32.7592  134.6717 Jan 1929 Dec 1968   38.3   95   N
+  23907 CHARLESTON                               -34.9161  138.8989 May 2007 Jul 2017   10.2   98   N
+  23800 CHARLESTON                               -34.9167  138.9000 Feb 1870 Aug 1887    0.7    4   N
+  23709 CHERRY GARDENS                           -35.0611  138.6585 Jul 1899 May 2025  125.3   98   N
+  23904 CHERRYVILLE                              -34.9113  138.7595 May 2005 Nov 2012    7.6   97   N
+  20027 CHILDS                                   -31.3833  140.7000 Feb 1925 Dec 1943   11.6   61   N
+  18151 CHILLAMURRA                              -34.7333  135.5444 Dec 1892 Jul 1904   11.7   98   N
+  18124 CHINTULDA (ROBERTSVALE)                  -31.9142  132.1658 Oct 1909 Aug 1933   19.9   83   N
+  24004 CHOWILLA                                 -34.0167  140.8333 Jan 1897 May 1965   65.9   96   N
+  24035 CHOWILLA E&WS                            -33.9833  140.9167 Apr 1968 Sep 1971    3.5  100   N
+  21129 CLARE                                    -33.8625  138.6211 Dec 1989 Dec 2010   21.0   98   N
+  21075 CLARE (CALCANNIA)                        -33.7464  138.6058 Apr 1937 Apr 2025   86.8   98   N
+  21018 CLARE (EMU FLAT)                         -33.8664  138.5822 Oct 1938 Nov 1974   36.0   96   N
+  21131 CLARE HIGH SCHOOL                        -33.8226  138.5933 Jun 1994 Jun 2025   31.1   95   Y
+  21025 CLARE (HILL RIVER)                       -33.8347  138.6532 Jan 1884 May 2025  136.5   95   N
+  23710 CLARENDON                                -35.1112  138.6205 Feb 1868 Jun 2025  141.7   85   N
+  23775 CLARENDON (BLOXHOLME)                    -35.0833  138.6167 Jan 1913 Dec 1923   10.9   99   N
+  21135 CLARE (NEAGLES ROCK)                     -33.8420  138.6054 Mar 2001 Jul 2018   17.4   96   N
+  21014 CLARE POST OFFICE                        -33.8364  138.6125 Jan 1862 Aug 1994  130.8   97   N
+  18014 CLEVE                                    -33.7011  136.4937 Feb 1896 Jun 2025  129.1   98   N
+  18116 CLEVE AERODROME                          -33.7081  136.5026 Jan 1963 Jun 2025   61.1   93   Y
+  18216 CLEVE (BENMATAR)                         -33.7627  136.3846 Mar 2007 Aug 2007    0.5   85   N
+  18198 CLEVE (HEGGATON)                         -33.4138  136.5989 Jan 1999 Dec 2024   26.0   96   N
+  18048 CLEVE (MANGALO)                          -33.5322  136.6242 Jul 1906 Dec 1999   92.6   98   N
+  18184 CLEVE (NINGANA)                          -33.6125  136.3722 Aug 1973 May 2025   51.7   99   N
+  18065 CLEVE (PINESIDE)                         -33.8663  136.3833 Mar 1909 Aug 2004   95.0   99   N
+  18096 CLEVE (PINEVIEW)                         -33.6824  136.6831 Jun 1938 Mar 2022   83.3   97   N
+  17016 CLIFTON HILLS                            -27.0181  138.8949 Jan 1894 Jan 2020   81.2   64   N
+  22028 CLINTON CENTRE                           -34.2000  137.9500 Dec 1891 Nov 1902   11.0   99   N
+  20002 COCKBURN                                 -32.0760  140.9969 Jul 1888 Jul 2023  130.9   95   N
+  20053 COCKBURN (TEPCO)                         -32.1698  140.7959 Jan 1928 Apr 2025   97.3   99   N
+  20060 COCKBURN (TICKALINA)                     -32.2220  140.5913 Aug 1994 May 2001    2.6   37   N
+  18188 COFFIN BAY                               -34.6253  135.4725 May 1984 Jun 2025   36.5   85   N
+  18230 COFFIN BAY (POINT AVOID)                 -34.6750  135.3362 Jun 2017 Jun 2025    8.1   95   Y
+  23302 COLLINGROVE                              -34.5500  139.0833 Feb 1874 Jun 1973   89.1   89   N
+  21080 COLLINSVILLE                             -33.3333  139.1500 Feb 1897 Feb 1921   23.8   99   N
+  18016 COLTON (BOOLA BOOLA)                     -33.5317  134.9017 Mar 1892 Apr 1965   64.3   87   N
+  26034 COMAUM FOREST RESERVE                    -37.2008  140.9136 Sep 1954 Sep 1991   36.9   95   N
+  16058 COMET                                    -29.7850  134.1883 Jan 1954 Dec 1965    8.8   73   N
+  17017 COMMODORE                                -31.2531  138.3892 Aug 1910 Jan 2011   94.5   94   N
+  23126 CONCORDIA (TURRETFIELD)                  -34.5611  138.7728 Aug 2004 Aug 2007    3.1   96   N
+  26039 CONMURRA                                 -37.0833  140.0833 Aug 1898 Dec 1934   36.0   99   N
+  16007 COOBER PEDY                              -29.0040  134.7564 Jan 1921 Dec 2018   86.8   88   N
+  16090 COOBER PEDY AIRPORT                      -29.0347  134.7222 Jul 1994 Jun 2025   30.8   96   Y
+  16087 COOBER PEDY (INGOMAR)                    -29.6403  134.7870 Apr 1956 Apr 2011   53.4   96   N
+  16027 COOBER PEDY (MCDOUALL PEAK)              -29.8409  134.9035 May 1909 Feb 2025  109.7   94   N
+  18110 COOK                                     -30.6143  130.4136 Feb 1918 Feb 2023   98.0   92   N
+  25502 COOKE PLAINS                             -35.3790  139.5617 Nov 1890 Jun 2025  128.0   92   N
+  25555 COOKE PLAINS (KANBARA)                   -35.5442  139.4717 Mar 1997 Dec 2011   14.8   98   N
+  25503 COOMANDOOK                               -35.4688  139.6961 Sep 1901 Apr 2025  111.5   86   N
+  25508 COOMANDOOK (MALINONG)                    -35.5217  139.5133 Jan 1917 Feb 1997   77.8   96   N
+  25552 COOMBE                                   -35.9833  140.2500 Jan 1974 Mar 1984   10.2   99   N
+  25504 COONALPYN                                -35.6929  139.8522 Feb 1887 Jun 2025  136.0   93   N
+  25527 COONALPYN (ALPYN DOWNS)                  -35.7118  139.6402 May 1955 Aug 2010   54.4   97   N
+  25551 COONALPYN (TWINVILLE)                    -35.7360  139.9581 Mar 1932 Jun 2007   35.3   47   N
+  26045 COONAWARRA                               -37.3000  140.8333 Nov 1966 Jan 1986   19.0   98   N
+  26091 COONAWARRA                               -37.2906  140.8254 Sep 1985 Jun 2025   39.8   92   Y
+  16009 COONDAMBO                                -31.0623  135.8659 Sep 1885 Jun 2020  126.6   93   N
+  16010 COONDAMBO RAILWAY STATION                -31.0550  135.8181 Jul 1940 Jan 1971   30.6   99   N
+  20003 COONDAPPIE                               -31.5000  139.6667 Jan 1917 Apr 1945   28.0   98   N
+  26052 COORONG (CORTINA)                        -36.3333  139.7667 Nov 1968 Jun 1983   13.9   93   N
+  25003 COPEVILLE                                -34.7950  139.8488 Nov 1911 Jul 2007   95.4   97   N
+  25057 COPEVILLE (FILSELL FLAT)                 -34.7960  139.8930 Sep 2009 Sep 2020   10.9   94   N
+  17018 COPLEY                                   -30.5564  138.4222 Jan 1884 Mar 1963   74.1   92   N
+  17040 COPLEY (MYRTLE SPRINGS)                  -30.4514  138.2156 Mar 1897 Feb 1999   84.9   83   N
+  17085 COPLEY (ST RONANS)                       -30.6369  138.3069 May 1926 Dec 1936    6.3   58   N
+  17102 COPLEY (YANKANINNA)                      -30.3658  139.0533 May 1920 Aug 1986   61.3   92   N
+  16094 COPPER HILLS STATION                     -27.9555  134.3157 Sep 1994 Apr 2015   11.4   53   N
+  16018 CORALBIGNIE                              -32.6200  136.3617 Dec 1880 Aug 1891    8.3   76   N
+  17019 CORDILLO DOWNS                           -26.7061  140.6261 Jan 1883 Jan 2016  112.9   84   N
+  18152 CORNUBIA                                 -34.0203  136.3567 Apr 1908 Oct 1922   10.1   68   N
+  22002 CORNY POINT                              -34.9152  137.0625 Apr 1888 Dec 2018  127.3   92   N
+  22027 CORNY POINT LIGHTHOUSE                   -34.9000  137.0333 Jan 1884 Jun 1920   35.5   96   N
+  23711 COROMANDEL VALLEY (BRANDEN)              -35.0333  138.6167 Sep 1890 Sep 1986   95.9   98   N
+  20034 CORONA                                   -31.0667  140.9500 Jun 1930 Dec 1944   10.3   70   N
+  18019 COULTA                                   -34.3856  135.4698 Jan 1878 Jun 2025  130.7   87   N
+  18191 COULTA (COLES POINT)                     -34.3749  135.3741 Jun 1994 May 2017   23.0   89   Y
+  18020 COULTA (THE GLEN)                        -34.3650  135.5717 Aug 1934 Jan 1962   27.3   99   N
+  18021 COURELA (CHALLNER)                       -32.5350  134.4367 Jan 1911 Dec 1966   54.6   97   N
+  18162 COURELA (LINDARNOE)                      -32.5423  134.3852 Jan 1967 May 2013   46.0   98   N
+  18154 COURTABIE                                -33.2067  134.8550 May 1892 Dec 1898    6.7   98   N
+  17021 COWARD SPRINGS                           -29.4025  136.8108 Sep 1897 Dec 1977   63.2   78   N
+  18022 COWELL                                   -33.6772  136.9116 Dec 1885 May 2025  138.8   95   N
+  18176 COWELL (WINTER SPRINGS)                  -33.3416  136.7518 Nov 1969 Jun 2025   55.7   99   N
+  19010 CRADOCK                                  -32.0695  138.4948 Feb 1888 May 2025  129.9   93   N
+  19015 CRADOCK (KANYAKA)                        -32.1133  138.2833 Sep 1897 Oct 2001  103.3   98   N
+  19109 CRADOCK (SLATY CREEK)                    -32.1244  138.4674 Mar 1989 Dec 2024   35.5   92   N
+  19093 CRADOCK (WIRREANDA)                      -32.0361  138.4511 Feb 1881 Mar 1890    6.8   74   N
+  19061 CRADOCK (YEDNALUE)                       -32.0545  138.6427 Jan 1917 May 2025  108.1   99   N
+  23835 CRAFERS                                  -34.9878  138.6881 Jun 1973 Nov 1996   23.3   98   N
+  23848 CRAFERS HIGHWAYS DEPT                    -34.9931  138.6944 Oct 1988 Jul 1991    2.3   76   N
+  23901 CRAFERS (MT LOFTY)                       -34.9784  138.7088 Aug 2005 Jul 2018   10.8   80   N
+  23757 CRAFERS ST MICHAELS HOUSE                -34.9833  138.7167 Jan 1951 Dec 1982   31.8   99   N
+  23873 CRAFERS WEST                             -34.9913  138.6937 Mar 2001 Jun 2025   24.3   99   N
+  23881 CROMER ROAD                              -34.7706  139.0055 Mar 2001 Jun 2025   24.0   98   N
+  26040 CROWER                                   -37.0833  140.2833 Jun 1908 Apr 1925   16.3   96   N
+  19088 CROZIER (FRESHWATER WELL)                -32.2892  137.8267 Jul 1886 Dec 1893    7.2   94   N
+  21016 CRYSTAL BROOK                            -33.3530  138.2057 Feb 1881 Nov 2024  140.8   94   N
+  23731 CUDLEE CREEK (MILLBROOK RESERVOIR)       -34.8331  138.8215 Mar 1914 Jun 2025  111.0   96   N
+  23879 CUDLEE CREEK (ODEA ROAD)                 -34.8476  138.8751 Mar 2001 May 2025   24.3   99   N
+  25548 CULBURRA (HAYFIELDS)                     -35.8381  139.8991 Jan 1970 Dec 2001   31.8   99   N
+  25520 CULBURRA (TROSSACHS)                     -35.8000  140.0333 May 1957 Sep 1984   27.3   99   N
+  18229 CULTANA (DEFENCE)                        -32.6845  137.3689 Dec 2017 Jun 2025    7.6   99   Y
+  18023 CUMMINS                                  -34.2644  135.7266 Jul 1914 Jun 2025  110.9   93   N
+  18217 CUMMINS AERO                             -34.2524  135.7135 May 2007 Jun 2025   18.0   96   Y
+  18196 CUMMINS (TUMBY BAY ROAD)                 -34.2610  135.7310 Sep 1995 Sep 2008   13.1  100   N
+  18125 CUNGENA                                  -32.5825  134.7089 Dec 1918 Nov 1993   20.7   27   N
+  20004 CURNOMONA (CURNAMONA)                    -31.6516  139.5491 Jan 1881 Sep 2023  140.4   97   N
+  22003 CURRAMULKA                               -34.6981  137.7116 Dec 1886 May 2025  136.4   95   N
+  22055 CURRAMULKA NORTH RNDSUP                  -34.6492  137.7272 May 2006 Jun 2025   17.6   89   N
+  23841 CURRENCY CREEK                           -35.4167  138.7167 Aug 1964 Jan 1974    7.0   73   N
+  23832 CURRENCY CREEK (KILORAN)                 -35.4167  138.6500 Apr 1973 Sep 1978    5.5   97   N
+  22804 CUTTLEFISH BAY (VERNON)                  -35.7333  138.0000 Jun 1938 Oct 1941    2.6   74   N
+  22805 CYGNET RIVER                             -35.7000  137.5333 Jul 1925 Feb 1977   51.7   98   N
+  17075 DALHOUSIE SPRINGS                        -26.5167  135.4617 Jan 1884 Oct 1890    5.9   86   N
+  25521 DANDARAGA                                -35.9667  140.1667 Jul 1926 Jun 1941   14.4   96   N
+  20044 DANGGALI CONSERVATION PARK (CANOPUS)     -33.4974  140.6990 Jan 1967 Feb 2010   38.3   88   N
+  20045 DANGGALI CONSERVATION PARK (HYPURNA)     -33.5628  140.9309 Jan 1960 Feb 2010   48.9   97   N
+  18024 DARKE PEAK                               -33.4678  136.2113 Jul 1914 Jun 2025  111.0   99   N
+  19014 DAWSON (ANDA-VALE)                       -32.8037  138.9218 Mar 1902 Apr 2025  121.5   97   N
+  18025 DENIAL BAY                               -32.1028  133.5767 Oct 1920 Feb 1975   54.0   97   N
+  18105 DENIAL BAY (NADIA)                       -32.0819  133.4725 Mar 1897 Jul 1939   41.3   96   N
+  18027 DENMAN (TAR 595 MILE)                    -30.6667  129.9667 Jul 1940 Jul 1967   26.6   97   N
+  24541 DILKARA (FLORIETON)                      -33.8500  139.4167 Sep 1888 Aug 1927   36.9   93   N
+  23712 DINGO VALE                               -34.8667  138.8333 Feb 1882 Sep 1951   66.2   93   N
+  23138 DRY CREEK (WINGFIELD)                    -34.8316  138.5581 May 2007 Jan 2016    8.8   96   N
+  24031 DUFFIELD RAMCO                           -34.1700  139.8170 Feb 1969 May 2025   56.2   99   N
+  24509 DUTTON - SECTION 228                     -34.3515  139.1289 Jan 1907 May 2025  107.2   89   N
+  16011 EAST WELL                                -30.9892  136.0172 Jan 1936 Jun 1977   39.8   95   N
+  23903 ECHUNGA                                  -35.1128  138.7863 May 2006 Jan 2018   10.3   85   N
+  23713 ECHUNGA GOLF COURSE                      -35.0960  138.7887 Feb 1882 Jan 2019  133.8   91   N
+  23338 EDEN VALLEY 1                            -34.6167  139.0500 Jul 1958 Jul 1964    6.1   99   N
+  23339 EDEN VALLEY 2                            -34.6500  139.1000 Jun 1958 May 1964    6.0   99   N
+  23902 EDEN VALLEY (MT ADAM)                    -34.6369  139.0242 May 2005 Mar 2017   11.5   91   N
+  23340 EDEN VALLEY NO3 WINE R                   -34.6167  139.0500 Jul 1958 Jun 1964    6.0   99   N
+  23341 EDEN VALLEY (SEIBOTHS)                   -34.6000  139.0500 Feb 1959 Jul 1964    5.5   99   N
+  23337 EDEN VALLEY (WYNCROFT)                   -34.5833  139.0667 Jul 1958 Jun 1964    6.0   98   N
+  19113 EDEOWIE                                  -31.4480  138.4531 Nov 1884 Apr 2025   99.4   70   N
+  17065 EDIACARA                                 -30.3983  137.9033 Feb 1881 Jan 1938   49.3   86   N
+  23083 EDINBURGH RAAF                           -34.7111  138.6223 Dec 1972 Jun 2025   52.6   99   Y
+  22046 EDITHBURGH                               -35.1121  137.7395 Jul 1984 Jun 2025   32.3   75   Y
+  22004 EDITHBURGH POST OFFICE                   -35.0875  137.7433 Jan 1878 Oct 2004  120.3   91   N
+  17023 EDWARDS CREEK                            -28.3325  135.8483 Dec 1929 Dec 1980   46.8   91   N
+  23080 ELIZABETH PARK                           -34.7103  138.6811 Jun 1972 May 1996   24.0   99   N
+  23060 ELIZABETH TOWN CENTRE                    -34.7167  138.6667 Oct 1962 Apr 1966    3.6   99   N
+  18069 ELLISTON                                 -33.6501  134.8880 Feb 1882 Jun 2025  141.4   98   N
+  18189 ELLISTON (LAMBING STATION)               -33.7516  135.1863 Jan 1987 May 2025   38.3   99   N
+  18213 ELLISTON (OAKLANDS)                      -33.7412  135.0804 Jul 2005 Apr 2025   19.8   97   N
+  18204 ELLISTON (THREE LAKES)                   -33.5879  134.8859 May 2001 Jun 2025   24.1   96   N
+  16012 ERINGA                                   -26.2783  134.7233 Feb 1931 Oct 1975   29.3   65   N
+  16013 ERNABELLA                                -26.2925  132.1283 Aug 1935 Aug 1983   47.8   99   N
+  16097 ERNABELLA (PUKATJA)                      -26.2635  132.1771 Jul 1997 Jun 2025   27.3   89   Y
+  20005 ERUDINA                                  -31.4783  139.3862 May 1911 Sep 2016  102.7   97   N
+  24511 EUDUNDA                                  -34.1773  139.0903 Feb 1882 Jun 2025  141.5   98   N
+  24506 EUDUNDA (BROWNLOW)                       -34.2572  139.2689 Nov 1908 Jun 1994   85.7  100   N
+  24555 EUDUNDA (MOONDAH)                        -34.2571  139.0923 Mar 1969 May 2025   56.3  100   N
+  19013 EURELIA (AILERUE)                        -32.5373  138.5626 Jan 1882 May 2025  137.3   93   N
+  16107 EVELYN DOWNS                             -28.2035  134.4852 Jan 2013 Jun 2015    2.1   73   N
+  20035 FARAWAY HILL                             -33.1333  139.7667 Feb 1910 Nov 1915    2.3   40   N
+  21019 FARRELL FLAT                             -33.8314  138.7917 Feb 1881 Jun 2025  141.5   95   N
+  21030 FARRELL FLAT (KOONOONA)                  -33.8197  138.9211 Jan 1945 Oct 1994    7.6   15   N
+  23101 FELIXSTOW (PAYNEHAM)                     -34.8923  138.6421 Apr 2003 Jun 2025   20.3   89   N
+  23714 FINNISS                                  -35.3736  138.8060 Jan 1898 Jun 2025  111.2   86   N
+  17025 FINNISS SPRINGS                          -29.7450  137.5050 Oct 1920 Dec 1971   46.6   90   N
+  23845 FINNISS (VIEWBANK)                       -35.3889  138.8228 Feb 1988 Mar 2003   15.2   99   N
+  18026 FISHER SIDING                            -30.5517  130.9583 Jun 1940 Jul 1970   29.8   98   N
+  22817 FLINDERS CHASE (ROCKY RIVER)             -35.9511  136.7390 May 1960 Jun 2025   63.5   96   N
+  24553 FLORIETON (BUNDEY BORE)                  -33.8833  139.3500 Jan 1925 May 1999   74.3  100   N
+  23922 FORRESTON ALERT                          -34.7928  138.9040 Apr 2018 Jun 2025    7.3   99   N
+  18126 FOUNTAIN FOREST RESERVE                  -34.6100  135.5906 Jul 1891 Apr 1928   35.8   96   N
+  18030 FOWLERS BAY                              -31.9900  132.4372 Jan 1878 May 2025   72.8   49   N
+  26007 FRANCES                                  -36.7124  140.9552 Sep 1889 Jun 2025  135.8   99   N
+  26055 FRANCES (KARANA PARK)                    -36.7000  140.7333 Jan 1969 Jul 1979   10.5   99   N
+  26028 FRANCES (WAVERLEY)                       -36.6833  140.8167 Nov 1934 May 1968   33.2   99   N
+  23325 FREELING                                 -34.4550  138.8101 Jan 1963 Mar 2019   56.2   90   N
+  23303 FREELING RAILWAY                         -34.4500  138.8167 Jan 1884 Feb 1979   94.9   98   N
+  16073 FREGON                                   -26.7642  132.0250 Feb 1969 Apr 1989   17.2   84   N
+  20006 FROME DOWNS                              -31.2196  139.7763 Feb 1889 Aug 2009  114.6   94   N
+  23002 FULHAM PARK                              -34.9333  138.5167 Aug 1898 Oct 1952   52.3   95   N
+  26008 FURNER                                   -37.4167  140.3333 Jan 1946 Sep 1950    4.8  100   N
+  26086 FURNER (KENNION SECTION 235)             -37.3797  140.3294 Sep 1975 May 2025   49.0   98   N
+  26057 FURNER (KOOKOOTONGA)                     -37.4306  140.4667 Mar 1969 Mar 2000   31.1  100   N
+  26101 FURNER (WOOMERA HOMESTEAD)               -37.4003  140.3351 Apr 2000 Nov 2024   24.7   98   N
+  25004 GALGA                                    -34.6922  139.9644 Aug 1926 May 2025   91.8   92   N
+  17010 GAMMON RANGES (BALCANOONA)               -30.5328  139.3029 Nov 1944 Jun 2009   60.3   93   N
+  17116 GAMMON RANGES (COULTHARD)                -30.2750  139.3397 Jan 1990 Aug 2002   11.5   90   N
+  17117 GAMMON RANGES (GREENWOOD HILL)           -30.2811  139.2639 Jan 1990 Aug 2002   11.3   88   N
+  17131 GAMMON RANGES (MOOLAWATANA)              -29.9062  139.7345 May 1998 Jun 2025   27.2   99   N
+  17120 GAMMON RANGES (MOUNT PAINTER)            -30.2369  139.0003 May 1990 Jan 2002   10.5   88   N
+  17035 GAMMON RANGES (MOUNT SERLE)              -30.5439  138.8558 Jul 1917 Jan 1991   50.9   69   N
+  17122 GAMMON RANGES (OWIEANDANA)               -30.4456  138.9481 Sep 1993 Jun 2002    7.2   81   N
+  17048 GAMMON RANGES (UMBERATANA)               -30.2402  139.1300 Jan 1886 Sep 2008  105.6   86   N
+  17056 GAMMON RANGES (WOOLTANA)                 -30.4132  139.4198 Nov 1877 Sep 2020  119.6   83   N
+  23107 GAWLER                                   -34.6010  138.7359 Jun 2004 Nov 2023   19.5   99   N
+  23067 GAWLER CHURCH HILL                       -34.6000  138.7333 Jun 1887 Sep 1912   25.2   96   N
+  23078 GAWLER COUNCIL DEPOT                     -34.5915  138.7393 Mar 1864 Dec 2024   89.8   51   N
+  23110 GAWLER (EVANSTON GARDENS C.F.S.)         -34.6250  138.7208 Jun 1990 Jan 1996    5.5   96   N
+  23045 GAWLER (LOOS)                            -34.6167  138.7000 Jan 1878 Sep 1925   41.9   88   N
+  23003 GAWLER RAILWAY                           -34.6167  138.7333 May 1924 Mar 1969   44.9   97   N
+  16074 GAWLER RANGES (YARNA)                    -32.0525  135.1250 Jan 1969 Jan 1990   20.0   95   N
+  23111 GAWLER RIVER (HEASLIP ROAD)              -34.6307  138.6467 Mar 2001 Mar 2013   12.1   99   N
+  21090 GEORGE (AYLESBURY FARM)                  -33.3931  138.4328 Jan 1884 Apr 1901   17.1   97   N
+  21020 GEORGETOWN                               -33.3590  138.3930 Feb 1874 Jun 2025  140.8   92   N
+  21064 GEORGETOWN (FLAIRVILLE)                  -33.3583  138.4953 May 1957 Feb 1961    3.8   98   N
+  21095 GEORGETOWN (SPRINGFIELD)                 -33.3506  138.4689 Jan 1882 Jun 1908   24.4   92   N
+  25506 GERANIUM                                 -35.3800  140.1588 Mar 1908 Jun 2025  115.7   97   N
+  23102 GILLMAN YARD                             -34.8486  138.5203 Dec 1987 Apr 1991    3.2   88   N
+  21021 GLADSTONE                                -33.2703  138.3563 Jan 1878 May 2025  141.8   91   N
+  21006 GLADSTONE (BOOYOOLEE)                    -33.2667  138.3500 Jan 1893 Oct 1949   56.8   97   N
+  18032 GLEN BOREE                               -31.8817  132.5100 Aug 1902 Feb 1971   68.4   99   N
+  26060 GLENCOE                                  -37.6833  140.6167 Feb 1969 Feb 1975    5.6   90   N
+  26047 GLENCOE STATION                          -37.7000  140.6167 Jan 1882 May 1906   21.6   87   N
+  16084 GLENDAMBO                                -30.9693  135.7508 Sep 1982 Feb 2018   30.1   81   N
+  23004 GLENELG POST OFFICE                      -34.9842  138.5125 Aug 1891 Sep 1990   98.8   97   N
+  23304 GLEN GARRIE                              -34.0833  138.9333 Jul 1906 Oct 1960   50.3   93   N
+  19097 GLENROY                                  -32.3333  138.7167 Jan 1906 Apr 1908    2.1   88   N
+  23716 GLENTHORNE EXP STATION                   -35.0500  138.5500 Aug 1950 Jan 1984   33.5   99   N
+  20028 GLUEPOT RESERVE (GLUEPOT)                -33.7622  140.1251 Apr 1999 Jun 2025   26.3  100   N
+  18127 GLYNN                                    -33.4333  137.0167 Sep 1903 Dec 1929   25.1   94   N
+  23717 GOLDEN GROVE                             -34.7667  138.7333 Aug 1906 Nov 1965   55.7   92   N
+  23091 GOLDEN GROVE                             -34.7808  138.7208 Jun 1977 Jun 2000   22.7   92   N
+  23802 GOLDEN GROVE (OLD SILVER ACRES)          -34.7800  138.7450 Jan 1969 May 1977    8.3   98   N
+  23383 GOMERSAL (WOODBRIDGE)                    -34.5380  138.9106 Dec 2018 Jun 2025    6.6   98   N
+  23825 GOOLWA BARRAGE                           -35.5288  138.8067 Oct 1987 Jun 2025   37.8   98   N
+  23718 GOOLWA COUNCIL DEPOT                     -35.4984  138.7657 Feb 1870 Jan 2024  136.8   80   N
+  23813 GOOLWA (FLAGSTAFF)                       -35.4833  138.7167 Mar 1969 Jun 1971    2.3   98   N
+  23849 GOOLWA (HINDMARSH ISLAND MARINA)         -35.5147  138.7989 Jun 1989 Jan 2003   13.7   99   N
+  19077 GORDON (KANYAKA SECTION 27)              -32.1069  138.1967 Jan 1922 Oct 1940   17.3   91   N
+  23858 GOULD CREEK (HERMITAGE)                  -34.7630  138.7765 Mar 2001 Jun 2025   24.3   99   N
+  23915 GOULD CREEK (LITTLE PARA RESERVOIR)      -34.7539  138.7191 Jan 1980 May 2025   30.0   66   N
+  21109 GOYDER (NANTAWARRA SEC.378)              -34.0333  138.2000 Jan 1969 Sep 1984   15.8  100   N
+  17078 GOYDERS LAGOON                           -26.9514  138.9528 Jan 1901 Dec 1919   18.4   97   N
+  23065 GRANGE                                   -34.9554  138.5361 Jan 1899 Dec 1914   15.9   98   N
+  16064 GRANITE DOWNS                            -26.9383  133.4967 Jul 1965 Dec 1992   26.1   94   N
+  23133 GREENACRES                               -34.8697  138.6356 Jul 2006 Jun 2025   18.6   97   N
+  23305 GREENOCK                                 -34.4577  138.9277 Feb 1882 May 2025  140.6   96   N
+  23369 GREENOCK ALERT                           -34.4556  138.9221 Mar 1992 Jun 2025   22.6   67   N
+  22005 GREEN PLAINS WEST                        -34.0000  137.9000 Feb 1886 Dec 1920    3.7   10   N
+  26071 GREENWAYS                                -37.2068  140.1609 Nov 1970 Dec 2003   30.3   91   N
+  26114 GREENWAYS (CORTINA)                      -37.2497  140.1732 Apr 2009 Apr 2017    8.0   96   N
+  21022 GULNARE                                  -33.4692  138.4426 Jun 1903 Jun 2025  121.5   97   N
+  23719 GUMERACHA                                -34.8237  138.8859 Feb 1870 May 2025  137.3   83   N
+  25005 GURRAI POST OFFICE                       -35.1333  140.6000 Oct 1914 May 1983   42.8   62   N
+  23833 HACKHAM                                  -35.1425  138.5200 Jan 1977 Dec 1985    8.8   96   N
+  17087 HADDON                                   -26.3517  140.8283 Jul 1884 Dec 1936   47.9   91   N
+  23720 HAHNDORF                                 -35.0245  138.8115 Jan 1884 Jun 2025  139.6   94   N
+  21068 HALBURY (INVERNESS)                      -34.1306  138.5986 Apr 1957 Mar 1967   10.0  100   N
+  23043 HALBURY ROAD SALISBURY (HALBURY ROAD)    -34.7607  138.6311 Feb 1993 Jun 2025   25.5   78   N
+  21023 HALLETT                                  -33.4097  138.8903 Feb 1881 Dec 2019  136.1   94   N
+  21067 HALLETT (ASHROSE)                        -33.4115  138.8179 May 1957 Feb 2025   67.8   99   N
+  21028 HALLETT (KETCHOWLA)                      -33.2917  139.2161 Jan 1887 Sep 1994   81.5   75   N
+  21024 HALLETT (LORRAINE)                       -33.4595  138.7475 Sep 1898 Jan 2024  123.6   97   N
+  21065 HALLETT (MELTON STUD)                    -33.4244  138.7564 May 1957 Apr 1965    7.7   95   N
+  21062 HALLETT (OLD CANOWIE)                    -33.3041  138.7553 Jan 1884 Jun 2025  139.8   98   N
+  21085 HALLETT (ULOOLOO)                        -33.3392  138.9241 Jun 1965 Sep 2018   52.1   97   N
+  21051 HALLETT (ULOOLOO RAILWAY SIDING)         -33.3392  138.8867 Jun 1898 May 1965   61.3   89   N
+  21056 HALLETT (WILLOGOLECHE)                   -33.4119  138.8725 Aug 1898 Dec 1954   52.8   94   N
+  23361 HAMILTON                                 -34.2129  138.8714 Jan 1964 Aug 2014   50.4   98   N
+  16083 HAMILTON STATION                         -26.7134  135.0782 Feb 1931 Dec 2023   81.0   87   N
+  23135 HAMLEY BRIDGE                            -34.3710  138.6687 Nov 2006 Jun 2025   18.7   99   N
+  23095 HAMLEY BRIDGE                            -34.3566  138.6819 Jan 1884 Feb 2018  134.0   96   N
+  23356 HAMLEY BRIDGE (LINWOOD)                  -34.3854  138.7630 Mar 1969 Dec 2014   45.8   99   N
+  19016 HAMMOND                                  -32.5201  138.3149 Aug 1886 Jul 2006  103.8   85   N
+  19108 HAMMOND (COONATTO)                       -32.4961  138.3730 Jan 1989 Dec 2024   34.5   95   N
+  19089 HAMMOND (RIX)                            -32.5167  138.3094 Jan 1884 Jul 1905   19.3   88   N
+  23374 HANSBOROUGH                              -34.2523  139.0183 Jul 2004 Jun 2025   21.0   99   N
+  23721 HAPPY VALLEY RESERVOIR                   -35.0591  138.5662 Mar 1864 Jun 2025  133.8   83   N
+  23722 HARROGATE                                -34.9303  139.0140 Jul 1896 May 2025  127.0   97   N
+  24591 HARROGATE (MOUNT BEEVOR SOUTH)           -34.9315  139.0317 Apr 2017 Jun 2025    8.3   99   N
+  23822 HARTLEY (PINE HILL)                      -35.1802  139.0239 Jan 1971 Jun 2025   54.4   99   N
+  24552 HARTLEY POST OFFICE                      -35.2000  139.0000 Jan 1945 Jun 1981   36.3   99   N
+  18118 HASLAM                                   -32.5073  134.2142 Sep 1928 Dec 2020   58.1   63   N
+  18119 HASLAM 2                                 -32.5200  134.2342 Aug 1929 Apr 1967   37.8   99   N
+  19017 HAWKER                                   -31.9043  138.4388 Jan 1882 Jun 2025  141.5   97   N
+  19092 HAWKER (ARKABA)                          -31.7331  138.5028 Jan 1914 Feb 1920    6.1   97   N
+  19018 HAWKER (HOLOWILIENA)                     -31.8777  138.8372 Feb 1868 Jan 2025  139.8   88   N
+  19082 HAWKER (MARRACHOWIE)                     -31.9789  138.0492 Oct 1899 Dec 1927   26.5   93   N
+  19101 HAWKER (MATT WHIM)                       -32.0464  138.9092 Jan 1954 Sep 1965   11.8   99   N
+  19064 HAWKER (MOUNT LITTLE)                    -31.7311  138.3867 Nov 1956 Jan 1981   23.8   96   N
+  19110 HAWKER (SICCUS RIVER)                    -31.9640  139.2162 Jan 1989 Dec 2006   16.9   94   N
+  19046 HAWKER (WARCOWIE)                        -31.7750  138.6529 Feb 1872 May 2025  138.6   89   N
+  19050 HAWKER (WILSON)                          -31.9883  138.3424 Sep 1885 Oct 2021  132.9   97   N
+  23843 HEATHFIELD WORKS DEPOT                   -35.0266  138.7133 May 1985 Dec 2020   35.3   80   N
+  16015 HESSO                                    -32.1383  137.4475 Aug 1915 Nov 1979   63.2   97   N
+  21059 HILLTOWN                                 -33.6867  138.6378 Sep 1938 Jun 2025   67.8   77   N
+  16034 HILTABA                                  -32.1572  135.0722 Jan 1918 Mar 2025   87.9   81   N
+  23894 HINDMARSH ISLAND AWS                     -35.5194  138.8177 Jan 2003 Jun 2025   22.5   97   Y
+  23131 HINDMARSH ISLAND (MUNDOO BARRAGE)        -35.5355  138.9010 Jun 1987 Oct 2024   34.8   84   N
+  23760 HINDMARSH VALLEY                         -35.5000  138.6167 Apr 1887 Sep 1944   22.1   33   N
+  23823 HINDMARSH VALLEY (FERNBROOK)             -35.4123  138.5751 Jan 1965 Feb 2019   54.2   99   N
+  23824 HINDMARSH VALLEY (SPRINGMOUNT)           -35.4428  138.5444 Sep 1952 Jul 2016   60.1   81   N
+  24020 HOLDER                                   -34.3167  140.0000 Aug 1912 Dec 1939   13.3   48   N
+  24022 HOLDER VILLAGE SETTLEMENT                -34.1833  140.0167 Apr 1896 May 1905    9.2   99   N
+  19019 HOOKINA                                  -31.7594  138.3303 Oct 1906 Oct 1956   49.8   97   N
+  23821 HOPE VALLEY (COCKS)                      -34.8500  138.7000 Nov 1972 Feb 1982    9.3  100   N
+  19020 HORSESHOE RANGES                         -32.3333  138.3833 Feb 1886 Feb 1950   43.5   67   N
+  23791 HOUGHTON                                 -34.8333  138.7667 Sep 1909 Mar 1922   12.2   95   N
+  23715 HOUGHTON (GLEN EWIN)                     -34.8167  138.7500 Aug 1902 Oct 1987   75.8   85   N
+  21026 HOYLETON                                 -34.0391  138.5579 Feb 1881 Dec 2012  127.2   95   N
+  21137 HOYLETON (ROCKLEIGH)                     -34.0033  138.5672 Jan 2013 Jun 2025   12.5   96   N
+  21072 HUDDLESTON (WILLOW PONDS)                -33.3265  138.3172 May 1957 Jun 2025   68.2   99   N
+  18147 HUGHES                                   -30.7133  129.5117 Feb 1918 Mar 1971   52.4   98   N
+  17069 ILBUNGA                                  -26.4217  135.0333 May 1930 Feb 1979   45.6   93   N
+  18145 IMMARNA                                  -30.5000  132.1492 Apr 1918 Dec 1981   61.5   95   N
+ 123700 INGLEWOOD                                -34.8141  138.7730 Jan 2007 Jun 2025   18.3   97   N
+  23041 INKERMAN SOUTH                           -34.3000  138.3000 Jan 1906 Dec 1925   19.9  100   N
+  23723 INMAN VALLEY                             -35.4908  138.4746 Jan 1933 Jun 2025   92.5   97   N
+  17125 INNAMINCKA (BOOKABOURDIE)                -27.5347  140.4736 Jul 1997 Dec 2016   14.5   74   N
+  17111 INNAMINCKA (DULLINGARI)                  -28.1484  140.8672 Jan 1984 Jan 2015   28.9   93   N
+  17121 INNAMINCKA HOTEL                         -27.7466  140.7384 Sep 1993 Nov 2014   20.9   95   N
+  17124 INNAMINCKA (KELEARY)                     -27.0742  140.6817 Apr 1996 Dec 1998    2.8   98   N
+  17027 INNAMINCKA POLICE CAMP                   -27.8000  140.7333 Dec 1883 Dec 1948   64.3   98   N
+  17028 INNAMINCKA STATION                       -27.7240  140.7633 Nov 1882 Aug 2024  130.5   91   N
+  18034 IRON KNOB                                -32.7324  137.1505 Jan 1911 May 2025  111.3   96   N
+  18153 IRON KNOB (CORUNNA)                      -32.6858  137.1208 Jan 1884 Mar 1899   14.8   96   N
+  18031 IRON KNOB (GILLES DOWNS)                 -32.8681  137.0030 Apr 1928 Dec 2024   85.3   87   N
+  18227 IRON KNOB (PANDURRA)                     -32.6271  137.4281 Sep 2013 Jan 2024   10.4   99   N
+  23880 IRONSTONE ROAD                           -34.7595  138.9341 Mar 2001 Jun 2025   22.9   93   N
+  17071 IRRAPATANNA                              -29.0283  136.4917 Nov 1954 Aug 1965    9.6   88   N
+  21027 JAMESTOWN                                -33.2036  138.6059 Jan 1878 Apr 2025  141.2   93   N
+  21070 JAMESTOWN (LUCERNEDALE)                  -33.3289  138.6411 Apr 1957 Dec 1986   29.8   99   N
+  21060 JAMESTOWN PIRSA                          -33.2025  138.6024 Oct 1951 Apr 2024   72.6   96   N
+  21098 JAMESTOWN (WYLMHURST)                    -33.1961  138.6036 Mar 1886 Dec 1920    9.4   27   N
+  19055 JAMESTOWN (YAKAPANA)                     -33.0833  138.6775 Dec 1970 Apr 1992   21.3   99   N
+  19021 JOHNBURGH POST OFFICE                    -32.4561  138.7050 Jan 1883 Dec 1966   82.5   97   N
+  16060 JUMBUCK                                  -29.8933  133.6667 Aug 1953 Jul 1965    9.8   81   N
+  22006 KADINA                                   -33.9551  137.6953 Jan 1878 Jul 2005  121.6   94   N
+  22050 KADINA AWS                               -33.9703  137.6628 Jul 2005 Jun 2025   20.0   98   Y
+  20007 KALABITY                                 -31.9167  140.3167 Jan 1922 Sep 1979   55.8   96   N
+  17089 KALAMURINA                               -27.7205  138.2548 Oct 1884 Apr 2025   39.3   27   N
+  26009 KALANGADOO                               -37.5659  140.6955 Aug 1915 Jan 2019  103.5   92   N
+  26113 KALANGADOO (MIRNAT)                      -37.5354  140.6332 May 2008 Dec 2024   16.6   97   N
+  25028 KALYAN                                   -34.9333  139.8333 Sep 1916 Dec 1947   31.0   97   N
+  23831 KANGARILLA (JINDABYNE)                   -35.1667  138.6167 Feb 1969 May 1979    9.9   95   N
+  23910 KANGARILLA (SADDLEBAGS)                  -35.1319  138.6858 Jul 2006 Jun 2025   19.0   99   N
+  23358 KANGARILLA SECTION 6                     -35.1667  138.6167 Jan 1971 May 1976    3.4   63   N
+  22826 KANGAROO ISLAND (GUM RIDGE)              -35.7833  136.7333 Jan 1969 Jun 1978    9.5   99   N
+  23724 KANMANTOO                                -35.0739  139.0036 Dec 1874 May 2025  141.5   92   N
+  23863 KANMANTOO (MILLBRAE)                     -35.0238  139.0013 Jun 2014 Jun 2025   11.1   97   N
+  17063 KANOWANA                                 -27.8383  139.6233 Jan 1888 Feb 1939   33.3   65   N
+  16042 KANYPI                                   -26.1673  130.1192 Dec 2003 Apr 2007    2.5   71   N
+  18035 KAPPAWANTA                               -33.6686  135.2767 Jun 1906 Dec 1986   76.2   93   N
+  23307 KAPUNDA                                  -34.3412  138.9155 Dec 1866 May 2025  142.1   86   N
+  23354 KAPUNDA (BAGOT WELL)                     -34.3121  139.0077 Feb 1969 Nov 2022   51.9   93   N
+  23352 KAPUNDA HOSPITAL                         -34.3500  138.9167 Feb 1881 Jul 1903   19.1   85   N
+  23378 KAPUNDA (MINGAYS WATERHOLE)              -34.3572  138.9734 Jan 2010 Aug 2012    2.6   90   N
+  23346 KAPUNDA RESERVOIR                        -34.3000  138.8500 Feb 1881 Dec 1923   40.0   93   N
+  23308 KAPUNDA WATER WORKS                      -34.3500  138.9167 Sep 1884 Dec 1962   78.2   99   N
+  23380 KAPUNDA WEST (KAPLEE)                    -34.3020  138.8451 Mar 2018 Jun 2025    7.3   99   N
+  22819 KARATTA                                  -35.9667  136.9833 Jan 1907 Jul 1970   29.3   45   N
+  18128 KARCULTABY                               -32.7656  134.9750 Feb 1886 Dec 1911    6.6   25   N
+  18036 KARCULTABY                               -32.7357  134.9709 Jan 1922 Apr 2025  101.8   98   N
+  25006 KAROONDA                                 -35.0900  139.8972 Aug 1914 Jun 2025  110.8   95   N
+  25007 KARTE POST OFFICE                        -35.0667  140.7000 Jan 1938 Sep 1960   18.2   79   N
+  25507 KEITH                                    -36.0980  140.3556 Aug 1906 Jun 2025  118.0   99   N
+  25549 KEITH E&WS                               -36.1167  140.3667 May 1972 Aug 1989   17.3   95   N
+  25541 KEITH (MANDURAMA)                        -36.0371  140.5841 Jan 1969 Aug 2011   42.7   99   N
+  25557 KEITH (MUNKORA)                          -36.1058  140.3273 Jul 2001 Jun 2025   24.0   97   Y
+  25516 KEITH (NARREE DOWNS)                     -36.0617  140.5500 Aug 1949 May 1992   42.3   98   N
+  16019 KENMORE PARK                             -26.3292  132.4467 Jul 1947 Oct 1983   17.5   48   N
+  23062 KENSINGTON PARK                          -34.9333  138.6500 Jul 1900 Jul 1919   18.8   97   N
+  26011 KEPPOCH                                  -36.7000  140.5833 Jan 1937 Jul 1954   17.6  100   N
+  26029 KERCOONDA                                -36.4167  139.9000 Mar 1956 Nov 1965    8.5   86   N
+  18129 KERNILLA                                 -34.6283  135.8400 Sep 1904 Dec 1926   22.3   99   N
+  23877 KERSBROOK                                -34.7863  138.8651 Mar 2001 Jun 2025   24.3   99   N
+  23826 KERSBROOK FOREST RSVE                    -34.8167  138.8500 Nov 1973 Aug 1994    8.8   39   N
+  23758 KERSBROOK (MABENJO)                      -34.7398  138.8715 Jun 1951 May 2025   72.8   97   N
+  23725 KEYNETON                                 -34.5572  139.1337 Oct 1908 Jun 2025  113.1   95   N
+  24575 KEYNETON (SEDAN HILL RNDSUP)             -34.5444  139.1930 May 2006 Jun 2025   19.2   99   N
+  18039 KIELPA                                   -33.5883  136.2233 Jan 1928 Apr 1986   51.8   88   N
+  25530 KIKI                                     -35.5833  139.8000 Jan 1914 Dec 1923    8.2   81   N
+  25543 KI KI (MOORILLA)                         -35.5504  139.8654 Mar 1969 Dec 2021   46.8   87   N
+  23134 KILBURN                                  -34.8507  138.5865 Jul 2006 Jun 2024   18.0   99   N
+  17066 KILLALPANINNA                            -28.6000  138.5667 Mar 1885 Aug 1924   38.2   96   N
+  26068 KILLANOOLA                               -37.2167  140.7500 Mar 1969 Jun 1978    9.3  100   N
+  18040 KIMBA                                    -33.1416  136.4126 Nov 1920 Jun 2025  104.5   98   N
+  18214 KIMBA (BOTENELLA HILLS)                  -32.9232  136.4778 Jan 2006 Feb 2024   17.5   94   N
+  18187 KIMBA (CHURINGA)                         -32.9587  136.4891 Dec 1940 Sep 2004   27.0   42   N
+  18193 KIMBA (CORTLINYE)                        -33.0267  136.3171 May 1925 May 2025   74.1   74   N
+  18226 KIMBA (CORTLINYE EVAPORATION)            -33.0237  136.3111 Jan 1933 May 2016   30.3   36   N
+  18018 KIMBA (CORTLINYE ROCKS STN)              -33.0100  136.2933 Jul 1916 Oct 1991   75.2   99   N
+  18037 KIMBA (CURTINYE)                         -33.1861  136.5590 Jul 1918 Jun 2025  105.8   98   N
+  18177 KIMBA (MELALEUCA)                        -33.0750  136.0919 Apr 1969 Apr 2025   56.1   99   N
+  18041 KIMBA (THE PINES)                        -33.1167  136.4167 Apr 1915 Dec 1966   51.4   98   N
+  18100 KIMBA (YELTANA)                          -32.8633  136.4346 Jan 1929 Aug 2003   64.1   85   N
+  16020 KINGOONYA                                -30.9142  135.3156 Aug 1915 Mar 1998   81.1   97   N
+  16016 KINGOONYA (NORTH WELL)                   -30.8453  135.3101 Jul 1998 Nov 2013   13.8   88   N
+  22807 KINGSCOTE                                -35.6560  137.6377 Jan 1878 Jun 2025  131.5   87   N
+  22841 KINGSCOTE AERO                           -35.7114  137.5231 Jan 1993 Jun 2025   31.8   94   Y
+  22808 KINGSCOTE (KARINGA)                      -35.8213  137.5297 Oct 1909 May 2025  115.3   98   N
+  26051 KINGSTON (CENTANINTI)                    -36.4667  139.9167 Nov 1968 Oct 1979   10.8   98   N
+  26054 KINGSTON (MOUNT SCOTT)                   -36.7875  140.0894 Mar 1969 Apr 2005   36.2  100   N
+  24006 KINGSTON ON MURRAY                       -34.2233  140.3422 Mar 1896 Feb 2019  118.9   96   N
+  26012 KINGSTON SE                              -36.8309  139.8526 Mar 1875 Jun 2025  141.6   90   N
+  26010 KINGSTON SE (KEILIRA STATION)            -36.7096  140.1623 Aug 1913 Feb 2017   94.4   91   N
+  26110 KINGSTON SE (MOREVIEW)                   -36.7746  140.0222 May 2005 May 2025   20.1   98   N
+  25554 KIRRA                                    -35.7681  140.8911 Jan 1991 Nov 1991    0.9   88   N
+  16021 KOKATHA                                  -31.2609  135.2374 Feb 1931 Apr 2025   92.7   97   N
+  16022 KONDOOLKA                                -31.9955  134.8827 Jul 1905 Nov 2022  116.3   98   N
+  26070 KONETTA E&WS                             -37.2667  140.1167 Dec 1970 Jun 1981   10.6  100   N
+  25522 KONGAL                                   -36.2667  140.4500 May 1884 Jul 1928   43.1   97   N
+  26031 KONGORONG                                -37.9000  140.5500 Jul 1938 Dec 1944    6.5   99   N
+  21029 KOOLUNGA                                 -33.5867  138.3328 Apr 1884 Jun 2025  140.8   98   N
+  22051 KOOLYWURTIE (MOUNT RAT)                  -34.6291  137.5998 Dec 1997 Jun 2012   14.6   98   N
+  20008 KOOMOOLOO                                -33.5667  139.7000 Aug 1885 Aug 1971   56.5   65   N
+  20009 KOOMOOLOO STATION                        -33.5500  139.6000 Mar 1925 Aug 1978   46.2   85   N
+  20010 KOONAMORE                                -32.0646  139.3820 Jul 1888 Jun 2025  134.2   93   N
+  18101 KOONGAWA (RETAWON)                       -33.1720  135.9117 Aug 1951 Dec 2023   69.5   95   N
+  23350 KOONOWLA                                 -34.0500  138.7167 Mar 1899 Oct 1907    8.3   95   N
+  23351 KOONUNGA                                 -34.3667  139.0000 Feb 1894 Dec 1909   15.4   96   N
+  18043 KOPPIO                                   -34.4139  135.8224 Dec 1897 May 2025  104.7   81   N
+  23818 KUITPO FOREST HQ                         -35.2158  138.7014 Jan 1971 Feb 2000   27.3   84   N
+  23887 KUITPO FOREST RESERVE                    -35.1712  138.6783 Apr 1998 Jun 2025   27.1   97   Y
+  25036 KULKAMI                                  -35.1527  140.2881 Mar 1969 Nov 2023   53.5   97   N
+  16023 KULTANABY TAR                            -31.0117  135.6317 Apr 1934 Aug 1969   33.9   95   N
+  18044 KYANCUTTA                                -33.1337  135.5521 Jan 1930 Jun 2025   95.3   99   N
+  18208 KYANCUTTA (BILLABOWIE)                   -33.2310  135.4095 Jul 2005 Aug 2017   11.7   91   N
+  18194 KYANCUTTA (KEVENDALE)                    -33.2775  135.8486 Jan 1995 Aug 1996    1.7   99   N
+  18170 KYANCUTTA (KYANBRAE)                     -33.1396  135.7260 Apr 1969 Apr 2020   46.7   90   N
+  21073 KYBUNGA (CLOVERLEA)                      -33.9286  138.5450 Apr 1957 Jan 2025   58.9   85   N
+  26013 KYBYBOLITE RESEARCH CENTRE               -36.8803  140.9286 Dec 1906 May 1995   88.4  100   N
+  20037 LAKE CHARLES                             -31.1333  140.7167 Jun 1930 Dec 1944    9.1   62   N
+  20011 LAKE DISMAL                              -32.0500  140.9167 Jul 1921 Mar 1982   42.3   69   N
+  16024 LAKE EVERARD                             -31.7397  135.1722 Jan 1933 Jun 2024   87.1   93   N
+  26109 LAKE GEORGE (MAHARISHI VEDIC COLLEGE)    -37.3822  139.9450 Mar 2005 Jun 2025   20.3   99   N
+  26073 LAKE HAWDON                              -37.2167  140.0000 Jan 1971 Jul 1972    1.6  100   N
+  26014 LAKE LEAKE (KOOEEYONG)                   -37.6051  140.5793 Sep 1892 Apr 2025  121.7   90   N
+  24514 LAKE PLAINS (METALA)                     -35.3500  139.0500 Jul 1909 Apr 1973   63.8   97   N
+  16081 LAKE TORRENS                             -31.8953  137.7144 Jun 1973 Feb 1980    3.3   49   N
+  18155 LAKE WANGARY                             -34.5517  135.4933 Jan 1885 Dec 1911   26.3   96   N
+  16100 LAMBINA                                  -26.9080  134.0547 Jan 2006 Jul 2016    9.3   87   N
+  25509 LAMEROO                                  -35.3288  140.5175 Aug 1899 Jan 2015  115.5  100   N
+  25562 LAMEROO (AUSTIN PLAINS)                  -35.3778  140.5378 Jun 2004 Jun 2025   21.1   97   Y
+  25054 LAMEROO (DESFORD)                        -35.2069  140.3589 Feb 1969 Apr 2016   40.1   84   N
+  25542 LAMEROO (TRALYN)                         -35.3864  140.6137 Jan 1969 Jul 2024   46.3   80   N
+  24515 LANGHORNE CREEK                          -35.2959  139.0328 Aug 1889 Apr 2025  135.6   98   N
+  24516 LANGHORNE CREEK 2                        -35.3000  139.0333 Jan 1901 May 1973   72.1   97   N
+  21031 LAURA                                    -33.1851  138.3001 Jan 1876 Jun 2025  141.9   89   N
+  21124 LAURA (BEETALOO RESERVOIR)               -33.1962  138.2197 Apr 1981 Jul 2018   33.5   86   N
+  19067 LAURA (HILPARA)                          -33.2003  138.2203 Sep 1957 Jun 1971   13.8   98   N
+  23874 LEAWOOD GARDENS (EAGLE ON THE HILL)      -34.9750  138.6724 Mar 2001 Feb 2019   17.9   98   N
+  17005 LEIGH CREEK AERO                         -30.4667  138.4075 Feb 1952 Jun 1982   24.0   79   N
+  17110 LEIGH CREEK AIRPORT                      -30.5963  138.4219 Jun 1982 Jun 2025   38.9   87   Y
+  17101 LEIGH CREEK E.T.S.A                      -30.4825  138.4136 Oct 1972 Jul 1975    2.8   95   N
+  17136 LEIGH CREEK (MAYNARDS WELL)              -30.6024  138.6888 Dec 2005 Aug 2011    5.2   82    
+  17108 LEIGH CREEK NORTHERN COALFIELD           -30.4064  138.3961 Aug 1975 Sep 1977    2.2   99   N
+  17137 LEIGH CREEK (NORTH MOOLOOLOO)            -30.6245  138.5271 Nov 2006 Aug 2011    4.5   86    
+  17138 LEIGH CREEK (PFITZNERS WELL)             -30.6881  138.5665 Nov 2006 Aug 2011    4.5   86    
+  17107 LEIGH CREEK SOUTH                        -30.5925  138.4053 Oct 1977 Jun 1994   16.5   97   N
+  21082 LEIGHTON (BUCKLAND HILLS)                -33.6372  138.8289 Feb 1881 Oct 1921   14.2   35   N
+  23801 LENSWOOD                                 -34.9482  138.8071 Nov 1967 Jun 2025   57.7   94   N
+  23865 LENSWOOD (STRINGYBARK)                   -34.8947  138.8099 Mar 2001 Jun 2025   24.3   99   N
+  20012 LILYDALE                                 -32.9571  139.9720 Jan 1899 Aug 2016   99.5   84   N
+  18156 LILYDALE (COOYERDOO)                     -32.8583  137.0861 Dec 1908 Dec 1928   18.4   90   N
+  23726 LOBETHAL                                 -34.9044  138.8742 Jan 1884 May 2025  140.7   91   N
+  23862 LOBETHAL (GRAEBER)                       -34.9120  138.8845 Dec 1991 Jun 2025   20.4   59   N
+  23882 LOBETHAL (MAIDMENT ROAD)                 -34.8713  138.9058 Mar 2001 Jun 2025   24.3   99   N
+  21032 LOCHIEL SALTWORKS                        -33.9206  138.1633 Sep 1912 Jun 2000   72.3   78   N
+  18046 LOCK                                     -33.5676  135.7561 Jan 1915 Jun 2025  108.8   93   N
+  18084 LOCK (CALLAMONDAH)                       -33.7857  135.8435 Dec 1929 Aug 2015   80.4   92   N
+  23006 LOCKLEYS (KOOYONGA GOLF CLUB)            -34.9333  138.5333 Dec 1931 Dec 1964   27.6   83   N
+  18165 LOCK (TERRAH WINDS)                      -33.5733  135.6020 Mar 1969 May 2025   55.9   99   N
+  18081 LOCK (TERRE)                             -33.5399  135.4759 Jan 1907 Aug 2002   94.8   98   N
+  23860 LONG RIDGE (GREENHILL)                   -34.9501  138.6837 Dec 2002 Jun 2025   22.1   96   N
+  23727 LONGWOOD                                 -35.0484  138.7354 Jul 1949 Dec 2022   73.5   99   N
+  23108 LONGWOOD ALERT                           -35.0495  138.7259 Mar 2001 Jun 2025   24.3   99   N
+  23830 LONSDALE                                 -35.1062  138.4917 Jan 1969 Mar 2006   37.2   99   N
+  25039 LOWALDIE                                 -35.0459  139.9791 Apr 1969 May 2025   56.2   99   N
+  23007 LOWER LIGHT                              -34.5342  138.4347 Apr 1909 Feb 2003   86.5   92   N
+  24007 LOXTON                                   -34.4528  140.5681 Feb 1909 May 2000   90.3   96   N
+  24013 LOXTON (PYAP)                            -34.4442  140.4958 Apr 1896 May 2025  128.7   98   N
+  24023 LOXTON RESEARCH CENTRE                   -34.4333  140.6000 Nov 1963 Jun 1985   21.7  100   N
+  24024 LOXTON RESEARCH CENTRE                   -34.4390  140.5978 Jun 1984 Jun 2025   41.1   99   Y
+  25034 LOXTON (WANBI RESEARCH CENTRE)           -34.7797  140.2733 Jan 1957 Jun 1994   37.3   97   N
+  25024 LOXTON (WUNKAR)                          -34.4933  140.3017 Dec 1958 Jan 1988   29.2   99   N
+  26069 LUCINDALE (GREENVALE)                    -36.8073  140.3870 Mar 1969 Oct 2024   55.5   99   N
+  26016 LUCINDALE POST OFFICE                    -36.9731  140.3664 Jan 1880 Jun 2025  139.1   92   N
+  17139 LYNDHURST                                -30.2883  138.3525 Jan 2006 May 2025   17.0   87   N
+  17080 LYNDHURST (FREELINGWELL)                 -29.9500  139.2333 Aug 1887 Dec 1939   18.1   34   N
+  17029 LYNDHURST POST OFFICE                    -30.2867  138.3458 Dec 1902 May 1984   58.8   72   N
+  23309 LYNDOCH                                  -34.5964  138.8733 Apr 1887 Jun 2023  136.2   94   N
+  23888 LYNDOCH (COCKATOO VALLEY)                -34.6242  138.8458 Oct 1997 Feb 2010   10.7   82   N
+  23313 LYNDOCH (PEWSEY VALE)                    -34.6167  138.9833 Jan 1878 Mar 1970   82.8   90   N
+  16078 LYONS SDG (TAR 354 MILE)                 -30.6367  133.9392 Jun 1940 Jun 1982   41.8   99   N
+  24008 LYRUP                                    -34.2579  140.6478 Apr 1896 Jun 2025  120.5   92   N
+  23728 MACCLESFIELD                             -35.1890  138.8262 Jul 1885 Jul 2020  134.9   95   N
+  17030 MACUMBA                                  -27.2533  135.6492 Jan 1891 Sep 2013   68.8   56   N
+  25008 MAGGEA                                   -34.4667  140.0667 Jan 1926 Feb 1974   46.3   94   N
+  23008 MAGILL POST OFFICE                       -34.9167  138.6833 Nov 1891 Feb 1968   76.3  100   N
+  26112 MAGPIE CORNER (MURRAY'S COTTAGES)        -37.2850  140.6927 Jan 1990 Nov 2023   33.8   97   N
+  22008 MAITLAND                                 -34.3745  137.6733 Jan 1879 Jun 2025  141.3   96   N
+  22056 MAITLAND (CARINYA RNDSUP)                -34.4020  137.7185 May 2006 Jun 2025   19.2   99   N
+  22010 MAITLAND (KILKERRAN)                     -34.3318  137.5899 Nov 1965 May 2025   59.6   98   N
+  22035 MAITLAND SECTION 285                     -34.4000  137.7500 Mar 1969 Apr 1972    3.2   98   N
+  22019 MAITLAND (WEETULTA)                      -34.2428  137.5908 Feb 1887 Feb 2011  123.5   99   N
+  22007 MAITLAND (WOODBURLIE)                    -34.3167  137.5333 Nov 1886 Oct 1963   76.8  100   N
+  16026 MALBOONA                                 -30.6883  134.1750 Jun 1940 Oct 1953   13.4   98   N
+  23009 MALLALA                                  -34.4382  138.5115 Jan 1884 Jun 2020  135.1   93   N
+  23073 MALLALA AERO                             -34.4167  138.5000 Feb 1942 Jan 1954    8.3   66   N
+  23129 MALLALA (DOLAGHANS CROSSING RNDSUP)      -34.4611  138.5581 Jun 2005 Apr 2025   19.9   99   N
+  23063 MALLALA (WATTLE FARM)                    -34.5000  138.5167 Jan 1912 Aug 1921    9.7  100   N
+  19022 MAMBRAY CREEK                            -32.8392  137.9822 Jan 1938 Feb 1967   29.2   97   N
+  19120 MAMBRAY CREEK (BERNIE'S BLOCK)           -32.8451  137.9956 Nov 2011 May 2025   13.6   99   N
+  18173 MANGALO                                  -33.5684  136.6473 Feb 1999 Dec 2013   14.8   97   N
+  20013 MANNA HILL                               -32.4292  139.9887 Jan 1889 Jun 2025  134.5   97   N
+  20057 MANNA HILL (BENDA)                       -32.5409  140.0344 Nov 1991 Feb 1999    5.7   77   N
+  20015 MANNA HILL (FOUR BROTHERS)               -32.2123  139.7193 Dec 1924 Feb 2007   68.3   82   N
+  20048 MANNA HILL (WADNAMINGA)                  -32.4932  140.2299 Nov 1892 Jan 2025   53.9   40   N
+  19104 MANNANARIE                               -33.0371  138.6003 Jan 1975 Jun 2004   28.9   98   N
+  19115 MANNANARIE                               -33.0182  138.6153 Jul 2004 Jun 2025   21.0   99   N
+  19023 MANNANARIE POST OFFICE                   -33.0453  138.6178 Feb 1868 Dec 1974   83.8   77   N
+  24517 MANNUM COUNCIL DEPOT                     -34.9145  139.3010 Jan 1878 Mar 2025  133.6   88   N
+  24529 MANNUM (SANDERSTON)                      -34.7569  139.2172 Aug 1901 Aug 1974   64.4   87   N
+  23310 MANOORA                                  -34.0019  138.8185 Dec 1891 Jul 2024  132.0   95   N
+  21076 MANOORA (COOINDA)                        -33.9309  138.8140 May 1957 Jun 2025   68.2   99   N
+  25051 MANTUNG                                  -34.5862  140.0779 Oct 1978 May 2025   46.1   98   N
+  25045 MANTUNG (MAY FARM)                       -34.5333  140.1500 Sep 1912 Apr 1915    2.7   98   N
+  25029 MANTUNG SECTION 43                       -34.6000  140.2000 Jan 1913 Feb 1929   14.9   90   N
+  18114 MARALINGA                                -30.1591  131.5790 Jul 1955 Nov 2022   54.3   79   N
+  25032 MARAMA                                   -35.1732  140.1818 Mar 1964 Dec 2018   52.2   94   N
+  16085 MARLA POLICE STATION                     -27.3002  133.6201 Aug 1985 Oct 2018   29.3   86   N
+  23311 MARRABEL                                 -34.1444  138.8770 Jan 1884 Jul 2021  137.0   98   N
+  17031 MARREE                                   -29.6451  138.0639 Aug 1885 Jan 2015  129.2  100   N
+  17126 MARREE AERO                              -29.6587  138.0684 Jul 1998 Jun 2025   27.0   94   Y
+  17130 MARREE (CALLANNA)                        -29.7138  137.9017 May 1998 Mar 2025   26.9   99   N
+  17076 MARREE (CLAYTON)                         -29.2781  138.3823 May 1914 Mar 2025   66.4   60   N
+  17058 MARREE (DULKANINNA)                      -29.0174  138.4608 Dec 1950 Jan 2022   36.2   50   N
+  17132 MARREE (ETADUNNA)                        -28.7191  138.6342 May 1998 Dec 2015   17.5   99   N
+  17024 MARREE (FARINA)                          -30.0660  138.2739 Dec 1879 Jun 2025  124.3   85   N
+  17128 MARREE (MULGARIA)                        -30.0728  137.5666 May 1998 Dec 2010   12.4   98   N
+  17038 MARREE (MUNDOWDNA STATION)               -29.7331  138.2329 Jul 1937 Oct 2012   68.6   91   N
+  17039 MARREE (MURNPEOWIE)                      -29.5897  139.0508 Jan 1893 Nov 2019   64.8   51   N
+  17129 MARREE (WILPOORINNA STATION)             -29.9564  138.3411 Jun 1998 May 2025   26.3   97   N
+  17055 MARREE (WITCHELINA STATION)              -30.0213  138.0424 Jan 1898 Jun 2025  108.9   85   N
+  19111 MARTINS WELL                             -31.4763  139.1134 Jun 1958 May 2025   39.1   58   N
+  23729 MCLAREN VALE                             -35.2200  138.5408 Jul 1938 Oct 1998   60.2   91   N
+  23872 MCLAREN VALE CHALK HILL ROAD             -35.2111  138.5325 Oct 1992 Jun 1993    0.8   87   N
+  23876 MCLAREN VALE (PIRRAMIMMA WINERY)         -35.2276  138.5366 Nov 1993 Jun 2025   31.7   89   N
+  23840 MCLAREN VALE SECTION 171                 -35.2333  138.5167 May 1973 Oct 1994    5.1   23   N
+  23730 MEADOWS                                  -35.1797  138.7647 May 1887 Jul 2021  133.7   95   N
+  23819 MEADOWS (HAREWOOD)                       -35.2167  138.6667 Jan 1972 Apr 1982    9.1   85   N
+  19024 MELROSE                                  -32.8274  138.1892 Dec 1862 Jun 2025  141.3   80   N
+  19042 MELROSE (PARA GUMS)                      -32.8454  138.2116 Dec 1889 May 2025  115.2   84   N
+  23144 MELROSE PARK                             -34.9900  138.5817 Jan 2010 Aug 2017    7.7   97   N
+  20051 MELTON                                   -32.3284  139.3449 Nov 2007 Jul 2021   12.2   81   N
+  24518 MENINGIE                                 -35.6902  139.3375 Jan 1865 Jun 2025  133.2   81   N
+  24577 MENINGIE (EGRETTA)                       -35.7344  139.2675 Sep 1989 May 2025   35.4   96   N
+  25556 MENINGIE (GREEN PLAINS)                  -35.6969  139.4943 Mar 1969 Dec 2024   55.8   99   N
+  25529 MENINGIE (MILL PARK)                     -35.8095  139.4747 Jun 1958 Mar 2014   53.8   96   N
+  25523 MENINGIE (NARANGA)                       -35.8597  139.5599 May 1956 May 2025   68.8   98   N
+  24537 MENINGIE (WALTOWA)                       -35.6190  139.4378 Jan 1936 Dec 2023   74.2   82   N
+  24559 MENINGIE WEST                            -35.6481  139.1661 Mar 1969 Aug 1996   27.5   99   N
+  25009 MERIBAH                                  -34.7033  140.8561 Sep 1920 Dec 2001   80.9   95   N
+  25048 MERIBAH (MERALLEN)                       -34.7276  140.8569 Jul 2001 Oct 2020   19.3   97   N
+  23776 MERRILEA                                 -35.4167  138.7167 Oct 1919 Aug 1934    7.3   48   N
+  18168 MIDGEE ROCKS                             -33.4228  137.1517 Mar 1969 Dec 1972    3.8   99   N
+  24519 MILANG                                   -35.4068  138.9701 Feb 1882 Jun 2025  141.6   93   N
+  24545 MILANG DEPT OF AGRIC.                    -35.4167  138.9667 May 1958 Jan 1969   10.8  100   N
+  24558 MILANG E&WS                              -35.4064  138.9753 Apr 1968 Jul 1998   30.3   99   N
+  24576 MILANG (NAVARINO)                        -35.3480  138.9771 Mar 1952 Apr 2025   62.8   85   N
+  24550 MILANG (POINT STURT)                     -35.4941  138.9929 Apr 2002 Aug 2023   21.4   99   N
+  16028 MILLERS CREEK                            -30.0047  136.0445 Aug 1929 Jan 2022   89.3   96   N
+  26018 MILLICENT                                -37.5872  140.3426 Jan 1878 May 2025  141.3   89   N
+  26080 MILLICENT SECTION 28                     -37.4833  140.4500 May 1973 Apr 1976    3.0  100   N
+  18051 MILTALIE (HILLVIEW)                      -33.5900  136.8567 Apr 1904 Dec 1960   55.7   97   N
+  18050 MILTALIE (POODRA)                        -33.5983  136.8433 Sep 1886 May 1927   40.5   98   N
+  18180 MILTALIE POST OFFICE                     -33.5500  136.8417 Jan 1928 Jun 1956   28.3   98   N
+  19114 MINBURRA                                 -32.4295  138.8922 Jan 1998 Jun 2025   27.5   98   N
+  25010 MINDARIE                                 -34.8133  140.2177 Jun 1913 Dec 2017   99.7   92   N
+  20014 MINGARY                                  -32.1333  140.7500 Aug 1921 Nov 1973   51.7   97   N
+  22009 MINLATON                                 -34.7708  137.5952 Dec 1880 Jun 2025  141.6   92   N
+  22031 MINLATON AERO                            -34.7480  137.5276 Mar 2001 Jun 2025   24.3   98   Y
+  22036 MINLATON (EVERSLEY)                      -34.7487  137.6303 Mar 1969 May 2025   56.3   99   N
+  22034 MINLATON (MOUNT RAT)                     -34.6464  137.6314 Mar 1969 Dec 1997   28.6   97   N
+  17079 MINNIE DOWNS                             -26.0517  139.8583 Jan 1915 Dec 1940   25.8   99   N
+  18053 MINNIPA                                  -32.8542  135.1542 Oct 1914 Jun 2019  100.3   92   N
+  18052 MINNIPA AGRICULTURAL CENTRE              -32.8361  135.1500 Jun 1919 Jun 2001   81.5   99   N
+  18210 MINNIPA (MOONLIGHT FLAT)                 -33.0203  135.0442 Jul 2005 Sep 2013    5.5   60   N
+  18195 MINNIPA PIRSA                            -32.8427  135.1515 Jul 1996 Jun 2025   28.8   94   Y
+  18211 MINNIPA (WISTILLERE)                     -32.9392  135.0780 Jul 2005 Dec 2018   13.5   96   N
+  16088 MINTABIE                                 -27.3148  133.2963 Feb 1992 Oct 2019   27.7   99   N
+  21033 MINTARO                                  -33.9136  138.7195 Jun 1890 Jun 2025  123.4   89   N
+  21081 MINTARO (KADLUNGA)                       -33.9333  138.6833 Mar 1886 Feb 1916    2.7    9   N
+  21123 MINTARO (MARTINDALE)                     -33.9394  138.7166 Dec 1981 Dec 2024   42.9   98   N
+  23147 MINTARO (MOUNT HORROCKS)                 -33.9306  138.6773 Dec 2016 Jun 2025    7.9   85   N
+  16066 MIRIKATA                                 -29.8767  135.2464 Oct 1960 Dec 1980   18.3   90   N
+  23010 MITCHAM POST OFFICE                      -34.9833  138.6167 Jan 1884 Feb 1969   82.3   96   N
+  23140 MITCHELL PARK (MARION)                   -35.0121  138.5589 Aug 2007 Apr 2025   17.5   97   N
+  18202 MITCHELLVILLE (ESSENDEE)                 -33.6110  137.0951 Sep 2000 Jan 2009    8.3   97   N
+  18130 MITCHELVILLE                             -33.5850  137.2183 Oct 1902 Jan 1941   38.0   98   N
+  23036 MODBURY (SURREY VINE YARDS)              -34.8000  138.7000 Jun 1932 Mar 1975   39.7   91   N
+  24566 MONARTO (HILLVIEW)                       -35.0667  139.2000 May 1973 Sep 1979    6.3   97   N
+  24567 MONARTO (ROCKLEIGH DOWNS)                -35.0500  139.0833 Jan 1973 Nov 1974    1.9   98   N
+  24582 MONARTO SAFARI PARK                      -35.1016  139.1426 Sep 1997 May 2025   27.2   97   N
+  24560 MONARTO SOUTH                            -35.1167  139.1000 Jan 1971 Jan 1978    7.1  100   N
+  24589 MONARTO SOUTH (MONARTO SECTION 307)      -35.1339  139.1107 Mar 2010 Jun 2025   15.3   99   N
+  24009 MONASH POST OFFICE                       -34.2333  140.5500 Sep 1922 Dec 1948   22.0   82   N
+  17090 MONTACOLLINA                             -29.4000  139.9833 Dec 1885 Oct 1903   17.9  100   N
+  23892 MONTACUTE                                -34.8856  138.7562 Aug 2002 Jun 2025   22.9   98   N
+  20049 MOOLEULOOLOO                             -31.6382  140.5130 Feb 1932 Dec 2024   81.1   87   N
+  17096 MOOMBA                                   -28.1125  140.2102 Nov 1972 Mar 2005   32.3   99   N
+  17123 MOOMBA AIRPORT                           -28.0997  140.1956 Jul 1995 Jun 2025   30.0   98   Y
+  17074 MOOMBA (CALLABONNA)                      -29.7567  140.2450 Jan 1902 Jan 1909    6.8   96   N
+  17026 MOOMBA (DARALINGIE)                      -28.3725  139.9727 Jan 2002 Jun 2017   11.8   75   N
+  17140 MOOMBA (SELLICKS CAMP)                   -27.9295  139.4748 Jan 2008 Apr 2009    1.3   94   N
+  17022 MOOMBA (TANTANNA)                        -28.1696  139.6105 Jan 2002 Jul 2015   11.9   86   N
+  17112 MOOMBA (TIRRAWARRA)                      -27.6908  140.1066 Jan 1984 Jan 2017   27.7   83   N
+  16029 MOONAREE                                 -31.9675  135.8742 Jan 1878 Oct 1994  101.9   87   N
+  16086 MOONAREE (KANGAROO WELL)                 -31.7646  135.6494 Mar 1986 Jan 2022   32.4   88   N
+  22011 MOONTA                                   -34.0672  137.5925 Nov 1873 Jun 2025  141.7   90   N
+  25011 MOORLANDS                                -35.2964  139.6417 Feb 1910 Dec 1989   78.9   97   N
+  24010 MOOROOK                                  -34.2918  140.3632 Jul 1896 May 2025  125.8   96   N
+  24047 MOOROOK (WAPPILKA)                       -34.3814  140.2822 Jan 1957 Dec 1993   35.0   19   N
+  26046 MORAMBRO STATION                         -36.7833  140.5833 Dec 1886 Dec 1907   15.3   73   N
+  19069 MORCHARD                                 -32.7217  138.4919 Oct 1919 Sep 1985   34.1   51   N
+  19025 MORCHARD (THE ROCKS)                     -32.7654  138.5055 Feb 1916 Jun 2025   88.5   80   N
+  24578 MORGAN (BRENDA PARK STATION)             -34.0647  139.6605 Nov 1989 Mar 2025   34.0   91   N
+  24520 MORGAN POST OFFICE                       -34.0333  139.6667 Feb 1881 Aug 1989  105.6   95   N
+  23143 MORPHETTVILLE                            -34.9784  138.5418 Aug 2008 Jun 2025   16.9   99   N
+  23733 MOUNT BARKER                             -35.0732  138.8466 Feb 1870 Jun 2025  141.8   90   N
+  23792 MOUNT BARKER (AUCHENDARROCH)             -35.0667  138.8667 Jan 1907 Dec 1919   10.0   76   N
+  16082 MOUNT BARRY STATION                      -28.2415  134.9899 Dec 1980 Mar 2025   42.9   96   N
+  23734 MOUNT BOLD RESERVOIR                     -35.1213  138.6769 May 1951 Jun 2025   74.0   99   N
+  23809 MOUNT BONYTHON                           -34.9689  138.7133 May 1969 Apr 1996   23.3   86   N
+  21034 MOUNT BRYAN                              -33.5592  138.9030 Mar 1897 Jun 2025  125.4   95   N
+  21083 MOUNT BRYAN ESTATE                       -33.5000  138.9667 Mar 1889 Mar 1915    2.3    9   N
+  26019 MOUNT BURR FOREST RESERVE                -37.5575  140.4197 Mar 1924 Dec 1994   69.4   95   N
+  26093 MOUNT BURR TELECOM                       -37.6039  140.4811 Jan 1967 May 1992   25.4   95   N
+  16045 MOUNT CHRISTIE (TAR 397 MILE)            -30.5492  133.2167 Nov 1916 May 1983   48.3   72   N
+  23735 MOUNT COMPASS                            -35.3501  138.6221 Aug 1922 Jun 2025   96.2   89   N
+  23838 MOUNT COMPASS (MARSHALL BRAE)            -35.4156  138.6764 Nov 1978 Jun 1997   17.1   91   N
+  23878 MOUNT CRAWFORD AWS                       -34.7253  138.9278 Jun 1994 Jun 2025   31.0   95   Y
+  23763 MOUNT CRAWFORD FOREST HEADQUARTERS       -34.7122  138.9469 Jan 1964 Mar 2005   32.8   77   N
+  17070 MOUNT DARE                               -26.0702  135.2471 Jan 1950 Mar 2024   70.2   93   N
+  17033 MOUNT DUTTON                             -27.8150  135.7150 Dec 1929 Dec 1979   42.3   84   N
+  16030 MOUNT EBA                                -30.1809  135.6629 Jan 1914 Dec 2023  106.6   96   N
+  26021 MOUNT GAMBIER AERO                       -37.7473  140.7739 Jan 1942 Jun 2025   83.5  100   Y
+  26085 MOUNT GAMBIER (BLUE LAKE HOLIDAY PARK)   -37.8457  140.7686 Mar 1975 Sep 2016   35.8   82   N
+  26102 MOUNT GAMBIER COUNCIL DEPOT              -37.8221  140.7593 Sep 2000 May 2025   21.9   70   N
+  26020 MOUNT GAMBIER POST OFFICE                -37.8333  140.7833 Jan 1861 Dec 1974  113.8   99   N
+  18055 MOUNT HOPE                               -34.1058  135.3550 Nov 1932 May 1987   54.4   99   N
+  18171 MOUNT HOPE (FAIRVIEW)                    -34.1361  135.3319 Feb 1913 Jun 2025  112.4   99   N
+  17064 MOUNT HOPELESS                           -29.5950  139.7500 Feb 1918 Aug 1936   11.7   63   N
+  16067 MOUNT IVE                                -32.4398  136.0671 Jan 1881 Jun 2025   55.1   38   N
+  23777 MOUNT JAGGED                             -35.4000  138.6000 Feb 1898 Feb 1919   19.4   92   N
+  23842 MOUNT LOFTY                              -34.9784  138.7088 May 2004 Jun 2025   16.4   75   Y
+  23868 MOUNT LOFTY CHANNEL 9                    -34.9818  138.7083 Jan 1992 Oct 2007   15.8   98   N
+  23810 MOUNT LOFTY (CLELAND CONSERVATION PARK)  -34.9710  138.7042 May 1969 Dec 2024   55.5   94   N
+  23764 MOUNT LOFTY (HARDYS)                     -34.9833  138.7167 Feb 1870 Dec 1888    5.3   28   N
+  23765 MOUNT LOFTY (KORRALLA)                   -34.9833  138.7167 Feb 1893 Oct 1923    3.9   13   N
+  23766 MOUNT LOFTY RAILWAY STATION              -35.0167  138.7167 Oct 1890 Feb 1911   19.8   96   N
+  23736 MOUNT LOFTY SUMMIT                       -34.9667  138.7167 Aug 1905 Mar 2000   49.8   52   N
+  17034 MOUNT LYNDHURST                          -30.1828  138.7093 Jun 1878 Dec 2001   45.8   37   N
+  24527 MOUNT MARY PUMPING STATION 2             -33.9733  139.4208 Jan 1945 May 1992   46.4   97   N
+  24586 MOUNT MARY RNDSUP                        -34.1308  139.4233 Jun 2006 Jun 2025   19.1   99   N
+  26022 MOUNT MCINTYRE                           -37.5500  140.5500 May 1898 Dec 1968   70.5   97   N
+  23125 MOUNT MCKENZIE (MT MCKENZIE)             -34.5715  139.0790 Apr 2005 Feb 2013    7.9   98   N
+  25563 MOUNT PENNY                              -36.0240  139.9534 May 2009 Dec 2013    4.5   79   N
+  23737 MOUNT PLEASANT                           -34.7735  139.0501 Jan 1876 May 2025  140.7   89   N
+  24590 MOUNT PLEASANT WTP                       -34.7958  139.0474 Mar 2014 Jun 2025   11.3   99   N
+  19091 MOUNT REMARKABLE                         -32.7981  138.2161 Feb 1874 Mar 1921   37.4   78   N
+  19071 MOUNT REMARKABLE (ALLIGATOR GORGE)       -32.7244  138.0829 Feb 1974 Oct 2011   37.7   92   N
+  19099 MOUNT REMARKABLE (MAMBRAY CREEK PARK HQ) -32.8420  138.0304 Feb 1970 Sep 2011   41.6   98   N
+  23379 MOUNT RUFUS (DUTTON)                     -34.3090  139.1215 Jun 2017 Jun 2025    8.1   99   N
+  17072 MOUNT SARAH (CAR 732 MILE)               -26.9300  135.3417 Jan 1947 Aug 1978   23.5   74   N
+  26067 MOUNT SCHANK (JETHIA)                    -37.9594  140.7703 Apr 1969 Jun 2025   56.3   97   N
+  21035 MOUNT TEMPLETON (GLENALBYN)              -34.0256  138.3168 Jul 1898 Oct 2015  111.1   93   N
+  23778 MOUNT TORRENS                            -34.8833  138.9667 Jan 1878 Dec 1938   55.3   89   N
+  20052 MOUNT VICTOR                             -32.0575  139.6187 Sep 1971 Dec 2020   46.9   94   N
+  18056 MOUNT WEDGE                              -33.4839  135.1592 Jul 1884 May 2020  124.8   91   N
+  23906 MOUNT WILSON                             -35.2078  138.6496 Mar 1982 Nov 2020   30.5   75   N
+  18057 MOUNT WUDINNA                            -32.9916  135.5482 Jan 1907 Dec 2024  117.8   99   N
+  23921 MT BOLD (SCOTT CREEK ALERT)              -35.0998  138.6746 Sep 2013 Jun 2025   11.8   99   N
+  19121 MT DAVIDSON (WILLIPPA)                   -31.7671  138.9987 Jun 2012 May 2025   12.8   97   N
+  24579 MT TORRENS                               -34.8788  138.9740 Mar 2001 Jun 2025   24.3   99   N
+  18131 MUDAMUCKLA                               -32.1658  134.0083 Sep 1924 Mar 1932    4.9   65   N
+  24523 MULGUNDAWA SALT                          -35.2921  139.2069 May 2009 May 2025   14.8   74   N
+  17037 MULOORINA STATION (MULOORINA HOMESTEAD)  -29.2390  137.9058 Dec 1881 Feb 2025   98.6   69   N
+  25012 MULPATA                                  -35.1667  140.4000 Oct 1934 Apr 1963   19.8   69   N
+  20016 MULYUNGARIE                              -31.5542  140.7920 Jan 1901 Dec 2022   91.5   74   N
+  20038 MULYUNGARIE (LOCKHART BORE)              -31.3806  140.9425 Jan 1937 Dec 1944    5.2   65   N
+  19026 MUNDALLIO                                -32.4686  137.8817 Oct 1888 Aug 1953   60.8   92   N
+  21036 MUNDOORA                                 -33.5950  138.0852 Jan 1884 May 2025  134.1   92   N
+  21115 MUNDOORA (BARUNGA NORTH)                 -33.6922  138.1332 Jan 1964 Dec 2024   60.4   98   N
+  25510 MUNDULLA                                 -36.3667  140.7000 Jan 1887 Apr 1962   62.6   81   N
+  18029 MUNGALA SIDING (TAR 416 MILE)            -30.5783  132.8967 Jun 1940 Apr 1972   30.8   95   N
+  17067 MUNGERANIE                               -28.0183  138.6637 Nov 1887 Mar 2013   57.3   45   N
+  17020 MUNGERANIE (COWARIE)                     -27.7025  138.3358 Dec 1881 Dec 2023   88.4   62   N
+  17036 MUNGERANIE (MULKA)                       -28.3525  138.6534 Jun 1917 Jan 2006   80.3   90   N
+  18132 MUNYEROO                                 -33.3617  137.3767 Sep 1916 Oct 1923    7.0   97   N
+  24587 MURBKO                                   -34.1639  139.6647 May 2009 Apr 2022   12.3   93   N
+  18164 MURDINGA (MUNGALA)                       -33.6993  135.9238 Mar 1969 May 2025   55.6   98   N
+  24521 MURRAY BRIDGE                            -35.1234  139.2592 Nov 1885 Jun 2025  138.6   99   N
+  24549 MURRAY BRIDGE EXP. FARM                  -35.1167  139.2667 Jan 1907 Sep 1925   18.8   98   N
+  24507 MURRAY BRIDGE (LOOMOOLOO)                -35.1856  139.1290 Aug 1990 Jan 2016   21.7   83   N
+  24584 MURRAY BRIDGE (PALLAMANA AERODROME)      -35.0650  139.2273 Feb 2006 Jun 2025   19.4   98   Y
+  24533 MURRAY BRIDGE (TEPKO)                    -34.9692  139.1874 Aug 1892 Sep 2021  128.0   97   N
+  24568 MURRAY BRIDGE (THE RANCH)                -35.1333  139.2000 May 1973 Feb 1979    5.8   99   N
+  22822 MURRAY LAGOON (HAWKS NEST)               -35.9041  137.4542 Nov 1914 Jan 2019   96.7   90   N
+  22806 MURRAYS LAGOON (BAYSIDE)                 -35.9270  137.2918 Sep 1909 Jul 2018  106.8   96   N
+  19073 MURRAY TOWN (BANGOR)                     -32.9556  138.1558 Nov 1892 Nov 1923   27.1   86   N
+  19011 MURRAY TOWN (DOUGHBOY CREEK)             -32.9211  138.2202 Jan 1884 Sep 2011  123.3   95   N
+  19119 MURRAY TOWN (MURRATANA)                  -32.9392  138.2088 Oct 2011 Sep 2019    7.8   93   N
+  24043 MURTHO POST OFFICE                       -33.9833  140.9667 Aug 1890 Feb 1929   38.0   97   N
+  24026 MURTHO VILLAGE                           -34.1333  140.7833 Jan 1895 Sep 1910   15.5   97   N
+  20017 MUTOOROO                                 -32.4467  140.9233 Jan 1887 Apr 2025  129.8   93   N
+  20046 MUTOOROO MINE                            -32.2500  140.9333 May 1891 Aug 1899    6.3   75   N
+  23793 MYLOR                                    -35.0500  138.7667 Oct 1889 Dec 1902   13.2   99   N
+  23911 MYLOR (BIGGS FLAT)                       -35.0632  138.7635 Jul 2006 Jun 2025   18.8   98   N
+  26041 MYORA                                    -37.8167  140.9333 Mar 1913 Aug 1922    9.5  100   N
+  24522 MYPOLONGA                                -35.0422  139.3550 Apr 1915 Oct 1993   77.5   96   N
+  23738 MYPONGA                                  -35.3912  138.4642 Jan 1914 Feb 2022  101.3   88   N
+  23783 MYPONGA RESERVOIR                        -35.4012  138.4262 Mar 1963 Jun 2025   61.5   98   N
+  19027 NACKARA                                  -32.8000  139.2333 Sep 1904 Dec 1969   53.2   79   N
+  24011 NADDA (ZIMMERMAN)                        -34.5833  140.8333 Jan 1915 Aug 1986   71.4   98   N
+  23739 NAIRNE                                   -35.0369  138.9130 Jan 1884 Apr 2022  137.9   95   N
+  25535 NALANG                                   -36.3833  140.7500 Dec 1905 Dec 1966   11.7   19   N
+  26098 NANGWARRY FORESTRY SA DEPOT              -37.5422  140.8137 Jul 1994 Nov 2023   29.4   87   N
+  21088 NANTAWARRA (DIXON)                       -34.0167  138.2833 Jan 1884 Dec 1909   25.9   98   N
+  21132 NANTAWARRA (PINE GULLY)                  -34.0445  138.1921 Jul 2009 Sep 2019   10.2   97   N
+  18158 NANWOORA                                 -31.3917  131.6183 Oct 1892 Mar 1903    9.9   93   N
+  26056 NARACOORIE (KEPPOCH PARK)                -36.6833  140.5333 Jan 1969 Apr 1975    6.3  100   N
+  26023 NARACOORTE                               -36.9564  140.7402 Feb 1868 Jun 2001  117.4   88   N
+  26099 NARACOORTE AERODROME                     -36.9813  140.7270 Jul 1998 Jun 2025   27.0   97   Y
+  26062 NARACOORTE (BETTWS-Y-COED)               -36.9229  140.5809 Jan 1969 Apr 2025   56.3   99   N
+  26024 NARACOORTE CAVE RANGE                    -37.0333  140.8000 Jul 1887 Dec 1977   74.3   82   N
+  26079 NARACOORTE (KOPPAMURRA)                  -37.0467  140.9260 Dec 1972 Apr 2006   26.2   78   N
+  26015 NARACOORTE (LOCHABER)                    -36.8297  140.5328 Aug 1923 Nov 2001   78.0   99   N
+  26104 NARACOORTE (VIEW BANK)                   -36.8465  140.5592 Dec 2001 Apr 2025   23.3   98   N
+  21037 NARRIDY POST OFFICE                      -33.4275  138.3019 Feb 1881 Aug 1993   93.1   82   N
+  24543 NARRUNG POST OFFICE                      -35.5167  139.1667 Sep 1953 Apr 1970    9.0   53   N
+  24539 NARRUNG (YALKURI)                        -35.5949  139.1296 Jun 1920 Jan 2020   96.4   95   N
+  21071 NELSHABY RESERVOIR                       -33.1297  138.1111 Jan 1878 Apr 1891    7.8   57   N
+  17042 NEPABUNNA MISSION                        -30.5867  138.9833 Aug 1939 Nov 1975   33.6   92   N
+  18115 NEPTUNE ISLAND                           -35.3365  136.1174 Nov 1957 Jun 2025   59.8   84   Y
+  25053 NETHERLEIGH                              -34.6000  139.7667 Mar 1969 May 1973    4.3   99   N
+  25558 NETHERTON                                -35.4693  139.9453 Oct 2003 May 2025   21.6   98   N
+  25511 NETHERTON (DESERT FRINGE)                -35.4922  139.9419 Sep 1926 Sep 2003   77.0   99   N
+  25515 NETHERTON (THE GLEN)                     -35.5163  139.9521 Apr 1915 Sep 2008   93.3   99   N
+  20047 NETLEY                                   -32.7333  139.8333 Aug 1875 Jun 1889    4.6   33   N
+  26042 NETLEY PARK                              -37.1000  140.8000 Jan 1915 Jul 1924    9.3   97   N
+  19068 NEUROODLA RAILWAY SIDING                 -31.8372  138.1094 Aug 1958 Aug 1987   25.8   88   N
+  24034 NEW RESIDENCE                            -34.3833  140.4000 May 1923 Nov 1926    2.5   70   N
+  25044 NEW WELL (MARFIELD)                      -34.4595  139.8922 Oct 1970 Apr 2019   48.4   99   N
+  23381 NGAPALA                                  -34.0628  139.0063 Mar 2018 Jun 2025    7.3   99   N
+  24547 NILDOTTIE                                -34.6762  139.6513 Jan 1965 Dec 2018   53.2   97   N
+  24571 NILDOTTIE (KROEHNS)                      -34.7130  139.5808 Feb 1969 May 2025   45.1   79   N
+  24588 NILDOTTIE (MOBRAE PARK)                  -34.7150  139.6199 Sep 2009 Mar 2015    5.5   94   N
+  17127 NILPINNA                                 -28.4809  135.9211 Apr 1998 Jan 2024   24.2   93   N
+  23885 NOARLUNGA                                -35.1586  138.5057 Sep 2000 Jun 2025   24.8   98   Y
+  16032 NONNING                                  -32.5226  136.4926 Oct 1903 Nov 2024  111.1   85   N
+  26035 NOOLOOK WELL (NOOLOOK FOREST RESERVE)    -36.9994  139.7994 Sep 1954 Sep 2002   47.1   97   N
+  23741 NORMANVILLE                              -35.4519  138.3227 Feb 1870 May 2025  133.6   85   N
+  23011 NORTH ADELAIDE                           -34.9163  138.5950 Jan 1884 Jun 2025  141.1   98   N
+  23066 NORTHFIELD (YATALA PARK)                 -34.9000  138.6333 Jun 1916 Dec 1921    5.6  100   N
+  23377 NORTH PARA RIVER (YALDARA)               -34.5744  138.8759 Aug 2004 Feb 2013    8.6   98   N
+  18071 NORTH SHIELDS (PORT LINCOLN AERODROME)   -34.6031  135.8747 May 1946 Jun 2025   74.6   93   N
+  18192 NORTH SHIELDS (PORT LINCOLN AWS)         -34.5993  135.8784 Jun 1994 Jun 2025   31.1   95   Y
+  24548 NORTH WEST BEND                          -34.0667  139.8000 Jan 1878 Apr 1907   23.3   78   N
+  23767 NORTON SUMMIT                            -34.9167  138.7333 Jul 1962 Sep 1974   12.3  100   N
+  18106 NULLARBOR                                -31.4492  130.8976 Feb 1889 Jun 2025   74.8   54   Y
+  18060 NUNDROO                                  -31.7782  132.2038 Oct 1932 Apr 2022   89.6   99   N
+  18015 NUNDROO (COLONA)                         -31.6267  132.0667 Jan 1925 Nov 1989   61.8   94   N
+  18163 NUNDROO (COORABIE)                       -31.9027  132.2988 Sep 1968 Nov 2008   20.6   51   N
+  18133 NUNONG                                   -31.9650  133.0133 Sep 1892 Nov 1939   37.4   79   N
+  23312 NURIOOTPA                                -34.4747  138.9928 Jan 1883 Mar 1997  113.1   95   N
+  23357 NURIOOTPA                                -34.4709  138.9991 Mar 2004 Jun 2025   21.3   99   N
+  23321 NURIOOTPA COMPARISON                     -34.4767  139.0047 Oct 1952 Feb 1999   46.3   99   N
+  23373 NURIOOTPA PIRSA                          -34.4761  139.0056 Aug 1996 Jun 2025   28.9   98   Y
+  23320 NURIOOTPA TOWN BRIDGE                    -34.4769  138.9933 Jul 1989 Dec 1993    4.5   98   N
+  21102 NUROM (RIVERSIDE FARM)                   -33.3500  138.1020 Jan 1969 May 2025   56.4   99   N
+  23893 OAKBANK                                  -34.9940  138.8522 Sep 2001 Jul 2004    2.9   95   N
+  20018 OAKBANK HOMESTEAD                        -33.0500  140.5833 Jan 1906 Apr 1976   55.5   78   N
+  18209 OAKDALE                                  -33.8189  135.4857 Jul 2005 May 2025   19.9   99   N
+  16049 OAK VALLEY                               -29.3987  130.7483 Apr 2004 Oct 2005    1.6  100   N
+  20019 OLARY                                    -32.2828  140.3255 Jan 1928 Sep 2000   63.8   87   N
+  20058 OLARY (WIAWERA)                          -32.2988  140.4152 Aug 1994 Aug 2022   26.9   95   N
+  19003 OLD BARATTA HOMESTEAD                    -31.9767  139.1050 Jan 1882 Sep 1987   99.8   94   N
+  19076 OLD KALLIOOTA HOMESTEAD                  -31.8850  137.9150 Jan 1910 Feb 1928   17.3   94   N
+  23740 OLD NOARLUNGA POST OFFICE                -35.1850  138.5017 Jan 1878 Jan 1998  112.8   91   N
+  18028 OMALLEY (522 MILES SIDING)               -30.5250  131.1967 Jul 1940 May 1971   29.0   93   N
+  19031 OODLA WIRRA                              -32.8853  139.0602 Jun 1919 Jun 2025   99.3   92   N
+  19100 OODLA WIRRA (ARAKCAN)                    -32.7837  139.2825 Jan 1970 Nov 2005   35.8   96   N
+  19087 OODLAWIRRA (CAVENAGH)                    -32.7189  139.0164 Jan 1883 Dec 1910   27.1   95   N
+  19106 OODLA WIRRA (MCCOYS WELL)                -32.6270  139.1923 Jan 1972 Jul 2022   50.3   99   N
+  17114 OODNADATTA                               -27.5498  135.4484 Aug 1985 Dec 2012   23.5   85   N
+  17043 OODNADATTA AIRPORT                       -27.5553  135.4456 Mar 1939 Jun 2025   76.3   87   Y
+  17007 OODNADATTA (ALLANDALE)                   -27.6286  135.5879 Jan 1909 Feb 2015   37.1   35   N
+  17044 OODNADATTA POST OFFICE                   -27.5458  135.4433 Jun 1891 Dec 1941   46.3   91   N
+  18108 OOLDEA RAILWAY                           -30.4592  131.6825 Jan 1918 Nov 1981   63.7   99   N
+  19032 ORROROO                                  -32.7335  138.6135 Feb 1868 Jun 2025  142.7   86   N
+  19005 ORROROO (BLACK ROCK)                     -32.8247  138.6907 Jan 1878 May 2025  141.1   93   N
+  19012 ORROROO (KYLMORN)                        -32.7053  138.7796 Nov 1901 May 2025  123.2   99   N
+  19057 ORROROO (YALPARA)                        -32.5523  138.8691 Jul 1907 May 2025  116.7   98   N
+  20039 OULNINA SIDING                           -32.4833  139.8167 Nov 1901 Oct 1928   23.9   88   N
+  20029 OUTALPA                                  -32.2167  140.1500 Dec 1868 Aug 1926   43.8   75   N
+  24012 OVERLAND CORNER                          -34.1479  140.3256 Jan 1878 Nov 2017  125.8   89   N
+  23012 OWEN                                     -34.2711  138.5468 Dec 1924 Sep 2020   95.0   92   N
+  26089 PADTHAWAY                                -36.5958  140.4864 Jan 1977 Aug 2002   24.1   92   N
+  26038 PADTHAWAY                                -36.6000  140.5000 Apr 1962 Apr 1979   17.1   99   N
+  26017 PADTHAWAY (MARCOLLAT)                    -36.5010  140.3835 May 1935 May 2025   89.8   99   N
+  26115 PADTHAWAY (SEPPELTS ROAD)                -36.6290  140.5081 May 2011 May 2025   11.4   62   N
+  26100 PADTHAWAY SOUTH                          -36.6539  140.5212 May 2000 Jun 2025   25.2   97   Y
+  26063 PADTHAWAY (VALLEY VIEW PASTORAL)         -36.5667  140.5500 Mar 1969 Aug 1976    6.9   90   N
+  24524 PALLAMANA POST OFFICE                    -35.0333  139.2167 Jun 1937 Mar 1977   39.3   97   N
+  24525 PALMER                                   -34.8530  139.1607 Aug 1901 Jun 2025  123.7   97   N
+  24565 PALMER (LEONORA FARMS)                   -34.8500  139.1667 Jan 1973 Aug 1974    1.7   95   N
+  21040 PANDAPPA HOMESTEAD                       -33.1708  139.1661 Apr 1899 Nov 1972   73.6  100   N
+  17045 PANDIE PANDIE                            -26.1282  139.3894 Jun 1949 Dec 2015   12.3   18   N
+  17046 PARACHILNA                               -31.1339  138.3947 Apr 1930 May 1980   49.1   97   N
+  17098 PARACHILNA (MOTPENA)                     -31.1881  138.2785 Mar 1969 Feb 2025   55.8   98   N
+  17113 PARACHILNA (NILPENA)                     -31.0086  138.2294 Jan 1973 Aug 2024   47.0   91   N
+  23807 PARACOMBE                                -34.8506  138.7742 Mar 1969 May 1996   26.9   96   N
+  23047 PARADISE                                 -34.8500  138.7000 Jul 1915 Dec 1937   22.5  100   N
+  23013 PARAFIELD AIRPORT                        -34.7977  138.6281 Sep 1929 Jun 2025   77.0   79   Y
+  17094 PARALLANA                                -30.2067  139.4558 Jul 1881 Nov 1907   23.9   90   N
+  23875 PARAWA (SECOND VALLEY FOREST AWS)        -35.5695  138.2864 Jun 1994 Jun 2025   31.1   95   Y
+  23761 PARAWA (SHARON)                          -35.5564  138.3416 Mar 1947 Apr 2025   71.8   91   N
+  23836 PARA WIRRA RECREATION PARK               -34.6967  138.8150 Jan 1965 May 1992   27.4   98   N
+  25013 PARILLA                                  -35.2984  140.6681 Dec 1911 May 2025  111.2   96   N
+  24027 PARINGA                                  -34.1833  140.8000 Jan 1878 Jun 1889    6.0   52   N
+  24000 PARINGA (BEARDY PARK FARM)               -34.3000  140.9333 Jan 1916 Nov 1975   57.9   95   N
+  24042 PARINGA (BEARDY PARK VINEYARDS)          -34.2333  140.8333 Jan 1976 Feb 1977    1.2  100   N
+  24037 PARINGA LOCK 5                           -34.1903  140.7619 Mar 1968 Dec 2023   53.5   95   N
+  22837 PARNDANA                                 -35.7906  137.2616 Jun 1978 Aug 2019   39.1   92   N
+  22816 PARNDANA (ALLANDALE)                     -35.7734  137.0330 Apr 1959 Nov 2001   42.7   99   N
+  22843 PARNDANA CFS AWS                         -35.7916  137.2496 Sep 2011 Jun 2025   13.8   98   Y
+  22814 PARNDANA EAST RESEARCH STATION           -35.8000  137.3333 May 1954 Nov 1984   30.6  100   N
+  22818 PARNDANA (LYNDHURST)                     -35.8431  137.1586 Apr 1959 Jul 1995   33.7   92   N
+  22827 PARNDANA (NETHERBY PARK)                 -35.8833  137.0333 Feb 1969 Mar 1989   20.2  100   N
+  22815 PARNDANA (PIONEER BEND)                  -35.7255  137.2591 Jan 1936 May 2025   82.3   91   N
+  22824 PARNDANA (RIVERLEAS)                     -35.7708  136.9757 Jul 2002 Oct 2007    5.3   85   N
+  22840 PARNDANA (TELHAWK)                       -35.7364  136.9967 Jan 1961 Apr 1999   25.3   65   N
+  22835 PARNDANA (TURKEY LANE)                   -35.7340  137.1212 Mar 1956 Jun 2025   65.2   93   N
+  22829 PARNDANA (WILLANG)                       -35.7333  137.0667 Jan 1969 Jun 1981   12.5  100   N
+  25512 PARRAKIE                                 -35.3805  140.2519 Jan 1908 Jun 2025  117.3   96   N
+  25014 PARUNA                                   -34.7169  140.7352 May 1915 Jun 2025  104.9   92   N
+  22012 PASKEVILLE                               -34.0402  137.9004 Apr 1886 Jun 2025  134.4   94   N
+  25030 PATA                                     -34.5667  140.5333 Apr 1930 Jan 1937    6.3   91   N
+  25041 PATA (HILLDALE)                          -34.5922  140.5789 Mar 1969 Aug 2000   31.4   99   N
+  25559 PATA (WILPY FARM)                        -34.5934  140.5213 Feb 2002 Jul 2003    1.5   98   N
+  18062 PEACHNA                                  -33.7778  135.7150 Sep 1933 Jul 1952   18.9   99   N
+  25513 PEAKE                                    -35.3627  139.9503 Jul 1908 Oct 2023  115.2   96   N
+  25547 PEAKE (BROADLANDS)                       -35.3139  140.0358 Mar 1969 Mar 2000   24.2   77   N
+  17047 PEDIRKA                                  -26.6567  135.2067 Mar 1930 Feb 1979   37.5   76   N
+  25023 PEEBINGA                                 -34.9295  140.9113 Jul 1951 Oct 2014   62.0   96   N
+  17088 PEECHYWARRINA                            -29.0317  138.1917 Aug 1882 May 1903   19.8   94   N
+  19084 PEKINA                                   -32.8380  138.5530 Jan 1964 Jun 1993   28.3   95   N
+  22836 PELICAN LAGOON                           -35.8096  137.7920 Sep 1984 May 2025   40.7   96   N
+  26111 PELICAN POINT                            -37.9229  140.4220 Jan 1984 Oct 2022   38.8   99   N
+  24563 PELICAN POINT E&WS                       -35.6000  139.0333 Jan 1961 Dec 1987   19.5   72   N
+  23015 PENFIELD WEAPONS RESEARCH                -34.7333  138.6500 Dec 1948 Apr 1979   30.4   99   N
+  22809 PENNESHAW                                -35.7201  137.9338 Mar 1911 Apr 2019  107.3   96   N
+  22810 PENNESHAW 2                              -35.7000  137.9000 Feb 1870 May 1950   51.8   63   N
+  22828 PENNESHAW (GREENACRES)                   -35.8333  138.0333 Jan 1971 Jul 1972    1.6   95   N
+  26096 PENOLA (ANDABAGO)                        -37.3162  140.6992 Aug 1991 Jul 2006   15.0   96   N
+  26087 PENOLA (BENDLEBY)                        -37.2633  140.6800 May 1979 Mar 2000   20.5   97   N
+  26097 PENOLA CAVES RANGE                       -37.3932  140.6782 Jun 1992 Feb 2005   12.5   78   N
+  26006 PENOLA (COMAUM PARK)                     -37.2583  140.9683 Jan 1911 Jul 1989   75.9   96   N
+  26059 PENOLA (ELAD)                            -37.1783  140.4589 Mar 1969 Feb 2000   21.2   68   N
+  26061 PENOLA (NARANGGA)                        -37.3667  140.5500 Jan 1969 Jun 1976    7.5  100   N
+  26025 PENOLA POST OFFICE                       -37.3803  140.8379 Feb 1870 May 2024  140.3   86   N
+  26036 PENOLA STATE FOREST RESERVE              -37.4886  140.8269 Sep 1954 Jun 1994   39.7   94   N
+  26077 PENOLA (WINDAMERE)                       -37.3311  140.6978 Dec 1972 Jun 1989   16.6   99   N
+  18063 PENONG                                   -31.9320  133.0056 Feb 1893 Jun 2025  119.4   88   N
+  18134 PENONG 2                                 -31.8933  132.8950 Jan 1913 Mar 1938   23.3   92   N
+  18002 PENONG (PENALUMBA)                       -31.8310  132.6262 Sep 1898 Dec 2022  123.5   98   N
+  23375 PENRICE                                  -34.4629  139.0599 Aug 2004 Feb 2013    8.6   98   N
+  25025 PERPONDA                                 -34.9732  139.8071 Jun 1912 Sep 2016   81.2   77   N
+  19034 PETERBOROUGH                             -32.9737  138.8375 Feb 1881 May 2025  140.3   92   N
+  19118 PETERBOROUGH (AMELIA PARK)               -32.9559  138.9445 Apr 2007 Dec 2022   15.8   99   N
+  19075 PETERBOROUGH (DAWSON)                    -32.8056  138.9739 Jan 1884 Dec 1927   41.1   92   N
+  22037 PETERSVILLE                              -34.3687  137.7968 Jan 1964 Aug 2019   54.6   97   N
+  23788 PICCADILLY (MOUNT LOFTY BOTANIC GARDEN)  -34.9838  138.7179 Sep 1999 May 2025   25.8   99   N
+  23883 PICCADILLY (PETALUMA)                    -34.9833  138.7317 Oct 1994 Dec 1995    1.1   72   N
+  23891 PICCADILLY (WOODHOUSE)                   -34.9847  138.7404 Jun 2001 Jun 2025   23.9   95   N
+  18135 PILE PUDLA                               -32.9500  136.4217 Sep 1933 Nov 1944    9.1   80   N
+  16037 PIMBA                                    -31.2517  136.7983 Apr 1915 Sep 1987   66.6   91   N
+  22045 PINE POINT                               -34.5763  137.8770 May 1977 Dec 2004   27.7  100   N
+  22054 PINE POINT (AMELIA DOWNS)                -34.5552  137.8581 Aug 2005 Jun 2025   19.9   99   N
+  23099 PINERY MOISTURE RES.STN                  -34.2500  138.4167 Sep 1964 Dec 1966    2.3  100   N
+  20030 PINE VALLEY                              -33.3119  140.1856 Aug 2004 May 2019    9.2   59   N
+  25015 PINNAROO                                 -35.2680  140.9075 Jan 1888 Jun 2025  121.6   85   N
+  25055 PINNAROO (HOPE FARM)                     -35.2333  140.9333 Dec 1905 Dec 1919   13.6   96   N
+  25046 PINNAROO (KOMBALI)                       -35.0662  140.8560 Jan 1962 May 2025   63.4   99   N
+  16099 PIPALYATJARA                             -26.1618  129.1656 Sep 2004 Nov 2012    4.1   49   N
+  20050 PLUMBAGO                                 -32.0620  139.8874 Dec 1970 Mar 2022   48.8   93   N
+  18066 POINT LOWLY LIGHTHOUSE                   -33.0028  137.7850 Sep 1900 Mar 1973   71.6   98   N
+  24526 POINT PASS                               -34.0753  139.0515 Aug 1921 Dec 2021  100.3   96   N
+  18139 POLDA (GUM VIEW)                         -33.5085  135.2928 Sep 1966 May 2005   38.4   98   N
+  26049 POLICEMAN POINT                          -36.0582  139.5913 Nov 1968 Jul 2015   43.3   92   N
+  18067 PONDOOMA POST OFFICE                     -33.5217  137.0192 Jul 1901 Feb 1977   74.3   98   N
+  18068 POOCHERA                                 -32.7229  134.8373 Apr 1919 May 2019   95.7   93   N
+  18136 POONINDIE                                -34.5833  135.8833 May 1891 Nov 1928   29.2   77   N
+  18201 PORT AUGUSTA AERO                        -32.5073  137.7169 Jul 2001 Jun 2025   24.0   97   Y
+  16092 PORT AUGUSTA ARID LANDS                  -32.4783  137.7386 Jan 1995 Jul 2001    6.6   91   Y
+  16005 PORT AUGUSTA (CARRIEWERLOO STN)          -32.3983  137.2269 Jan 1882 Apr 2025  140.7   97   N
+  19028 PORT AUGUSTA (NACOONA)                   -32.2411  137.8442 Jan 1940 Mar 1974   34.0   98   N
+  19029 PORT AUGUSTA (NECTAR BROOK)              -32.6944  137.9594 Jan 1884 Jun 1953   56.8   80   N
+  19079 PORT AUGUSTA OSTRICH FARM                -32.4192  137.8189 Oct 1886 Nov 1921   31.0   87   N
+  19036 PORT AUGUSTA POST OFFICE                 -32.5000  137.7667 Feb 1861 Jun 1962   83.7   82   N
+  19066 PORT AUGUSTA POWER STATION               -32.5280  137.7900 Feb 1958 Jun 1997   38.0   95   N
+  19035 PORT AUGUSTA RAILWAY STATION             -32.4958  137.7642 Mar 1950 May 1991   40.3   95   N
+  19041 PORT AUGUSTA (SALTIA)                    -32.4608  137.9417 Jan 1893 Apr 1950   57.2   99   N
+  19078 PORT AUGUSTA (STIRLING NORTH)            -32.5172  137.8425 Jan 2004 Oct 2024   18.9   89   N
+  16038 PORT AUGUSTA WEST                        -32.4827  137.7576 Feb 1884 Sep 2010  122.8   95   N
+  18224 PORT AUGUSTA WEST                        -32.5013  137.7372 Sep 2010 May 2025   14.8   99   N
+  19083 PORT AUGUSTA (YADLAMALKA)                -32.0331  137.8939 Sep 1910 Dec 1929   19.3   98   N
+  19059 PORT AUGUSTA (YARLEY)                    -32.2894  137.8267 Dec 1893 Jan 1973   75.9   95   N
+  21042 PORT BROUGHTON                           -33.6029  137.9348 Feb 1884 Jun 2025  140.3   96   N
+  21108 PORT BROUGHTON (WANDEARAH)               -33.4579  137.9839 Feb 1969 Jul 2018   49.4   99   N
+  22044 PORT CLINTON (KADDYINNA)                 -34.2390  137.9883 Jan 1956 Apr 2025   52.2   74   N
+  22022 PORT CLINTON (YARAROO)                   -34.1447  138.0146 Dec 1869 Jun 2025  138.0   88   N
+  23742 PORT ELLIOT CARAVAN PARK                 -35.5299  138.6896 Feb 1868 Feb 2023  138.2   85   N
+  23797 PORT ELLIOTT                             -35.5167  138.6667 May 1887 May 1920   33.1  100   N
+  23032 PORT GAWLER (BUCKLAND PARK)              -34.6269  138.4682 Mar 2001 Jan 2017   15.7   94   N
+  19037 PORT GERMEIN                             -33.0216  138.0002 Jan 1882 Jun 2025  141.3   96   N
+  19102 PORT GERMEIN (BAROOTA RESERVOIR)         -32.9233  138.0586 May 1922 Jun 1998   75.7   99   N
+  19112 PORT GERMEIN (GOWAN BRAE)                -33.0230  138.0698 Jun 1996 May 2025   29.0   99   N
+  19044 PORT GERMEIN (TELOWIE)                   -33.0617  138.0550 Jan 1880 May 1996  112.6   95   N
+  18150 PORT KENNY                               -33.1697  134.6917 Sep 1966 Dec 2024   56.6   96   N
+  18054 PORT KENNY (MOUNT COOPER)                -33.0314  134.7015 Jan 1939 May 2025   82.7   86   N
+  18097 PORT KENNY (YANDRA)                      -32.9614  134.5951 Jul 1891 Aug 2010   98.2   82   N
+  18070 PORT LINCOLN                             -34.7225  135.8558 Feb 1870 Mar 2002  102.8   78   N
+  18205 PORT LINCOLN                             -34.7352  135.8563 Jan 2004 Mar 2022   16.8   84   N
+  18017 PORT LINCOLN (BIG SWAMP)                 -34.6266  135.6992 May 1897 Dec 2024  124.4   96   N
+  18181 PORT LINCOLN (TOD RIVER)                 -34.4906  135.8511 Jan 1968 Dec 1996   28.8   98   N
+  18137 PORT LINCOLN (WESTMERE)                  -34.8328  135.6985 Nov 1906 Jun 2025  111.1   92   N
+  18092 PORT LINCOLN (WHITE FLAT)                -34.4990  135.8676 Apr 1903 Jun 2014   84.8   74   N
+  18107 PORT LINCOLN (WOOLGA)                    -34.5911  135.7572 Jun 1891 Apr 2025  132.7   98   N
+  18072 PORT NEILL                               -34.1187  136.3508 Jan 1912 Oct 2011   97.4   95   N
+  23076 PORT PARHAM                              -34.4320  138.2587 Feb 1969 Jun 2025   55.1   92   N
+  21118 PORT PIRIE AERODROME                     -33.2341  138.0010 Jul 2006 Jan 2015    8.6   98   N
+  21139 PORT PIRIE AERODROME AWS                 -33.2371  137.9971 Jan 2015 Jun 2025   10.5   98   Y
+  21116 PORT PIRIE HURST STREET                  -33.2069  137.9969 Dec 1972 Jul 1976    3.7  100   N
+  21043 PORT PIRIE NYRSTAR COMPARISON            -33.1708  138.0104 Jan 1878 Aug 2012  126.3   94   N
+  21084 PORT PIRIE (VALENCIA)                    -33.3200  138.0131 Jan 1878 Jan 1933   48.6   88   N
+  22013 PORT VICTORIA                            -34.4941  137.4845 Jan 1879 Jun 2025  137.2   92   N
+  22014 PORT VINCENT                             -34.7769  137.8573 Oct 1897 Jun 2025  121.2   91   N
+  21044 PORT WAKEFIELD                           -34.1848  138.1478 Feb 1874 Apr 2025  141.6   90   N
+  21063 PORT WAKEFIELD (PAREORA RNDSUP)          -34.1564  138.1827 Jun 2005 Jun 2025   19.4   96   N
+  22015 PRICE                                    -34.2971  138.0014 Mar 1944 Jun 2025   80.8   89   N
+  23017 PROSPECT                                 -34.9000  138.5833 Jan 1932 Mar 1972   40.1   99   N
+  23799 PROSPECT HILL                            -35.2183  138.7342 Nov 1967 Jun 2025   56.7   96   N
+  18219 PUNTABIE (MUDABIE)                       -32.1808  134.0756 Dec 2008 Jun 2025   16.6   98   N
+  25002 PURNONG (CLAYPANS)                       -34.8276  139.6673 Mar 1927 Jun 2025   96.5   96   N
+  17083 PUTTABURRA                               -26.6167  138.6167 Sep 1927 Sep 1933    5.9   97   N
+  24014 QUALCO (KALUNA VINEYARDS)                -34.1033  139.9042 Jun 1905 Apr 1982   50.8   65   N
+  17105 QUINYAMBIE                               -30.2150  140.9917 Jun 1887 Dec 1973   82.8   95   N
+  20054 QUONDONG                                 -33.0809  140.3299 Oct 1978 Jun 2025   32.6   69   N
+  19038 QUORN                                    -32.3538  138.0371 Feb 1881 Jun 2025  135.3   91   N
+  19002 QUORN (DEPOT FLAT)                       -32.2507  137.9776 Sep 1886 Mar 2025  137.6   98   N
+  19090 QUORN (KINGSWOOD)                        -32.3961  138.1339 Jan 1889 Apr 1919   30.3   99   N
+  19030 QUORN (OLIVE GROVE)                      -32.4683  138.0159 Feb 1881 Dec 2016  128.8   93   N
+  19096 QUORN RAILWAY                            -32.3461  138.0397 Feb 1888 Dec 1908    7.3   35   N
+  19040 QUORN (ROUND HILL)                       -32.3114  138.2564 Jan 1883 Aug 1972   88.7   98   N
+  20031 RADIUM HILL                              -32.3333  140.6000 Jan 1951 Dec 1961   11.0   98   N
+  23815 RAPID BAY BHP                            -35.5333  138.1833 May 1970 Jul 1979    9.3  100   N
+  23864 RED CREEK (BURWOOD)                      -35.1380  138.9714 Jun 2014 Feb 2025   10.8   98   N
+  21045 REDHILL                                  -33.5407  138.2244 Feb 1881 Jun 2022  138.6   97   N
+  21113 REDHILL (LAKE VIEW)                      -33.6369  138.2272 Aug 1925 Mar 1928    2.7   98   N
+  26094 REEDY CREEK (WOOLMIT)                    -36.9563  139.9947 Jan 1980 Jan 2003   23.0   99   N
+  23087 REEVES PLAINS (PARANA PARK)              -34.5371  138.6049 Apr 1974 May 2025   51.2   99   N
+  23137 REGENCY PARK                             -34.8685  138.5696 Apr 2007 Jun 2025   16.9   92   N
+  24016 RENMARK                                  -34.1711  140.7494 Feb 1889 Jun 2002  113.1  100   N
+  24048 RENMARK AERO                             -34.1983  140.6766 Aug 1995 Jun 2025   29.9   98   Y
+  24028 RENMARK (COOLTONG)                       -34.0849  140.6934 May 1968 Jun 2004   33.8   92   N
+  24003 RENMARK IRRIGATION                       -34.1656  140.7536 Jan 1884 May 2025  107.1   75   N
+  23345 RHYNIE                                   -34.1333  138.6833 Apr 1899 Jun 1929   27.1   89   N
+  21130 RHYNIE                                   -34.1011  138.6317 Mar 2001 Jun 2025   22.3   87   N
+  23359 RHYNIE (LLANELLY)                        -34.1824  138.5878 Mar 1969 Dec 2000   31.8   99   N
+  23039 RHYNIE (SALTERS SPRINGS)                 -34.1856  138.6300 May 1957 Jun 2025   67.6   98   N
+  23116 RIDGEHAVEN                               -34.8170  138.6985 Mar 2001 Jul 2013   12.3   97   N
+  23314 RIVERTON                                 -34.1572  138.7471 Jan 1876 Jun 2025  140.9   89   N
+  23355 RIVERTON (LEEWARD)                       -34.2070  138.7886 Jan 1969 Apr 2025   56.3   99   N
+  23306 RIVERTON (MAROOMBA)                      -34.1697  138.8095 Apr 1957 May 2025   67.3   98   N
+  26026 ROBE                                     -37.1628  139.7560 Aug 1860 Jun 2025  162.3   97   N
+  26105 ROBE AIRFIELD                            -37.1776  139.8054 Jul 2003 Jun 2025   22.0   98   Y
+  26106 ROBE (BISCUIT FLAT)                      -37.1039  140.0958 Apr 2003 Dec 2016   13.7   98   N
+  24528 ROBERTSTOWN                              -33.9908  139.0804 Jun 1898 Jun 2025  120.0   93   N
+  21066 ROBERTSTOWN (BRIGHT)                     -33.9036  139.0786 Apr 1957 Jul 1960    3.3   99   N
+  24512 ROBERTSTOWN (GERANIUM PLAINS)            -33.9725  139.1869 Jan 1945 May 1992   47.4   99   N
+  23812 ROCKLEIGH (BLACK HEATH)                  -34.9392  139.0697 Feb 1969 Dec 2021   52.3   98   N
+  22820 ROCKY RIVER (BROOKLAND PARK)             -35.8903  136.8606 Jan 1955 Dec 2023   64.4   88   N
+  24594 RODWELL CREEK (HIGHLAND VALLEY (GREENHOL -35.1998  138.9198 Dec 2018 Jun 2025    6.6   98   N
+  18074 ROOPENA                                  -32.7255  137.4028 Jun 1891 Aug 2013  118.2   96   N
+  25016 ROSALIND                                 -34.7833  140.0833 Jul 1915 Mar 1954   38.8   98   N
+  23019 ROSEDALE                                 -34.5667  138.7833 May 1899 Nov 1969   66.8   93   N
+  23343 ROSEDALE (TURRETFIELD RESEARCH CENTRE)   -34.5519  138.8342 Mar 1887 Feb 2020   89.0   66   N
+  23048 ROSE PARK                                -34.9333  138.6333 Apr 1914 Dec 1940   26.8  100   N
+  23021 ROSEWORTHY                               -34.5353  138.7506 Oct 1885 Oct 2017  130.8   95   N
+  23020 ROSEWORTHY AGRIC COLLEGE                 -34.5267  138.6883 Jan 1886 Dec 1997  105.3   93   Y
+  23122 ROSEWORTHY AWS                           -34.5106  138.6763 Aug 1997 Jun 2025   27.9   96   Y
+  23085 ROSSLYN PARK (SEAVIEW)                   -34.9222  138.6805 Dec 2002 Jun 2025   21.8   95   N
+  23086 ROSTREVOR (STRADBROKE)                   -34.8931  138.6851 Jan 2003 Mar 2010    7.3   99   N
+  23363 ROWLAND FLAT 4                           -34.5833  138.9333 Jan 1883 Dec 1987   16.4   14   N
+  23326 ROWLAND FLAT (HAESES)                    -34.5667  138.9333 Jul 1958 Jun 1964    6.0   99   N
+  23371 ROWLAND FLAT (JACOBS CREEK)              -34.5654  138.9373 Jan 1988 Jul 2008   20.6   89   N
+  23376 ROWLAND FLAT (JACOBS CREEK (BAROSSA VALL -34.5647  138.9406 Jan 2005 May 2012    7.4   92   N
+  23327 ROWLAND FLAT (KLEEMAN)                   -34.5667  138.9333 Jun 1958 Jul 1964    6.2   99   N
+  23328 ROWLAND FLAT (THOMAS)                    -34.5833  138.9167 Jun 1958 Jul 1964    5.2   83   N
+  16089 ROXBY DOWNS (OLYMPIC DAM)                -30.4494  136.8703 Jun 1992 Jun 1997    5.0   94   N
+  16096 ROXBY DOWNS (OLYMPIC DAM AERODROME)      -30.4869  136.8739 Dec 1997 Jun 2025   27.6   97   Y
+  16035 ROXBY DOWNS (PARAKYLIA STATION)          -30.4027  136.3920 Dec 1936 Jan 2022   76.8   90   N
+  16040 ROXBY DOWNS STATION                      -30.7037  136.7533 Feb 1931 Nov 2014   74.5   88   N
+  18075 RUDALL                                   -33.6900  136.2683 Jan 1925 Dec 1996   69.6   95   N
+  18174 RUDALL (SWAFFPRO)                        -33.7234  136.1511 Apr 1969 May 2025   56.1   99   N
+  17084 RYANSVILLE                               -31.5792  137.1917 Jan 1919 Jun 1924    5.5   99   N
+  23315 SADDLEWORTH                              -34.0841  138.7818 Feb 1874 May 2019  130.5   87   N
+  23349 SADDLEWORTH (GUMDALE)                    -34.0904  138.7947 Jul 2004 Jun 2025   21.0   99   N
+  23061 SALISBURY (HILLBANKS)                    -34.7500  138.6833 Oct 1962 Nov 1966    4.2   99   N
+  26084 SALT CREEK (KENDAL STATION)              -36.1392  139.8814 Sep 1974 Mar 2000   25.3   99   N
+  26083 SALT CREEK (PITLOCHRY HOMESTEAD)         -36.2333  139.8491 Jan 1975 Jul 2018   42.9   97   N
+  26065 SALT CREEK (PITLOCHRY OUTSTATION 1)      -36.2789  139.8426 Nov 1968 Sep 2017   46.0   91   N
+  25537 SALT CREEK (SHANNON DOWNS)               -36.1333  139.6667 Nov 1968 Jan 1970    1.3   99   N
+  25017 SANDALWOOD                               -34.9413  140.1307 Jul 1914 Mar 2013   97.7   95   N
+  25058 SANDALWOOD (280 GOWLING ROAD)            -34.9999  140.1727 Jan 2014 Jul 2019    5.6   96   N
+  24542 SANDERSTON (THE FORDS)                   -34.7315  139.2760 Sep 1974 Jul 2011   35.3   95   N
+  22825 SANDHURST (SALT LAGOON)                  -35.8167  137.8667 Dec 1904 Dec 1911    2.3   31   N
+  22016 SANDILANDS                               -34.5201  137.7733 Sep 1949 Jul 2021   70.8   97   N
+  23796 SCOTTS CREEK                             -35.0667  138.7167 Jan 1914 Aug 1921    7.7  100   N
+  23811 SECOND VALLEY                            -35.5181  138.2150 Feb 1969 Jun 1997   28.4   99   N
+  23816 SECOND VALLEY FOREST                     -35.5718  138.2440 Jan 1970 Mar 2005   34.3   92   N
+  23744 SECOND VALLEY (POOLAMACCA)               -35.5359  138.2340 Jan 1884 Dec 2020  131.2   95   N
+  23708 SECOND VALLEY (SPRING GROVE)             -35.5577  138.2165 Jan 1878 Dec 1983   98.1   91   N
+  20040 SECURITY                                 -31.8167  140.9000 Jan 1926 Dec 1943   11.2   62   N
+  24531 SEDAN                                    -34.5719  139.2961 Dec 1880 Jun 2025  135.0   92   N
+  24530 SEDAN (SANDLETON)                        -34.4584  139.3597 Jan 1887 Jun 2025  138.3   99   N
+  24581 SEDAN (YOOKAMURRA SANCTUARY)             -34.5073  139.4755 Jan 1997 Dec 2023   21.0   75   N
+  23871 SELLICKS BEACH                           -35.3175  138.4636 Aug 1992 Jun 2025   32.8   97   N
+  23886 SELLICKS HILL (MOUNT TERRIBLE RADAR)     -35.3294  138.5019 Mar 2009 Sep 2017    1.1    1   Y
+  23049 SEMAPHORE 1                              -34.8333  138.4833 Feb 1891 Jun 1924   18.6   55   N
+  21127 SEVENHILL                                -33.8828  138.6389 Mar 2001 Jun 2025   24.3   98   N
+  21093 SEVEN HILLS PRIMARY SCHOOL               -33.8964  138.6311 Oct 1912 May 1918    5.7   97   N
+  21125 SEVEN HILLS (VINIFERA)                   -33.8733  138.6308 May 1983 Jul 1990    7.1   94   N
+  25564 SHAUGH (COOLAMI)                         -35.8429  140.8184 Apr 2021 Jun 2025    4.3   99   Y
+  23348 SHEA-OAK LOG (GREENOCK CREEK)            -34.5103  138.8350 Sep 2002 Jun 2025   22.7   97   N
+  25026 SHEPHERDS WELL                           -34.4500  139.9667 Sep 1912 Dec 1943   27.3   85   N
+  18076 SHERINGA                                 -33.8492  135.2308 Apr 1915 Oct 1989   69.1   92   N
+  18045 SHERINGA (LAKE HAMILTON)                 -33.9534  135.2682 Nov 1877 May 2025  136.6   92   N
+  25037 SHERLOCK                                 -35.3206  139.7986 Jan 1943 Mar 1997   24.3   44   N
+  25049 SHERLOCK (PIGGOTT)                       -35.2500  139.7617 Mar 1977 Feb 1980    3.0   99   N
+  25042 SHERLOCK (WARRANA)                       -35.2440  139.8261 Jan 1969 Sep 2024   55.3   98   N
+  18186 SIAM                                     -32.5534  136.7123 May 1907 Dec 2024  108.3   91   N
+  22811 SMITH BAY (SMITHS BAY)                   -35.5989  137.4386 Jul 1899 May 2025  125.0   97   N
+  23025 SMITHFIELD                               -34.6798  138.6935 Feb 1898 Jun 2013  110.6   92   N
+  18077 SMOKY BAY                                -32.3761  133.9369 Jul 1912 May 2025  112.2   98   N
+  18073 SMOKY BAY (PUNTABIE)                     -32.2021  134.1307 Jul 1916 Jun 2007   90.5   99   N
+  21046 SNOWTOWN                                 -33.7844  138.2133 Feb 1881 Jun 2001  117.5   96   N
+  21101 SNOWTOWN (BANYULA)                       -33.7021  138.1034 Feb 1969 Nov 2024   55.3   98   N
+  21015 SNOWTOWN (CONDOWIE)                      -33.7045  138.2927 Jan 1879 May 2025  112.9   76   N
+  21133 SNOWTOWN (RAYVILLE PARK)                 -33.7675  138.2182 Jul 1998 Jun 2025   27.0   97   Y
+  21117 SOUTH HUMMOCKS (BONVIEW)                 -34.0212  138.1272 Mar 1969 Jan 2007   31.9   84   N
+  22821 SOUTH WEST RIVER STATION                 -35.9833  136.8667 Jan 1943 May 1972   20.8   69   N
+  21047 SPALDING                                 -33.5001  138.6093 Nov 1902 Jun 2021  118.5   96   N
+  21009 SPALDING (BUNDALEER RESERVOIR)           -33.4660  138.5412 Apr 1899 May 2019  119.5   96   N
+  21111 SPALDING (MORTONGA)                      -33.5425  138.5736 Mar 1969 Dec 2000   30.9   97   N
+  21105 SPALDING (TATARA)                        -33.4211  138.6364 Mar 1969 Mar 1992   23.1  100   N
+  21074 SPALDING (WASHPOOL)                      -33.3825  138.5850 Apr 1957 Oct 1994    5.8   15   N
+  21058 SPALDING (YAKILO)                        -33.5375  138.6736 Feb 1888 Dec 1946   44.3   75   N
+  22052 SPICER FLAT                              -34.6960  137.5745 Dec 1997 Jan 2016   18.0   97   N
+  23329 SPRINGTON (HERBIGS)                      -34.7000  139.0667 Jul 1958 Jun 1964    6.0  100   N
+  23330 SPRINGTON (ROESLERS)                     -34.7000  139.0500 Jul 1958 Aug 1964    6.2   99   N
+  22017 STANSBURY                                -34.9122  137.7977 Jan 1879 Jun 2025  141.2   91   N
+  22026 STANSBURY (DALRYMPLE)                    -34.9333  137.7500 Jan 1884 Dec 1898   15.0  100   N
+  23146 STEINGARTEN VINEYARD (STEINGARTEN)       -34.5978  138.9614 Jul 2012 Jun 2025   13.0   99   N
+  22049 STENHOUSE BAY                            -35.2795  136.9392 Feb 1996 Jun 2025   29.1   96   Y
+  22047 STENHOUSE BAY (INNES NATIONAL PARK)      -35.2794  136.9375 Jan 1977 Jun 1995   17.9   95   N
+  22025 STENHOUSE BAY (MARION BAY)               -35.2833  136.9333 Dec 1892 Sep 1955   21.1   32   N
+  23104 STEPNEY                                  -34.9113  138.6275 Dec 2003 Jun 2010    6.6   98   N
+  23745 STIRLING                                 -35.0333  138.7167 Jan 1884 Jun 1964   68.1   85   N
+  19081 STIRLING NORTH RAILWAY SIDING            -32.5033  137.8100 Jan 1889 Jun 1986   30.3   31   N
+  23785 STIRLING POST OFFICE                     -35.0000  138.7167 Jul 1964 May 1985   20.9   99   N
+  23360 ST KITTS                                 -34.3303  139.0923 May 1957 May 2025   68.1   99   N
+  23316 STOCKPORT                                -34.3333  138.7333 Nov 1886 Dec 1989  103.1   97   N
+  23370 STOCKPORT (CLIFTON)                      -34.3143  138.7293 Jul 1959 Jun 2025   66.0   99   N
+  23347 STOCKPORT (STOCKWELL ROAD BRIDGE)        -34.4645  139.0389 Jan 1990 Apr 2017   27.3  100   N
+  23317 STOCKWELL                                -34.4364  139.0542 Aug 1886 Aug 1998  111.8   97   N
+  23050 STOCKYARD CREEK                          -34.2833  138.5833 Aug 1886 Dec 1909   23.1   98   N
+  18078 STOKES                                   -34.2942  135.9267 Jul 1889 Sep 1983   91.3   96   N
+  24532 STONEFIELD                               -34.3500  139.3000 Sep 1907 Jul 1974   66.1   98   N
+  23746 STONYFELL                                -34.9333  138.6667 Jan 1865 Feb 1982   87.9   74   N
+  23022 ST PETERS POST OFFICE                    -34.9167  138.6167 Aug 1917 Nov 1980   63.3   98   N
+  23747 STRATHALBYN                              -35.2560  138.8901 Nov 1864 May 2025  118.0   73   N
+  23805 STRATHALBYN (PATTANGGA)                  -35.2167  138.8167 Mar 1969 Apr 1975    6.2   99   N
+  24580 STRATHALBYN RACECOURSE                   -35.2836  138.8934 Jul 1996 Jun 2025   29.0   98   Y
+  20055 STRATHEARN                               -31.7484  140.3426 Sep 1989 Feb 2025   35.4   98   N
+  18079 STREAKY BAY                              -32.8084  134.1979 Jan 1878 Jun 2025  144.8   98   N
+  26082 STRUAN                                   -37.0951  140.7911 Apr 1974 Sep 1999   25.4   88   N
+  17061 STUARTS CREEK                            -29.7000  137.0400 Aug 1877 Dec 1930   45.2   84   N
+  23779 STURT                                    -35.0167  138.5667 Sep 1887 Sep 1927   39.8   99   N
+  20022 STURT VALE                               -33.2458  140.0345 Jul 1923 Jun 2025   59.8   58   N
+  24534 SUTHERLANDS                              -34.1555  139.2251 Sep 1897 Feb 2017  115.4   95   N
+  24535 SWAN REACH                               -34.5681  139.5971 Aug 1898 Apr 2018  119.3   98   N
+  24585 SWAN REACH (PONDEROSA RNDSUP)            -34.5079  139.5306 Jun 2006 Apr 2025   18.9   98   N
+  25052 SWAN REACH (REACHVIEW)                   -34.5500  139.7500 Jan 1973 Feb 1986   13.1   99   N
+  24536 TAILEM BEND                              -35.2546  139.4542 Nov 1907 Jun 2025  117.6   95   N
+  24554 TAILEM BEND (NATURI)                     -35.1978  139.5871 Feb 1969 May 2025   56.3   99   N
+  24510 TAILEM BEND (WOODLANDS)                  -35.1122  139.5172 Nov 1911 Apr 2025  113.0   98   N
+  24017 TALDRA                                   -34.3523  140.8411 Feb 1909 Jun 2014   91.8   86   N
+  18080 TALIA                                    -33.3167  134.8667 Aug 1906 Dec 1977   62.4   86   N
+  26027 TANTANOOLA                               -37.6957  140.4601 Jan 1950 Dec 2015   65.3   99   N
+  23318 TANUNDA                                  -34.5071  138.9637 Feb 1870 Jun 2025  142.0   87   N
+  23366 TANUNDA CARAVAN PARK                     -34.5333  138.9478 Jun 1989 Dec 1999   10.6   99   N
+  23353 TANUNDA (CHATEAU LEONAY)                 -34.5075  138.9750 Aug 1967 Jan 1993   25.5   94   N
+  23301 TANUNDA (CHATEAU LEONAY)                 -34.5333  138.9667 Jan 1946 Nov 1967   21.7   97   N
+  23336 TANUNDA (C.H.ZANDER)                     -34.5333  138.9833 Jun 1958 Jul 1964    6.2  100   N
+  23331 TANUNDA (GARRETT)                        -34.5333  139.0000 Jul 1958 Jul 1964    6.1   99   N
+  23332 TANUNDA (KLIX)                           -34.5167  139.0000 Jun 1958 Jun 1964    6.1   99   N
+  23333 TANUNDA (KRAFT)                          -34.5167  138.9833 Jul 1958 May 1964    5.9   99   N
+  23334 TANUNDA (NELDERS)                        -34.5333  138.9833 Jun 1958 Jul 1964    6.2   99   N
+  23335 TANUNDA (SCHLIEBS)                       -34.5167  139.0000 Jun 1958 Jun 1964    6.1   99   N
+  24032 TAPLAN                                   -34.5449  140.8821 May 2010 May 2025   15.1   99   N
+  16072 TAR 340 MILE                             -30.6683  134.1467 Feb 1926 Feb 1938   12.1   99   N
+  18146 TAR 639 MILE                             -30.7167  129.2000 Jul 1941 Dec 1968   27.1   98   N
+  26032 TARATAP                                  -36.6000  139.9500 May 1914 Oct 1935   18.5   86   N
+  16044 TARCOOLA                                 -30.7111  134.5694 Jan 1904 Aug 1999   90.1   94   N
+  16098 TARCOOLA AERO                            -30.7051  134.5786 Oct 1997 Jun 2025   27.8   98   Y
+  16006 TARCOOLA (COMMONWEALTH HILL)             -29.9434  134.1506 Aug 1941 Nov 2024   81.2   96   N
+  16059 TARCOOLA (MOBELLA)                       -29.8113  133.3603 Aug 1953 Jun 2025   67.5   93   N
+  16031 TARCOOLA (MULGATHING)                    -30.2406  133.9885 Jan 1934 Mar 2024   89.9   99   N
+  16063 TARCOOLA (WILGENA DAMS)                  -30.7283  134.6842 Mar 1887 Aug 1978   44.3   48   N
+  19043 TARCOWIE                                 -32.9495  138.5174 Nov 1934 Apr 2025   89.8   98   N
+  19117 TARCOWIE (OAKLANDS)                      -32.9073  138.5585 Sep 2006 May 2025   17.5   90   N
+  23319 TARLEE                                   -34.2785  138.7729 Feb 1882 Apr 2024  139.8   92   N
+  23365 TARLEE WEST (HAZELTON)                   -34.2318  138.6952 Jan 1959 Jun 2025   64.0   95   N
+  26043 TARLOOPE                                 -37.0833  140.6500 Jun 1913 Feb 1924   10.8   99   N
+  23323 TARNMA                                   -34.1988  138.9376 Apr 1957 May 2021   63.7   98   N
+  26064 TARPEENA EAST                            -37.6333  140.8167 Mar 1969 Jul 1975    6.4   99   N
+  26076 TARPEENA (PLEASANT PARK)                 -37.6397  140.8586 Feb 1973 Apr 2000   26.8   96   N
+  19105 TELOWIE 428                              -33.0333  138.0833 Aug 1976 Apr 1985    8.8  100   N
+  21050 TEROWIE                                  -33.1505  138.9196 Jan 1882 May 2025  136.8   93   N
+  21017 TEROWIE (CURTFORTH)                      -33.1667  138.9833 Oct 1898 Mar 1960   58.3   93   N
+  19065 TEROWIE (GUMBOWIE)                       -33.0583  138.8744 Apr 1957 Nov 1963    6.7   99   N
+  21038 TEROWIE (NEATHVALE)                      -33.1761  138.8889 Apr 1898 Oct 1954   56.4  100   N
+  19033 TEROWIE (PARNAROO SECT 50)               -33.0267  139.1014 Jan 1915 Jun 1979   54.0   83   N
+  17059 THE KNOB                                 -30.0158  138.9944 Jan 1925 Jan 1953    8.7   31   N
+  17109 THE PEAKE                                -28.0767  135.9042 Jan 1884 Jul 1891    7.1   93   N
+  16048 THE TWINS STATION                        -29.9964  135.3911 Jan 1930 Oct 2010   80.1   98   N
+  18109 THE WEDGE                                -35.1533  136.4667 Feb 1949 Feb 1962    9.4   62   N
+  18082 THISTLE ISLAND                           -35.0100  136.1767 Sep 1936 Nov 1963   24.3   87   N
+  16046 THURLGA                                  -32.4395  135.7730 Aug 1898 Feb 2013   96.7   83   N
+  21110 TICKERA                                  -33.7877  137.7074 Feb 1969 Jun 2025   56.0   97   N
+  16095 TIEYON                                   -26.2085  133.8545 Jan 1995 Apr 2025   30.3   99   N
+  17060 TILCHA                                   -29.6050  140.8900 Jan 1884 Sep 1942   53.3   90   N
+  17093 TINGA TINGANA                            -28.7950  140.1733 Jan 1892 Dec 1900    8.2   90   N
+  25514 TINTINARA                                -35.8836  140.0564 Feb 1900 Jun 2025  122.0   92   N
+  25526 TINTINARA (COLEBATCH DOWNS)              -35.9711  139.8400 Apr 1949 Oct 2013   59.2   91   N
+  25546 TINTINARA (RICHARDS)                     -35.9899  139.9685 Mar 1969 Feb 2022   52.8   99   N
+  16047 TODMORDEN                                -27.1391  134.7575 May 1949 Jun 2025   75.3   98   N
+  23059 TORRENS PARK (MITCHAM)                   -34.9833  138.5833 Nov 1897 Jun 1915   17.5   99   N
+  23749 TORRENS VALE                             -35.5000  138.3833 Aug 1901 Nov 1948   14.0   29   N
+  23051 TREVOLL                                  -34.5500  138.5500 Jan 1933 Dec 1940    7.3   91   N
+  22030 TROUBRIDGE SHOAL LIGHTHOUSE              -35.1167  137.8333 Mar 1969 Jan 1981   11.9  100   N
+  17068 TROUDANINNA                              -29.0500  139.1667 Jan 1893 Dec 1936   23.7   54   N
+  24573 TRURO                                    -34.4085  139.1274 May 1880 Jun 2025  141.9   96   N
+  23324 TUELA                                    -34.0908  138.7519 Apr 1957 Feb 1992   34.9   99   N
+  18086 TUMBY BAY                                -34.3754  136.1025 Oct 1906 Jun 2025  118.5   95   N
+  18087 TUMBY BAY (HILLVIEW)                     -34.3308  136.0800 Nov 1892 Nov 1999  105.6   98   N
+  18091 TUMBY BAY (WARRATTA VALE)                -34.2603  136.2106 Dec 1876 May 2025  140.9   94   N
+  18203 TUMBY BAY (YADNARIE)                     -34.3438  136.0470 Jan 1964 May 2025   56.4   91   N
+  23780 TUNGKILLO (TERLINGA)                     -34.8333  139.0500 Feb 1910 Oct 1916    4.6   67   N
+  23028 TWO WELLS                                -34.5953  138.5156 Feb 1881 Oct 2017  132.1   93   N
+  19045 UCOLTA POST OFFICE                       -32.9508  138.9650 Jan 1907 Dec 1967   60.3   97   N
+  18088 UNGARRA                                  -34.1806  136.0490 Sep 1909 Dec 2019  104.6   91   N
+  23118 UNLEY (CHARLES STREET)                   -34.9469  138.6049 Mar 2001 Aug 2012   11.1   95   N
+  23053 UNLEY (REED)                             -34.9500  138.6000 Feb 1915 May 1946   31.2   99   N
+  18157 UNO (GAWLER RANGES)                      -32.6417  136.6900 Dec 1881 Nov 1891    7.9   78   N
+  23806 UPPER HERMITAGE                          -34.8066  138.7554 Feb 1969 Feb 2022   51.4   95   N
+  23750 URAIDLA                                  -34.9563  138.7443 Apr 1890 Jun 2025  134.4   96   N
+  23905 URAIDLA (SUTTON CREEK)                   -34.9695  138.7410 May 2005 Jun 2025   19.9   96   N
+  16017 URO BLUFF                                -32.1269  137.5589 Jan 1908 Jun 1940   29.9   91   N
+  23044 VALLEY VIEW                              -34.8395  138.6746 Mar 2001 Apr 2013   12.2   99   N
+  25019 VEITCH                                   -34.6333  140.3667 Jan 1908 May 1966   54.2   92   N
+  25035 VEITCHS WELL                             -34.6667  140.5000 Jan 1910 Nov 1926   11.1   65   N
+  23866 VERDUN                                   -35.0065  138.8034 Jan 1992 Jun 2025   24.5   72   N
+  23759 VERT PAYS                                -34.6833  139.0167 Jun 1951 Aug 1951    0.3   85   N
+  23834 VICTOR HARBOR (BERRIMA)                  -35.4377  138.6398 Feb 1973 Dec 2023   43.5   78   N
+  23751 VICTOR HARBOR COMPARISON                 -35.5550  138.6217 Jan 1884 Mar 2002  118.2  100   N
+  23804 VICTOR HARBOR (ENCOUNTER BAY)            -35.5544  138.5997 Apr 2001 Jun 2025   24.3   99   N
+  23743 VICTOR HARBOR (RIVINGTON GRANGE)         -35.5416  138.5038 Aug 1910 Sep 2017  107.0   99   N
+  23889 VICTOR HARBOR (WAITPINGA CLIFFS)         -35.6094  138.5611 Apr 2001 Mar 2025   23.9   93   N
+  23103 VIRGINIA                                 -34.6453  138.5306 Mar 1988 Jun 2003   15.3   99   N
+  23092 VIRGINIA 2                               -34.6500  138.5667 Aug 1970 Nov 1987    9.3   47   N
+  23030 VIRGINIA SHEEDY ROAD                     -34.6694  138.5592 Feb 1882 Mar 2001  103.8   86   N
+  22830 VIVONNE BAY (DUMFRIES)                   -35.9645  137.1542 Jan 1966 Feb 2008   41.2   97   N
+  22839 VIVONNE BAY (HIGHGATE)                   -35.9609  137.0910 May 1989 Dec 2024   33.7   93   N
+  18089 WADDIKEE                                 -33.3173  136.2515 Jul 1927 May 2025   91.3   93   N
+  24018 WAIKERIE                                 -34.1778  139.9806 Apr 1896 Jan 2001   99.0   93   N
+  24033 WAIKERIE AERO                            -34.1847  140.0242 Sep 1969 Nov 1971    2.3  100   N
+  24045 WAIKERIE (CADELL)                        -34.0569  139.7583 May 1986 Jan 1996    9.3   94   N
+  24038 WAIKERIE COUNCIL WORKS DEPOT             -34.1897  140.0043 Jan 2001 Apr 2025   20.6   78   N
+  24029 WAIKERIE (EREMOPHILA PARK)               -34.2159  140.1860 Mar 1969 Feb 2025   55.8   98   N
+  24041 WAIKERIE (GOLDEN HEIGHTS)                -34.1944  139.9378 Jul 1968 Jan 1991   22.6   98   N
+  24044 WAIKERIE (QUALCO)                        -34.1128  139.8619 Feb 1974 Jul 1998   24.3   99   N
+  24015 WAIKERIE (RAMCO)                         -34.1775  139.9425 Apr 1896 May 2002  105.3   98   N
+  23117 WALKLEY HEIGHTS (BRIDGE ROAD)            -34.8368  138.6253 Mar 2001 Apr 2013   12.2   99   N
+  20041 WALLACES                                 -31.4833  140.9333 Feb 1925 Dec 1944   12.9   65   N
+  22020 WALLAROO                                 -33.9282  137.6399 Mar 1864 Jun 2025  141.3   84   N
+  22024 WALLAROO (WEYMOUTH JILLA)                -33.9167  137.6500 Apr 1887 Apr 1897    8.8   86   N
+  16076 WALLATINNA HOMESTEAD                     -27.4139  133.3269 Apr 1943 Oct 1956   13.6   99   N
+  21052 WANDEARAH EAST POST OFFICE               -33.3853  138.0614 Feb 1939 Aug 1985   46.6   99   N
+  21053 WANDEARAH NORTH                          -33.3528  138.0311 Feb 1881 Jan 1988  102.3   95   N
+  18159 WANGARALEEDNIE                           -33.6833  136.6183 Mar 1883 Dec 1915   31.1   93   N
+  18144 WANILLA                                  -34.5424  135.6997 Jul 1964 May 2025   33.3   53   N
+  18178 WANILLA FOREST                           -34.5967  135.6450 Sep 1970 Jul 1993   21.0   90   N
+  18179 WANILLA SECTION 126                      -34.5433  135.7008 Jan 1971 Mar 1986   14.1   92   N
+  21096 WARNERTOWN (WILLOW LODGE)                -33.2467  138.1469 Feb 1887 May 1920   32.9   97   N
+  22018 WAROOKA                                  -34.9906  137.3995 Jan 1861 Jun 2025  143.3   86   N
+  22043 WAROOKA (BRIREEN SECTION 27)             -35.1667  137.1667 Feb 1967 Aug 1975    8.3   97   N
+  23794 WARRAKILLA                               -35.0667  138.7333 Feb 1882 Oct 1905   19.4   80   N
+  18090 WARRAMBOO                                -33.2421  135.5978 Nov 1924 Aug 2020   91.8   95   N
+  17051 WARRAWEENA                               -30.7675  138.6359 Jan 1930 Jun 2009   30.8   38   N
+  17050 WARRINA                                  -28.2000  135.8333 Jan 1891 Jun 1930   32.3   81   N
+  23781 WATALUNGA ESTATE                         -35.3667  138.8333 Sep 1897 Oct 1932   33.4   94   N
+  18138 WATCHANNIE                               -33.5683  136.7336 Apr 1907 Sep 1927   17.6   85   N
+  21119 WATERLOO                                 -34.0000  138.8833 Feb 1975 Apr 1976    1.2   90   N
+  23054 WATERLOO CORNER                          -34.7231  138.5800 Jun 1930 Jun 1939    8.3   91   N
+  21140 WATERLOO EAST (SCHUTZ ROAD)              -33.9993  138.9095 May 2017 Jun 2025    8.2   98   N
+  21054 WATERVALE                                -33.9607  138.6449 Feb 1882 Jan 2024  133.3   91   N
+  21048 WATERVALE (SPRINGVALE)                   -33.9558  138.6517 Feb 1900 Jun 1950   50.3   95   N
+  18148 WATSON                                   -30.4833  131.5167 Jan 1918 Jul 1967   49.4   99   N
+  20042 WATSONS WELL                             -31.2000  140.9000 Feb 1925 Dec 1944   12.8   64   N
+  20023 WAUKARINGA                               -32.3000  139.4500 Aug 1889 Aug 1963   66.1   88   N
+  22058 WEETULTA                                 -34.2287  137.6421 Feb 2011 Apr 2016    2.8   51   N
+  24572 WELLINGTON (BRINKLEY SOUTH)              -35.2828  139.2031 Jan 1962 May 2025   63.3   99   N
+  24538 WELLINGTON EAST                          -35.3333  139.3833 Jan 1883 Jun 1971   82.3   89   N
+  24562 WELLINGTON PUMPING STN                   -35.3000  139.4003 Dec 1969 Aug 1999   28.4   91   N
+  24540 WELLINGTON STATION                       -35.3000  139.4000 Sep 1887 Dec 1926   34.3   85   N
+  17052 WERTALOONA                               -30.6383  139.3445 Jun 1906 Dec 2015  106.6   97   N
+  22812 WESTERN RIVER                            -35.6836  136.9697 Jul 1930 Jun 1991   57.0   92   N
+  18113 WHARMINDA                                -33.9650  136.2472 Aug 1913 Jun 2025   79.2   69   N
+  18149 WHARMINDA (GLEN HAZE)                    -33.8550  136.1694 May 1966 Aug 1975    8.3   88   N
+  22041 WHITE HUT                                -35.0319  137.0951 Jul 1973 Feb 2004   30.3   94   N
+  18140 WHITE WELL                               -31.4336  131.0017 Sep 1901 Dec 1947   40.7   87   N
+  16061 WHITTATA                                 -31.7350  137.4200 Jan 1883 Jul 1929   45.0   96   N
+  18120 WHYALLA AERO                             -33.0539  137.5206 Jan 1979 Jun 2025   43.7   93   Y
+  18006 WHYALLA (BROADVIEW STATION)              -33.1218  137.2278 Nov 1932 Jun 2016   73.5   87   N
+  18102 WHYALLA DAIRY                            -32.9900  137.5767 Jan 1949 Dec 1955    6.5   92   N
+  18117 WHYALLA (MOOLA)                          -33.1089  137.1733 Jan 1958 May 2016   57.8   98   N
+  18221 WHYALLA (MOUNT YOUNG)                    -33.0972  137.4870 Mar 2009 Jun 2022    6.9   51   N
+  18058 WHYALLA (MULLAQUANA)                     -33.2122  137.3623 Oct 1910 Feb 2021  103.6   93   N
+  18059 WHYALLA (NONOWIE)                        -33.1257  137.3639 Mar 1903 Nov 2011  108.7   99   N
+  18103 WHYALLA (NORRIE)                         -33.0303  137.5328 Aug 1906 Jul 2001   94.2   99   N
+  18085 WHYALLA (TREGALANA)                      -32.8774  137.5638 Mar 1930 Dec 2010   53.3   65   N
+  21055 WHYTE YARCOWIE                           -33.2296  138.8844 Jan 1878 Dec 2023  138.2   93   N
+  21120 WHYTE-YARCOWIE (GUM PARK)                -33.2549  138.7867 Jan 1941 May 2025   84.3  100   N
+  21094 WHYTE YARCOWIE (MUNGIBBIE)               -33.2614  138.9769 Aug 1903 Sep 1917   14.2   99   N
+  22048 WIGTON FLAT (DOWLINGVILLE)               -34.3166  137.9139 Jan 1991 Aug 2020   22.8   76   N
+  23038 WILD HORSE PLAINS                        -34.3583  138.2900 Feb 2000 Mar 2001    0.8   64   N
+  24019 WILKADENE (MURTHO)                       -34.0500  140.8333 Jun 1908 Aug 1987   78.3   97   N
+  25539 WILKAWATT (NEWHOUSE FARM)                -35.4143  140.3590 Jan 1969 Jan 2014   45.1   99   N
+  25517 WILKAWATT POST OFFICE                    -35.3500  140.3500 Nov 1907 Feb 1985   57.7   74   N
+  26107 WILLALOOKA (NIOKA)                       -36.4370  140.3356 Jul 2003 Jun 2025   22.0   97   N
+  26066 WILLALOOKA SECTION                       -36.4500  140.2833 Mar 1969 Nov 1979   10.8  100   N
+  26088 WILLALOOKA (YARDOOKRA)                   -36.4006  140.2698 Dec 1979 Dec 2024   43.9   92   N
+  17053 WILLIAM CREEK                            -28.9062  136.3386 Feb 1874 Feb 2010   58.8   42   N
+  23752 WILLIAMSTOWN                             -34.6508  138.8780 Feb 1881 Jun 2025  141.5   94   N
+  23755 WILLIAMSTOWN (CROMER)                    -34.7333  138.9667 Jun 1951 May 1960    8.8   95   N
+  23756 WILLIAMSTOWN (GLEN GILLIAN)              -34.6603  138.9262 Jun 1951 Apr 2025   73.8   99   N
+  23820 WILLIAMSTOWN (SOUTH PARA RESERVOIR)      -34.6805  138.8561 Jan 1968 May 2025   57.3   99   N
+  19122 WILLOCHRA PLAIN (GUM GLEN)               -32.2058  138.2420 Jul 2013 Jun 2025   11.8   90   N
+  23762 WILLOW CREEK                             -35.5667  138.4500 Jan 1954 Dec 1987   33.9   99   N
+  22813 WILLSONS RIVER                           -35.8167  137.9833 Jul 1892 Dec 1969   76.3   96   N
+  23753 WILLUNGA                                 -35.2705  138.5591 Jan 1865 Jun 2025  141.8   82   N
+  19048 WILMINGTON                               -32.6521  138.1003 Jan 1879 Jun 2025  141.7   94   N
+  19039 WILMINGTON (RANGE VUE)                   -32.5419  138.1122 Jan 1906 Feb 1983   60.8   78   N
+  19103 WILMINGTON (STONEHAVEN)                  -32.6682  138.1576 Jan 1973 Feb 2020   47.1   97   N
+  19049 WILPENA HEAD STATION                     -31.5167  138.6117 Apr 1903 Aug 1985   82.1   98   N
+  19107 WILPENA (ORAPARINNA)                     -31.3667  138.7176 Jan 1985 Jun 2025   32.3   79   N
+  19070 WILPENA POUND                            -31.5286  138.6093 Mar 1962 Oct 2023   46.6   71   N
+  19063 WILPENA (WILLOW SPRINGS)                 -31.4511  138.7569 Jan 1951 Mar 1954    3.3   99   N
+  25031 WILPY                                    -34.6333  140.5000 May 1915 Feb 1927   11.7   98   N
+  18141 WILTON (SHOAL VIEW)                      -33.6550  137.1717 Aug 1903 Dec 1939   33.8   92   N
+  19051 WINNONOWIE RAILWAY SIDING                -32.6175  137.9083 Nov 1937 Jul 1978   36.6   88   N
+  17092 WINTABATINGANA                           -31.3333  138.2333 Jan 1879 Jan 1889    6.2   61   N
+  19052 WIRRABARA                                -33.0338  138.2686 Jan 1878 Jun 2025  141.7   93   N
+  19053 WIRRABARA FOREST                         -33.0856  138.2119 Jan 1879 Jun 2025  141.1   93   N
+  16062 WIRRAMINNA HOMESTEAD                     -31.1994  135.2293 Mar 1900 Jun 2017   30.6   26   N
+  16050 WIRRAMINNA RAILWAY STATION               -31.1667  136.1250 Aug 1915 Nov 1979   57.8   89   N
+  16051 WIRRAPPA                                 -31.4225  137.9900 Aug 1915 Aug 1978   61.5   96   N
+  25518 WIRREGA (TAUNTON)                        -36.1821  140.5720 Jun 1910 May 2025  114.8   99   N
+  25538 WIRREGA (YARRAWIN)                       -36.1519  140.5473 Jan 1969 Jan 2002   33.1  100   N
+  18094 WIRRULLA                                 -32.4035  134.5323 Jun 1922 Jun 2025  101.7   96   N
+  18197 WIRRULLA (GAWLER VIEW)                   -32.3885  134.6994 May 1997 Dec 2009   11.3   87   N
+  18169 WIRRULLA (KANKAPPIE)                     -32.3903  134.6983 Mar 1969 Feb 1978    9.0  100   N
+  18061 WIRRULLA (NUNJIKOMPITA)                  -32.2694  134.3364 Jan 1929 Jul 1986   37.7   65   N
+  18064 WIRRULLA (PETINA)                        -32.4792  134.3917 Jul 1904 Mar 1993   88.7   99   N
+  18166 WIRRULLA (PIMBENA)                       -32.2797  134.4730 Jan 1969 May 2025   56.3   99   N
+  18183 WIRRULLA (TARANAKI)                      -32.4175  134.6758 Jan 1973 Dec 1996   23.9   99   N
+  25519 WOLSELEY                                 -36.3654  140.9096 Jun 1888 May 2025  130.4   92   N
+  25561 WOLSELEY (HONITON)                       -36.3994  140.8424 Jun 2002 May 2025   23.0   99   N
+  17091 WONDILLINA                               -27.8056  135.6458 Nov 1897 Dec 1907    9.3   91   N
+  16052 WOOCALLA                                 -31.6883  137.1750 Apr 1915 Jan 1968   51.5   96   N
+  23795 WOODBURN                                 -35.3000  138.9833 Feb 1870 Oct 1920   37.2   72   N
+  24593 WOODCHESTER (CRAIORAH)                   -35.1932  138.9918 Dec 2018 Jun 2025    6.6   98   N
+  22832 WOODLEIGH                                -35.8167  137.9833 Nov 1974 Jul 1976    1.5   81   N
+  23829 WOODSIDE                                 -34.9516  138.8754 Jan 1884 Dec 2018  134.7   93   N
+  24583 WOODSIDE (INVERBRACKIE)                  -34.9467  138.9255 May 2007 Jun 2025   17.1   93   N
+  23920 WOODSIDE (WICKS ESTATE)                  -34.9629  138.8714 Oct 2012 Jun 2025   12.8   99   N
+  25531 WOODS WELL                               -35.9833  139.5333 Feb 1941 Feb 1970   28.8   99   N
+  23071 WOODVILLE (BIRKS)                        -34.8833  138.5667 Jul 1886 Oct 1894    8.3  100   N
+  23070 WOODVILLE (BOWER)                        -34.8833  138.5333 Feb 1884 Dec 1898    2.8   18   N
+  20025 WOOLGANGI                                -33.5009  139.5154 Nov 1904 May 2025  108.8   89   N
+  19054 WOOLSHED FLAT                            -32.4589  137.9733 Apr 1918 Aug 1956   34.8   89   N
+  16001 WOOMERA AERODROME                        -31.1558  136.8054 Apr 1949 Jun 2025   75.6   99   Y
+  16000 WOOMERA (ARCOONA)                        -31.0229  137.0494 Jan 1882 Dec 2014  120.9   90   N
+  16025 WOOMERA (MAHANEWO)                       -31.7293  136.4448 May 1910 Mar 2025  112.5   97   N
+  16075 WOOMERA (MOUNT GUNSON)                   -31.4382  137.1778 Sep 1970 Nov 2003   17.4   52   N
+  16033 WOOMERA (OAKDEN HILLS)                   -31.6611  137.0382 Dec 1879 Dec 2023  132.3   91   N
+  16036 WOOMERA (PERNATTY STATION)               -31.4831  137.4805 Jan 1928 Dec 2017   86.3   95   N
+  16039 WOOMERA (PURPLE DOWNS)                   -30.7888  136.8948 Jan 1903 Apr 2008  104.5   99   N
+  16043 WOOMERA (SOUTH GAP STATION)              -31.6338  137.6218 Jan 1882 Dec 2024  140.9   98   N
+  21138 WORLDS END (NARKUNDA)                    -33.8870  139.0720 Apr 2013 May 2018    5.2   98   N
+  26075 WRATTONBULLY (JOEVILLE)                  -37.1428  140.9498 Jan 1967 Dec 2024   57.5   98   N
+  18095 WUDINNA                                  -33.0460  135.4601 Jan 1927 Jun 2013   80.3   91   N
+  18083 WUDINNA AERO                             -33.0430  135.4519 Apr 1999 Jun 2025   26.3   96   Y
+  18167 WUDINNA (LOOKOUT)                        -33.0981  135.3531 Mar 1969 Jan 2018   44.6   91   N
+  17057 WYAMBANA                                 -31.1933  139.4394 Jun 1938 Nov 1949   10.4   90   N
+  25038 WYNARKA                                  -35.1522  139.7156 Jan 1969 Jul 1985   15.7   93   N
+  25020 WYNARKA (HOOPER)                         -35.1333  139.7333 Feb 1912 Sep 1959   44.7   92   N
+  16054 WYNBRING SIDING (TAR 377 MILE)           -30.5567  133.5342 Jan 1916 Mar 1983   64.4   95   N
+  21057 YACKA                                    -33.5707  138.4503 Feb 1881 Jun 2025  141.2   97   N
+  18160 YADNARIE                                 -33.7167  136.4175 Jan 1884 Dec 1895   11.8   97   N
+  18142 YALATA                                   -31.9311  132.3650 Feb 1882 Oct 1926   34.0   75   N
+  18161 YALATA COMMUNITY                         -31.4813  131.8387 Oct 1968 Apr 2016   12.8   26   N
+  18104 YALLUNDA FLAT (MEETIGILLY)               -34.3494  135.8979 Jan 1911 Dec 2024  108.4   94   N
+  18098 YANINEE                                  -32.9475  135.2754 Apr 1919 May 2025   92.2   85   N
+  23754 YANKALILLA                               -35.4581  138.3501 Mar 1892 Jun 2025  127.5   90   N
+  23782 YANKALILLA (WOODVALE)                    -35.4833  138.3833 Mar 1870 Dec 1927   43.4   75   N
+  16055 YARDEA                                   -32.3792  135.5247 Nov 1877 Jun 2025  141.8   95   N
+  20059 YARRAMBA                                 -31.6619  140.6289 Aug 1994 Dec 2024   28.2   92   N
+  19060 YATINA                                   -32.9333  138.6667 Jun 1894 Jul 1980   85.0   97   N
+  18005 YEELANA (BRIMPTON LAKE)                  -34.0586  135.5038 Oct 1907 May 2025  113.0   95   N
+  18007 YEELANA (BROOKER)                        -34.1003  135.8415 Oct 1913 Apr 2025  110.3   98   N
+  18099 YEELANNA                                 -34.1317  135.7301 Jul 1911 Jun 2025  110.0   94   N
+  18143 YELDULKNIE                               -33.6933  136.5483 Jan 1916 Apr 1927   11.3   99   N
+  16057 YELTACOWIE                               -31.3400  137.3592 Sep 1924 Dec 1975   49.4   95   N
+  19062 YONGALA                                  -33.0276  138.7560 Feb 1881 Jun 2025  125.9   87   N
+  19094 YONGALA NATIONAL PARK                    -33.0333  138.7500 Sep 1886 May 1894    6.0   75   N
+  22023 YORKETOWN                                -35.0185  137.5999 Feb 1882 Jun 2025  141.3   94   N
+  22038 YORKETOWN 2                              -35.0333  137.6167 Feb 1910 Jan 1912    0.3   13   N
+  22040 YORKETOWN (BILNEY)                       -35.0167  137.5667 Dec 1972 Feb 1977    4.3  100   N
+  17086 YUDNAMULTANA                             -30.1781  139.2808 Jun 1909 Oct 1931   22.2   98   N
+  16056 YUDNAPINNA                               -32.1232  137.1505 Aug 1884 Jun 2025  135.4   96   N
+  16053 YUDNAPINNA (NUMBER ONE TANK)             -32.1467  137.3411 Jan 1908 Oct 1927   19.8   98   N
+  23808 YUNDI                                    -35.3001  138.6415 Feb 1969 Feb 2003   34.1   99   N
+  23897 YUNDI (MUNDAWORA)                        -35.3159  138.6218 Mar 2003 Mar 2025   22.1   95   N
+  20026 YUNTA                                    -32.5819  139.5611 Oct 1888 Nov 1996  106.3   97   N
+  20062 YUNTA AIRSTRIP                           -32.5707  139.5645 Jul 1998 Jun 2025   27.0   97   Y
+  20020 YUNTA (PANARAMITEE)                      -32.6416  139.6496 Dec 1901 Jun 2025  118.3   94   N
+  20021 YUNTA (PARATOO)                          -32.7268  139.4002 Jan 1882 Jan 2018  124.8   90   N
+  20061 YUNTA (TEETULPA STATION)                 -32.5218  139.5554 Jan 1997 Jan 2019   21.3   95   N
+  20024 YUNTA (WINNININNIE STATION)              -32.4727  139.7097 Jan 1891 Jan 2019  126.8   98   N
+  25021 YURGO                                    -35.1667  140.0500 Sep 1927 Mar 1960   31.9   96   N
+
+1639 stations
+
+(c) Copyright Commonwealth of Australia 2025, Bureau of Meteorology (ABN 92 637 533 532) 
+Please note Copyright, Disclaimer and Privacy Notice, accessible at <http://www.bom.gov.au/other/copyright.shtml>
