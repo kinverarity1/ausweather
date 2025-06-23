@@ -34,6 +34,7 @@ def get_sa_rainfall_site_list():
     silo_list = get_silo_station_list()
     sa_bom_list = parse_bom_rainfall_station_list()
     df = pd.merge(silo_list, sa_bom_list[["station_id", "start", "end", "aws"]], on="station_id", how="inner")
+    df["station_id"] = df.station_id.astype(str)
     return df
 
 
@@ -43,8 +44,8 @@ class RainfallStationData:
 
     You should initialise this by using any of these class methods:
 
-    - :meth:`wrap_technote.RainfallStationData.from_bom_via_silo`
-    - :meth:`wrap_technote.RainfallStationData.from_aquarius`
+    - :meth:`ausweather.RainfallStationData.from_bom_via_silo`
+    - :meth:`ausweather.RainfallStationData.from_aquarius`
 
     e.g.
 
@@ -62,7 +63,7 @@ class RainfallStationData:
     """
 
     def __init__(self, station_id, exclude_incomplete_years=False):
-        self.station_id = int(station_id)
+        self.station_id = str(station_id)
         self.exclude_incomplete_years = exclude_incomplete_years
 
     @property
@@ -88,7 +89,7 @@ class RainfallStationData:
             exclude_incomplete_years (bool): only show complete years
 
         Returns:
-            :class:`wrap_technote.RainfallStationData`
+            :class:`ausweather.RainfallStationData`
 
         Note that this will download the data afresh from the SILO website.
 
@@ -107,7 +108,7 @@ class RainfallStationData:
             exclude_incomplete_years (bool): only show complete years
 
         Returns:
-            :class:`wrap_technote.RainfallStationData`
+            :class:`ausweather.RainfallStationData`
 
         Note that this will download the data afresh from water.data.sa.gov.au
 
@@ -117,6 +118,19 @@ class RainfallStationData:
         self = cls(station_id, **kwargs)
         self.df = download_aquarius_rainfall(station_id, data_start)
 
+        return self
+
+    @classmethod
+    def from_data(cls, station_id, df, **kwargs):
+        """Create from daily data.
+        
+        Args:
+            station_id (str): station ID
+            df (pd.DataFrame): data, see source for required columns
+        
+        """
+        self = cls(station_id, **kwargs)
+        self.df = df
         return self
 
     @property
@@ -300,7 +314,7 @@ def download_bom_rainfall(station_id, email, data_start=None, clip_ends=True):
     )
     df["year"] = df["date"].dt.year
     df["dayofyear"] = df["date"].dt.dayofyear
-    df["finyear"] = [date_to_wateruseyear(d) for d in df["date"]]
+    df["finyear"] = [date_to_finyear(d) for d in df["date"]]
     df["interpolated_desc"] = df.interpolated_code.map(INTERPOLATION_CODES)
 
     if clip_ends:
@@ -431,7 +445,7 @@ def download_aquarius_rainfall(station_id, data_start=None):
     df["date"] = pd.to_datetime(df["date"])
     df["year"] = df["date"].dt.year
     df["dayofyear"] = df["date"].dt.dayofyear
-    df["finyear"] = [date_to_wateruseyear(d) for d in df["date"]]
+    df["finyear"] = [date_to_finyear(d) for d in df["date"]]
     df["interpolated_desc"] = df.interpolated_code.map(INTERPOLATION_CODES)
 
     cols = [
@@ -530,7 +544,7 @@ def find_missing_days(
             "calendar"
         value_col (str): name of column in *df* which contains the data itself
 
-    See :func:`wrap_technote.get_spanning_dates` for more information on
+    See :func:`ausweather.get_spanning_dates` for more information on
     the keyword argument *year_type*.
 
     Returns:
@@ -544,13 +558,14 @@ def find_missing_days(
     )
     day_is_missing["year"] = day_is_missing["index"].dt.year
     day_is_missing["finyear"] = [
-        date_to_wateruseyear(d) for d in day_is_missing["index"]
+        date_to_finyear(d) for d in day_is_missing["index"]
     ]
     year_type_col = {"financial": "finyear", "calendar": "year"}[year_type]
     missing_days = day_is_missing.groupby([day_is_missing[year_type_col]])[value_col].sum()
     return missing_days
 
-def date_to_wateruseyear(d):
+
+def date_to_finyear(d):
     """Convert :class:`datetime.date` to water-use year as string.
 
     e.g. date(2016, 5, 3) -> "2015-16", while date(2016, 11, 1) -> "2016-17"
@@ -567,6 +582,8 @@ def date_to_wateruseyear(d):
         return "{}-{}".format(year, str(year + 1)[2:])
     else:
         return "{}-{}".format(year - 1, str(year)[2:])
+
+date_to_wateruseyear = date_to_finyear
 
 def reduce_daily_to_monthly(
     daily_df, dt_col="Date", year_col="wu_year", value_col="Rain"
