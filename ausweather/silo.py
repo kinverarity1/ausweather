@@ -7,8 +7,26 @@ import io
 
 import pandas as pd
 import requests
+from pathlib import Path
+import logging
 
-__all__ = ["silo_alldata"]
+logger = logging.getLogger(__name__)
+
+def get_silo_station_list(filename=None):
+    """Load a list of SILO Patched Point Data stations.
+    
+    The list can be obtained by querying the API e.g.
+
+    https://www.longpaddock.qld.gov.au/cgi-bin/silo/PatchedPointDataset.php?format=near&station=15540&radius=10000
+
+    """
+    if filename is None:
+        filename = Path(__file__).parent / "silo_stations.txt"
+    df = pd.read_fwf(filename, colspecs=((0, 6), (7, 48), (49, 57), (58, 66), (67, 71)))
+    df.columns = ["station_id", "station_name", "lat", "lon", "state"]
+    for col in ["station_id", "lat", "lon"]:
+        df[col] = pd.to_numeric(df[col])
+    return df
 
 
 def silo_alldata(station_code, email, start=None, finish=None, return_comments=False):
@@ -61,8 +79,12 @@ def silo_alldata(station_code, email, start=None, finish=None, return_comments=F
         f"&station={station_code}&format=alldata&username={email}"
     )
     r = requests.get(url)
+    if len(r.text) > 300:
+        snippet = r.text[:300]
+    else:
+        snippet = r.text
     buffer = io.StringIO(r.text)
-    df = pd.read_csv(buffer, delim_whitespace=True, comment='"').iloc[1:]
+    df = pd.read_csv(buffer, sep=r'\s+', comment='"', low_memory=False).iloc[1:]
     df["Date"] = pd.to_datetime(df["Date"], format="%Y%m%d")
     for col in ("Day", "Smx", "Smn", "Srn", "Ssl", "Svp", "Ssp", "Ses", "Sp"):
         df[col] = df[col].astype(int)

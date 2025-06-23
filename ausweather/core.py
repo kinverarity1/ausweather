@@ -1,60 +1,17 @@
 import logging
 from datetime import datetime
 import re
+import io
 
 import pandas as pd
+import requests
 
-from ausweather.silo import silo_alldata
+from ausweather.silo import silo_alldata, get_silo_station_list
+from ausweather.bom import parse_bom_rainfall_station_list
 
+SA_BOM_RAINFALL_LIST = parse_bom_rainfall_station_list()
 
 logger = logging.getLogger(__name__)
-
-def fetch_bom_station_from_silo(
-    bom_station, email, query_from="1950-01-01", only_use_complete_years=False
-):
-    query_from = pd.Timestamp(query_from)
-    rf_data = silo_alldata(
-        bom_station,
-        email,
-        start=int(query_from.strftime("%Y%m%d")),
-        return_comments=True,
-    )
-    df = rf_data["df"]
-    rex = re.compile(r"\W+")
-
-    title = ""
-    name = ""
-    for line in rf_data["comments"].splitlines():
-        if "Patched Point data for station" in line:
-            colon_parts = line.split(":")
-            title = colon_parts[1].replace("Lat", "").strip()
-            name = title.replace(str(bom_station), "").strip()
-            break
-    title += f" (fetched from SILO on {datetime.now()})"
-    print(f"station #: {bom_station} name: {name} title: {title}")
-
-    if only_use_complete_years:
-        df = df.groupby([df.Date.dt.year]).filter(lambda x: len(x) >= 365)
-    rf_annual = df.groupby([df.Date.dt.year]).Rain.sum()
-    rf_annual_srn = df.groupby([df.Date.dt.year]).Srn.agg(
-        [
-            lambda x: len(x[x.isin([25, 35, 75])]) / 365.25 * 100,
-            lambda x: len(x[x == 15]) / 365.25 * 100,
-            #         lambda x: len(x[x == 0]) / len(x) * 100,
-        ]
-    )
-    rf_annual_srn.columns = ["Interpolated", "Deaccumulated"]
-
-    return {
-        "silo_returned": rf_data,
-        "station_no": bom_station,
-        "station_name": name,
-        "title": title,
-        "df": df,
-        "annual": rf_annual,
-        "srn": rf_annual_srn,
-    }
-
 
 
 INTERPOLATION_CODES = {
@@ -67,6 +24,20 @@ INTERPOLATION_CODES = {
     75: "interpolated_by_long_term_averages",
 }
 
+
+def get_sa_rainfall_site_list():
+    """Get a list of SA rainfall stations available via SILO.
+    
+    Uses :func:`get_silo_station_list` and :func:`parse_bom_rainfall_station_list`.
+    
+    """
+    silo_list = get_silo_station_list()
+    sa_bom_list = parse_bom_rainfall_station_list()
+    df = pd.merge(silo_list, sa_bom_list[["station_id", "start", "end", "aws"]], on="station_id", how="inner")
+    return df
+
+
+
 class RainfallStationData:
     """Rainfall station data.
 
@@ -74,14 +45,12 @@ class RainfallStationData:
 
     - :meth:`wrap_technote.RainfallStationData.from_bom_via_silo`
     - :meth:`wrap_technote.RainfallStationData.from_aquarius`
-    - :meth:`wrap_technote.RainfallStationData.from_wrap_report`
-    - :meth:`wrap_technote.RainfallStationData.from_data`
 
     e.g.
 
     .. code-block::
 
-        >>> rf = RainfallStationData.from_bom_via_silo('18017')
+        >>> rf = RainfallStationData.from_bom_via_silo('18017', 'your@email.com')
 
     You can then access data via the ``rf.daily``, ``rf.calendar``, or
     ``rf.financial`` attributes.
@@ -93,8 +62,8 @@ class RainfallStationData:
     """
 
     def __init__(self, station_id, exclude_incomplete_years=False):
-        self.station_id = str(station_id)
-        self.exclude_incomplete_years = False
+        self.station_id = int(station_id)
+        self.exclude_incomplete_years = exclude_incomplete_years
 
     @property
     def exclude_incomplete_years(self):
@@ -108,12 +77,15 @@ class RainfallStationData:
             self.__exclude_incomplete_years = False
 
     @classmethod
-    def from_bom_via_silo(cls, station_id, data_start=None):
+    def from_bom_via_silo(cls, station_id, email, data_start=None, clip_ends=True, **kwargs):
         """Create from BoM data (via SILO).
 
         Args:
             station_id (str): BoM Station ID
-            data_start (pd.Timestamp): date to download data from, default 1/1/1950
+            email (str): email address, required by SILO API
+            data_start (pd.Timestamp): date to download data from, default is to use
+                the first observation per the BoM's Weather Station Directory.
+            exclude_incomplete_years (bool): only show complete years
 
         Returns:
             :class:`wrap_technote.RainfallStationData`
@@ -121,29 +93,28 @@ class RainfallStationData:
         Note that this will download the data afresh from the SILO website.
 
         """
-        if data_start is None:
-            data_start = pd.Timestamp("1950-01-01")
-        self = cls(station_id)
-        self.df = download_bom_rainfall(station_id, data_start)
+        self = cls(station_id, **kwargs)
+        self.df = download_bom_rainfall(station_id, email, data_start=data_start, clip_ends=clip_ends)
         return self
 
     @classmethod
-    def from_aquarius(cls, station_id, data_start=None):
-        """Create from Aquarius Timeseries data (for South Australia only)
+    def from_aquarius(cls, station_id, data_start=None, **kwargs):
+        """Create from Aquarius TS data (for South Australia only)
 
         Args:
             station_id (str): AQTS LocationIdentifier.
             data_start (pd.Timestamp): date to download data from, default 1/1/1950
+            exclude_incomplete_years (bool): only show complete years
 
         Returns:
             :class:`wrap_technote.RainfallStationData`
 
-        Note that this will download the data afresh from AQTS.
+        Note that this will download the data afresh from water.data.sa.gov.au
 
         """
         if data_start is None:
             data_start = pd.Timestamp("1950-01-01")
-        self = cls(station_id)
+        self = cls(station_id, **kwargs)
         self.df = download_aquarius_rainfall(station_id, data_start)
 
         return self
@@ -223,13 +194,84 @@ class RainfallStationData:
         )
 
 
-def download_bom_rainfall(station_id, data_start, email):
+def annual_stats(df, avg_pd_start=None, avg_pd_end=None, dt_col="year", value_col="rainfall"):
+    """Calculate descriptive statistics for e.g. rainfall data.
+
+    Args:
+        df (pd.DataFrame): should have data arranged by e.g. year
+        avg_pd_start (object): the first e.g. year to use for calculation of statistics
+        avg_pd_end (object): the last e.g. year to use for calculation of statistics
+        dt_col (str): column containing "year" values i.e. can be anything that can be
+            ordered, and if avg_pd_start and avg_pd_end are provided, they should be
+            values from this column or that make sense for this column in terms of
+            ordering.
+        value_col (str): column containing data to calculate statistics for.
+
+    Returns:
+        dictionary containing keys:
+        - mean
+        - median
+        - min
+        - max
+        - pct5
+        - pct25
+        - pct75
+        - pct95
+        - percentile: a function which when passed a float will return the percentile
+        it falls in according to the period of data used for these statistics
+        - data: array of the data being used
+
+    """
+    if avg_pd_start is None:
+        avg_pd_start = df[dt_col].sort_values().iloc[0]
+    if avg_pd_end is None:
+        avg_pd_end = df[dt_col].sort_values().iloc[-1]
+    avg_series = df.loc[(df[dt_col] >= avg_pd_start) & (df[dt_col] <= avg_pd_end), value_col]
+    avg_values = avg_series.agg({
+        "mean": "mean",
+        "median": "median",
+        "min": "min",
+        "max": "max",
+        "pct5": lambda s: s.quantile(0.05),
+        "pct25": lambda s: s.quantile(0.25),
+        "pct75": lambda s: s.quantile(0.75),
+        "pct95": lambda s: s.quantile(0.95)
+    }).to_dict()
+    avg_values["percentile"] = lambda value: float(stats.percentileofscore(avg_series.values, value, kind="mean"))
+    return avg_values
+
+def calculate_deviations(df, stdict, est_col="mean", value_col="rainfall"):
+    """Calculate deviations from average statistic.
+
+    Args:
+        df (pandas.DataFrame): should have data arranged by e.g. year
+        stdict (dict): the return value from :func:`ausweather.calculate_statistics`
+        est_col (str): the central estimate column from ``stdict`` e.g. "mean"
+        value_col (str): the data value column from ``df`` e.g. "rainfall"
+
+    Returns:
+        A copy of ``df`` (pandas.DataFrame) with new columns:
+        - deviation - in the same units as value_col
+        - deviation_pct - as a percent
+        - percentile - the percentile of value_col according to the 
+          period used to calculate the statistics (stdict)
+
+    """
+    pdf = df.copy()
+    pdf["deviation"] = pdf[value_col] - stdict[est_col]
+    pdf["deviation_pct"] = pdf["deviation"] / stdict[est_col] * 100
+    pdf["percentile"] = pdf[value_col].apply(lambda value: np.round(stdict["percentile"](value), decimals=1))
+    return pdf
+
+
+def download_bom_rainfall(station_id, email, data_start=None, clip_ends=True):
     """Download BoM rainfall data from SILO.
 
     Args:
         station_id (int or str): BoM station ID
-        data_start (pd.Timestamp): date to download data from
         email (str): put your email in here
+        data_start (pd.Timestamp): date to download data from. If
+            not provided, will use the first observation.
 
     Returns:
         dict: Has four keys: 'df', 'annual', 'srn', and 'wateruse_year'
@@ -242,7 +284,7 @@ def download_bom_rainfall(station_id, data_start, email):
     logger.debug(f"Downloading {station_id} from {data_start}")
 
     data = fetch_bom_station_from_silo(
-        station_id, email, data_start
+        station_id, email, query_from=data_start
     )
 
     df = data["df"]
@@ -261,6 +303,13 @@ def download_bom_rainfall(station_id, data_start, email):
     df["finyear"] = [date_to_wateruseyear(d) for d in df["date"]]
     df["interpolated_desc"] = df.interpolated_code.map(INTERPOLATION_CODES)
 
+    if clip_ends:
+        df = df.reset_index()
+        df_obs = df[df.interpolated_code == 0]
+        first_obs = df_obs.index.values[0]
+        last_obs = df_obs.index.values[-1]
+        df = df.loc[first_obs: last_obs]
+
     cols = [
         "date",
         "rainfall",
@@ -272,6 +321,77 @@ def download_bom_rainfall(station_id, data_start, email):
         "finyear",
     ]
     return df[cols]
+
+
+
+def fetch_bom_station_from_silo(
+    bom_station, email, query_from=None, query_to=None, only_use_complete_years=False
+):
+    bom_station = int(bom_station)
+    if query_from is None or query_to is None:
+        rows = SA_BOM_RAINFALL_LIST.loc[SA_BOM_RAINFALL_LIST.station_id == bom_station, ["start", "end"]]
+        if len(rows) == 0:
+            query_from = query_from
+            query_to = query_to
+        else:
+            row = rows.iloc[0]
+            if query_from is None:
+                query_from = row.start
+            if query_to is None:
+                if row.end.month == 12:
+                    query_to = f"{row.end.year + 1}-01-01"
+                else:
+                    query_to = f"{row.end.year}-{row.end.month + 1}-01"
+                query_to = pd.Timestamp(query_to)
+                if query_to > datetime.now():
+                    query_to = datetime.now() - pd.Timedelta(days=5)
+                query_to = query_to.strftime("%Y%m%d")
+    
+    query_from = pd.Timestamp(query_from)
+    if query_from < pd.Timestamp("1889-01-01"):
+        query_from = pd.Timestamp("1889-01-01")
+    
+    rf_data = silo_alldata(
+        bom_station,
+        email,
+        start=int(query_from.strftime("%Y%m%d")),
+        finish=query_to,
+        return_comments=True,
+    )
+    df = rf_data["df"]
+    rex = re.compile(r"\W+")
+
+    title = ""
+    name = ""
+    for line in rf_data["comments"].splitlines():
+        if "Patched Point data for station" in line:
+            colon_parts = line.split(":")
+            title = colon_parts[1].replace("Lat", "").strip()
+            name = title.replace(str(bom_station), "").strip()
+            break
+    title += f" (fetched from SILO on {datetime.now()})"
+
+    if only_use_complete_years:
+        df = df.groupby([df.Date.dt.year]).filter(lambda x: len(x) >= 365)
+    rf_annual = df.groupby([df.Date.dt.year]).Rain.sum()
+    rf_annual_srn = df.groupby([df.Date.dt.year]).Srn.agg(
+        [
+            lambda x: len(x[x.isin([25, 35, 75])]) / 365.25 * 100,
+            lambda x: len(x[x == 15]) / 365.25 * 100,
+            #         lambda x: len(x[x == 0]) / len(x) * 100,
+        ]
+    )
+    rf_annual_srn.columns = ["Interpolated", "Deaccumulated"]
+
+    return {
+        "silo_returned": rf_data,
+        "station_no": bom_station,
+        "station_name": name,
+        "title": title,
+        "df": df,
+        "annual": rf_annual,
+        "srn": rf_annual_srn,
+    }
 
 
 def download_aquarius_rainfall(station_id, data_start=None):
