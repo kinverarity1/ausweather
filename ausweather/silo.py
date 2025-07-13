@@ -78,12 +78,19 @@ def silo_alldata(station_code, email, start=None, finish=None, return_comments=F
         f"/PatchedPointDataset.php?start={start}&finish={finish}"
         f"&station={station_code}&format=alldata&username={email}"
     )
+    print(f"SILO url: {url}")
     r = requests.get(url)
     if len(r.text) > 300:
         snippet = r.text[:300]
     else:
         snippet = r.text
     buffer = io.StringIO(r.text)
+    if len(r.text) > 300:
+        snippet = r.text[:300]
+    else:
+        snippet = r.text
+    print(f"SILO response first 300 chars:\n{snippet}")
+
     df = pd.read_csv(buffer, sep=r'\s+', comment='"', low_memory=False).iloc[1:]
     df["Date"] = pd.to_datetime(df["Date"], format="%Y%m%d")
     for col in ("Day", "Smx", "Smn", "Srn", "Ssl", "Svp", "Ssp", "Ses", "Sp"):

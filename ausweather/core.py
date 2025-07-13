@@ -5,6 +5,7 @@ import io
 
 import pandas as pd
 import requests
+from scipy import stats
 
 from ausweather.silo import silo_alldata, get_silo_station_list
 from ausweather.bom import parse_bom_rainfall_station_list
@@ -35,6 +36,8 @@ def get_sa_rainfall_site_list():
     sa_bom_list = parse_bom_rainfall_station_list()
     df = pd.merge(silo_list, sa_bom_list[["station_id", "start", "end", "aws"]], on="station_id", how="inner")
     df["station_id"] = df.station_id.astype(str)
+    df["current"] = df["end"].apply(lambda end: (pd.Timestamp(datetime.now()) - pd.Timestamp(end)) < pd.Timedelta(days=120))
+    df["total_span_yrs"] = df.apply(lambda row: (row.end - row.start).days / 365.25, axis=1)
     return df
 
 
@@ -78,7 +81,7 @@ class RainfallStationData:
             self.__exclude_incomplete_years = False
 
     @classmethod
-    def from_bom_via_silo(cls, station_id, email, data_start=None, clip_ends=True, **kwargs):
+    def from_bom_via_silo(cls, station_id, email, data_start=None, clip_ends=True, data_end=None, **kwargs):
         """Create from BoM data (via SILO).
 
         Args:
@@ -95,7 +98,7 @@ class RainfallStationData:
 
         """
         self = cls(station_id, **kwargs)
-        self.df = download_bom_rainfall(station_id, email, data_start=data_start, clip_ends=clip_ends)
+        self.df = download_bom_rainfall(station_id, email, data_start=data_start, clip_ends=clip_ends, data_end=data_end)
         return self
 
     @classmethod
@@ -151,6 +154,11 @@ class RainfallStationData:
 
         """
         df = self.df.assign(station_id=self.station_id)
+        for col in df.columns:
+            if col.startswith("date"):
+                df[col] = pd.to_datetime(df[col])
+        df["interpolated_desc"] = df.interpolated_code.map(INTERPOLATION_CODES)
+        df["rainfall"] = df.rainfall.round(decimals=1)
         return df
 
     @property
@@ -236,9 +244,9 @@ def annual_stats(df, avg_pd_start=None, avg_pd_end=None, dt_col="year", value_co
         - data: array of the data being used
 
     """
-    if avg_pd_start is None:
+    if not avg_pd_start:
         avg_pd_start = df[dt_col].sort_values().iloc[0]
-    if avg_pd_end is None:
+    if not avg_pd_end:
         avg_pd_end = df[dt_col].sort_values().iloc[-1]
     avg_series = df.loc[(df[dt_col] >= avg_pd_start) & (df[dt_col] <= avg_pd_end), value_col]
     avg_values = avg_series.agg({
@@ -278,7 +286,7 @@ def calculate_deviations(df, stdict, est_col="mean", value_col="rainfall"):
     return pdf
 
 
-def download_bom_rainfall(station_id, email, data_start=None, clip_ends=True):
+def download_bom_rainfall(station_id, email, data_start=None, clip_ends=True, data_end=None):
     """Download BoM rainfall data from SILO.
 
     Args:
@@ -298,7 +306,7 @@ def download_bom_rainfall(station_id, email, data_start=None, clip_ends=True):
     logger.debug(f"Downloading {station_id} from {data_start}")
 
     data = fetch_bom_station_from_silo(
-        station_id, email, query_from=data_start
+        station_id, email, query_from=data_start, query_to=data_end
     )
 
     df = data["df"]
@@ -315,7 +323,6 @@ def download_bom_rainfall(station_id, email, data_start=None, clip_ends=True):
     df["year"] = df["date"].dt.year
     df["dayofyear"] = df["date"].dt.dayofyear
     df["finyear"] = [date_to_finyear(d) for d in df["date"]]
-    df["interpolated_desc"] = df.interpolated_code.map(INTERPOLATION_CODES)
 
     if clip_ends:
         df = df.reset_index()
@@ -328,7 +335,6 @@ def download_bom_rainfall(station_id, email, data_start=None, clip_ends=True):
         "date",
         "rainfall",
         "interpolated_code",
-        "interpolated_desc",
         "quality",
         "year",
         "dayofyear",
