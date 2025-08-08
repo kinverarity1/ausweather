@@ -15,6 +15,7 @@ Note daily vs monthly for different reporting frequency ``nccObsCode``s.
 
 
 """
+
 import io
 import logging
 from pathlib import Path
@@ -109,6 +110,7 @@ def fetch_bom_c_values(ncc_obs_code, station_code, radius_km=10):
     buffer = io.StringIO(r.text)
     return pd.read_html(buffer)[0].rename(columns={"Unnamed: 10": "c"})
 
+
 def parse_bom_rainfall_station_list(filename=None):
     """Parse BoM station directory without getting the web scraping error.
 
@@ -116,12 +118,12 @@ def parse_bom_rainfall_station_list(filename=None):
         fn (str): path to climate data list by element file
 
     Returns:
-        df (pd.DataFrame) 
-    
+        df (pd.DataFrame)
+
     First you can download the file manually from BoM's Weather Station Directory:
-    
+
     http://www.bom.gov.au/climate/data/stations/
-    
+
     E.g. for SA daily rainfaill is: http://www.bom.gov.au/climate/data/lists_by_element/alphaSA_136.txt
 
     The SA daily rainfall file is bundled with ausweather, so if filename is None, this function
@@ -129,7 +131,7 @@ def parse_bom_rainfall_station_list(filename=None):
 
     The file starts like this:
 
-    .. code-block:: 
+    .. code-block::
 
         Bureau of Meteorology product IDCJMC0014.                                       Produced: 19 Jun 2025
         South Australian stations measuring rainfall
@@ -145,15 +147,36 @@ def parse_bom_rainfall_station_list(filename=None):
         filename = Path(__file__).parent / "alphaSA_136.txt"
     IDCJMC0014 = {
         "colspecs": [
-            (2, 8), (8, 49), (49, 58), (58, 68), (68, 77), (77, 86), (86, 93), (93, 98), (98, 102)
+            (2, 8),
+            (8, 49),
+            (49, 58),
+            (58, 68),
+            (68, 77),
+            (77, 86),
+            (86, 93),
+            (93, 98),
+            (98, 102),
         ],
-        "columns": ["station_id", "station_name", "lat", "lon", "start", "end", "years", "pct", "aws"],
+        "columns": [
+            "station_id",
+            "station_name",
+            "lat",
+            "lon",
+            "start",
+            "end",
+            "years",
+            "pct",
+            "aws",
+        ],
         "numeric": ["station_id", "lat", "lon", "years", "pct"],
         "bool_yn": ["aws"],
         "datetime": ["start", "end"],
     }
     spec = IDCJMC0014
-    df = pd.read_fwf(filename, colspecs=spec["colspecs"], ).iloc[3:-3]
+    df = pd.read_fwf(
+        filename,
+        colspecs=spec["colspecs"],
+    ).iloc[3:-3]
     df.columns = spec["columns"]
     for col in spec["numeric"]:
         df[col] = pd.to_numeric(df[col])

@@ -28,18 +28,27 @@ INTERPOLATION_CODES = {
 
 def get_sa_rainfall_site_list():
     """Get a list of SA rainfall stations available via SILO.
-    
+
     Uses :func:`get_silo_station_list` and :func:`parse_bom_rainfall_station_list`.
-    
+
     """
     silo_list = get_silo_station_list()
     sa_bom_list = parse_bom_rainfall_station_list()
-    df = pd.merge(silo_list, sa_bom_list[["station_id", "start", "end", "aws"]], on="station_id", how="inner")
+    df = pd.merge(
+        silo_list,
+        sa_bom_list[["station_id", "start", "end", "aws"]],
+        on="station_id",
+        how="inner",
+    )
     df["station_id"] = df.station_id.astype(str)
-    df["current"] = df["end"].apply(lambda end: (pd.Timestamp(datetime.now()) - pd.Timestamp(end)) < pd.Timedelta(days=120))
-    df["total_span_yrs"] = df.apply(lambda row: (row.end - row.start).days / 365.25, axis=1)
+    df["current"] = df["end"].apply(
+        lambda end: (pd.Timestamp(datetime.now()) - pd.Timestamp(end))
+        < pd.Timedelta(days=120)
+    )
+    df["total_span_yrs"] = df.apply(
+        lambda row: (row.end - row.start).days / 365.25, axis=1
+    )
     return df
-
 
 
 class RainfallStationData:
@@ -81,7 +90,9 @@ class RainfallStationData:
             self.__exclude_incomplete_years = False
 
     @classmethod
-    def from_bom_via_silo(cls, station_id, email, data_start=None, clip_ends=True, data_end=None, **kwargs):
+    def from_bom_via_silo(
+        cls, station_id, email, data_start=None, clip_ends=True, data_end=None, **kwargs
+    ):
         """Create from BoM data (via SILO).
 
         Args:
@@ -98,7 +109,14 @@ class RainfallStationData:
 
         """
         self = cls(station_id, **kwargs)
-        self.df = download_bom_rainfall(station_id, email, data_start=data_start, clip_ends=clip_ends, data_end=data_end)
+        self.df = download_bom_rainfall(
+            station_id,
+            email,
+            data_start=data_start,
+            clip_ends=clip_ends,
+            data_end=data_end,
+        )
+        self.df["month"] = self.df.date.dt.month
         return self
 
     @classmethod
@@ -120,20 +138,22 @@ class RainfallStationData:
             data_start = pd.Timestamp("1950-01-01")
         self = cls(station_id, **kwargs)
         self.df = download_aquarius_rainfall(station_id, data_start)
-
+        self.df["month"] = self.df.date.dt.month
         return self
 
     @classmethod
     def from_data(cls, station_id, df, **kwargs):
         """Create from daily data.
-        
+
         Args:
             station_id (str): station ID
             df (pd.DataFrame): data, see source for required columns
-        
+
         """
         self = cls(station_id, **kwargs)
+        logger.debug(f"creating from_data df=\n{df}")
         self.df = df
+        self.df["month"] = self.df.date.dt.month
         return self
 
     @property
@@ -143,13 +163,14 @@ class RainfallStationData:
         Returns:
             :class:`pandas.DataFrame`: dataframe with columns:
 
+            - year (int)
+            - finyear (str)
+            - month (int)
             - date (pd.Timestamp)
+            - dayofyear (int)
             - rainfall (float)
             - interpolated_code (int)
             - quality (int)
-            - year (int)
-            - dayofyear (int)
-            - finyear (str)
             - station_id (str)
 
         """
@@ -159,6 +180,7 @@ class RainfallStationData:
                 df[col] = pd.to_datetime(df[col])
         df["interpolated_desc"] = df.interpolated_code.map(INTERPOLATION_CODES)
         df["rainfall"] = df.rainfall.round(decimals=1)
+        # cols = ["year", "finyear", "month", "date", "dayofyear", "rainfall", "interpolated_code", "quality", "station_id"]
         return df
 
     @property
@@ -171,7 +193,7 @@ class RainfallStationData:
             )
             complete = missing[missing == 0]
             df = df[df.year.isin(complete.index.values)]
-        return df
+        return df.reset_index()
 
     @property
     def financial(self):
@@ -183,7 +205,21 @@ class RainfallStationData:
             )
             complete = missing[missing == 0]
             df = df[df.finyear.isin(complete.index.values)]
-        return df
+        return df.reset_index()
+
+    @property
+    def month(self):
+        df = self.groupby(["year", "month"]).assign(station_id=self.station_id)
+        df.insert(
+            2,
+            "start_date",
+            [
+                pd.Timestamp(f"{row.year}-{row.month:02.0f}-01")
+                for idx, row in df.iterrows()
+            ],
+        )
+        df.insert(2, "year_month", df.start_date.dt.strftime("%Y-%m"))
+        return df.reset_index()
 
     def groupby(self, grouping_column):
         """Group daily rainfall by either calendar or financial year.
@@ -201,7 +237,6 @@ class RainfallStationData:
             - quality_count (int): number of days with non-null quality code.
 
         """
-        assert grouping_column in self.df.columns
         return self.df.groupby(grouping_column, as_index=False).agg(
             rainfall=("rainfall", "sum"),
             rainfall_count=("rainfall", "count"),
@@ -216,7 +251,9 @@ class RainfallStationData:
         )
 
 
-def annual_stats(df, avg_pd_start=None, avg_pd_end=None, dt_col="year", value_col="rainfall"):
+def annual_stats(
+    df, avg_pd_start=None, avg_pd_end=None, dt_col="year", value_col="rainfall"
+):
     """Calculate descriptive statistics for e.g. rainfall data.
 
     Args:
@@ -248,19 +285,99 @@ def annual_stats(df, avg_pd_start=None, avg_pd_end=None, dt_col="year", value_co
         avg_pd_start = df[dt_col].sort_values().iloc[0]
     if not avg_pd_end:
         avg_pd_end = df[dt_col].sort_values().iloc[-1]
-    avg_series = df.loc[(df[dt_col] >= avg_pd_start) & (df[dt_col] <= avg_pd_end), value_col]
-    avg_values = avg_series.agg({
-        "mean": "mean",
-        "median": "median",
-        "min": "min",
-        "max": "max",
-        "pct5": lambda s: s.quantile(0.05),
-        "pct25": lambda s: s.quantile(0.25),
-        "pct75": lambda s: s.quantile(0.75),
-        "pct95": lambda s: s.quantile(0.95)
-    }).to_dict()
-    avg_values["percentile"] = lambda value: float(stats.percentileofscore(avg_series.values, value, kind="mean"))
+    avg_series = df.loc[
+        (df[dt_col] >= avg_pd_start) & (df[dt_col] <= avg_pd_end), value_col
+    ]
+    avg_values = avg_series.agg(
+        {
+            "mean": "mean",
+            "median": "median",
+            "min": "min",
+            "max": "max",
+            "pct5": lambda s: s.quantile(0.05),
+            "pct25": lambda s: s.quantile(0.25),
+            "pct75": lambda s: s.quantile(0.75),
+            "pct95": lambda s: s.quantile(0.95),
+        }
+    ).to_dict()
+    avg_values["percentile"] = lambda value: float(
+        stats.percentileofscore(avg_series.values, value, kind="mean")
+    )
     return avg_values
+
+
+def monthly_stats(
+    df,
+    avg_pd_start=None,
+    avg_pd_end=None,
+    year_col="year",
+    month_col="month",
+    value_col="rainfall",
+):
+    """Calculate descriptive statistics for e.g. rainfall data.
+
+    Args:
+        df (pd.DataFrame): should have data arranged by year in one column and month number in another
+        avg_pd_start (tuple): the first year and month to use for calculation of statistics e.g. (1960, 1) for January 1960
+        avg_pd_end (tuple): the last year and month to use for calculation of statistics
+        year_col (str): column containing years as integers
+        month_col (str): column containing months as integers
+        value_col (str): column containing data to calculate statistics for.
+
+    Returns:
+        pandas DataFrame: the index is the month as integer and the columns are
+        - mean
+        - median
+        - min
+        - max
+        - pct5
+        - pct25
+        - pct75
+        - pct95
+        - percentile: a function which when passed a float will return the percentile
+        it falls in according to the period of data used for these statistics
+
+    """
+    logger.debug(f"passed avg_pd_start={avg_pd_start} avg_pd_end={avg_pd_end}")
+    df = df.sort_values([year_col, month_col]).reset_index()
+
+    if not avg_pd_start:
+        avg_pd_start = tuple([int(x) for x in df.iloc[0][["year", "month"]].values])
+    if not avg_pd_end:
+        avg_pd_end = tuple([int(x) for x in df.iloc[-1][["year", "month"]].values])
+
+    logger.debug(
+        f"After argument checks. avg_pd_start = {avg_pd_start} avg_pd_end = {avg_pd_end}"
+    )
+    avg_pd_start_idx = df.loc[
+        (df[year_col] == avg_pd_start[0]) & (df[month_col] == avg_pd_start[1])
+    ].index[0]
+    avg_pd_end_idx = df.loc[
+        (df[year_col] == avg_pd_end[0]) & (df[month_col] == avg_pd_end[1])
+    ].index[0]
+
+    avg_pd_df = df.iloc[avg_pd_start_idx:avg_pd_end_idx]
+    monthly_data = avg_pd_df.set_index("month")[value_col]
+    avg_df = avg_pd_df.groupby("month")[value_col].agg(
+        **{
+            "mean": "mean",
+            "median": "median",
+            "min": "min",
+            "max": "max",
+            "pct5": lambda s: s.quantile(0.05),
+            "pct25": lambda s: s.quantile(0.25),
+            "pct75": lambda s: s.quantile(0.75),
+            "pct95": lambda s: s.quantile(0.95),
+        }
+    )
+    for month, row in avg_df.iterrows():
+        func = lambda value: float(
+            stats.percentileofscore(monthly_data.loc[month], value, kind="mean")
+        )
+        avg_df.loc[month, "percentile"] = func
+
+    return avg_df
+
 
 def calculate_deviations(df, stdict, est_col="mean", value_col="rainfall"):
     """Calculate deviations from average statistic.
@@ -275,18 +392,22 @@ def calculate_deviations(df, stdict, est_col="mean", value_col="rainfall"):
         A copy of ``df`` (pandas.DataFrame) with new columns:
         - deviation - in the same units as value_col
         - deviation_pct - as a percent
-        - percentile - the percentile of value_col according to the 
+        - percentile - the percentile of value_col according to the
           period used to calculate the statistics (stdict)
 
     """
     pdf = df.copy()
     pdf["deviation"] = pdf[value_col] - stdict[est_col]
     pdf["deviation_pct"] = pdf["deviation"] / stdict[est_col] * 100
-    pdf["percentile"] = pdf[value_col].apply(lambda value: np.round(stdict["percentile"](value), decimals=1))
+    pdf["percentile"] = pdf[value_col].apply(
+        lambda value: np.round(stdict["percentile"](value), decimals=1)
+    )
     return pdf
 
 
-def download_bom_rainfall(station_id, email, data_start=None, clip_ends=True, data_end=None):
+def download_bom_rainfall(
+    station_id, email, data_start=None, clip_ends=True, data_end=None
+):
     """Download BoM rainfall data from SILO.
 
     Args:
@@ -329,7 +450,7 @@ def download_bom_rainfall(station_id, email, data_start=None, clip_ends=True, da
         df_obs = df[df.interpolated_code == 0]
         first_obs = df_obs.index.values[0]
         last_obs = df_obs.index.values[-1]
-        df = df.loc[first_obs: last_obs]
+        df = df.loc[first_obs:last_obs]
 
     cols = [
         "date",
@@ -343,13 +464,14 @@ def download_bom_rainfall(station_id, email, data_start=None, clip_ends=True, da
     return df[cols]
 
 
-
 def fetch_bom_station_from_silo(
     bom_station, email, query_from=None, query_to=None, only_use_complete_years=False
 ):
     bom_station = int(bom_station)
     if query_from is None or query_to is None:
-        rows = SA_BOM_RAINFALL_LIST.loc[SA_BOM_RAINFALL_LIST.station_id == bom_station, ["start", "end"]]
+        rows = SA_BOM_RAINFALL_LIST.loc[
+            SA_BOM_RAINFALL_LIST.station_id == bom_station, ["start", "end"]
+        ]
         if len(rows) == 0:
             query_from = query_from
             query_to = query_to
@@ -366,11 +488,11 @@ def fetch_bom_station_from_silo(
                 if query_to > datetime.now():
                     query_to = datetime.now() - pd.Timedelta(days=5)
                 query_to = query_to.strftime("%Y%m%d")
-    
+
     query_from = pd.Timestamp(query_from)
     if query_from < pd.Timestamp("1889-01-01"):
         query_from = pd.Timestamp("1889-01-01")
-    
+
     rf_data = silo_alldata(
         bom_station,
         email,
@@ -465,6 +587,7 @@ def download_aquarius_rainfall(station_id, data_start=None):
         "finyear",
     ]
     return df[cols]
+
 
 def get_spanning_dates(
     date_series: pd.Series, year_type: str = "calendar"
@@ -563,11 +686,11 @@ def find_missing_days(
         df.set_index(dt_col).reindex(all_days)[value_col].isnull().reset_index()
     )
     day_is_missing["year"] = day_is_missing["index"].dt.year
-    day_is_missing["finyear"] = [
-        date_to_finyear(d) for d in day_is_missing["index"]
-    ]
+    day_is_missing["finyear"] = [date_to_finyear(d) for d in day_is_missing["index"]]
     year_type_col = {"financial": "finyear", "calendar": "year"}[year_type]
-    missing_days = day_is_missing.groupby([day_is_missing[year_type_col]])[value_col].sum()
+    missing_days = day_is_missing.groupby([day_is_missing[year_type_col]])[
+        value_col
+    ].sum()
     return missing_days
 
 
@@ -589,7 +712,9 @@ def date_to_finyear(d):
     else:
         return "{}-{}".format(year - 1, str(year)[2:])
 
+
 date_to_wateruseyear = date_to_finyear
+
 
 def reduce_daily_to_monthly(
     daily_df, dt_col="Date", year_col="wu_year", value_col="Rain"

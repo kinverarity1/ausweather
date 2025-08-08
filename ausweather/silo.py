@@ -2,6 +2,7 @@
 
 https://www.longpaddock.qld.gov.au/cgi-bin/silo/PatchedPointDataset.php?start=19950101&finish=20110110&station=023343&format=alldata&username=<email-address>
 """
+
 from datetime import datetime
 import io
 
@@ -12,9 +13,10 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+
 def get_silo_station_list(filename=None):
     """Load a list of SILO Patched Point Data stations.
-    
+
     The list can be obtained by querying the API e.g.
 
     https://www.longpaddock.qld.gov.au/cgi-bin/silo/PatchedPointDataset.php?format=near&station=15540&radius=10000
@@ -91,7 +93,7 @@ def silo_alldata(station_code, email, start=None, finish=None, return_comments=F
         snippet = r.text
     print(f"SILO response first 300 chars:\n{snippet}")
 
-    df = pd.read_csv(buffer, sep=r'\s+', comment='"', low_memory=False).iloc[1:]
+    df = pd.read_csv(buffer, sep=r"\s+", comment='"', low_memory=False).iloc[1:]
     df["Date"] = pd.to_datetime(df["Date"], format="%Y%m%d")
     for col in ("Day", "Smx", "Smn", "Srn", "Ssl", "Svp", "Ssp", "Ses", "Sp"):
         df[col] = df[col].astype(int)
