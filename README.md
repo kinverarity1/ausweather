@@ -99,7 +99,7 @@ Released under the [MIT License](LICENSE.md).
 
 ## Version history
 
-### Version 0.10 (5 January 2026)
+### Version 0.11 (5 January 2026)
 - Many undescribed changes and new classes.
 
 ### Version 0.2.1 (3 Mar 2020)
