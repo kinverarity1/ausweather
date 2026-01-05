@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name="ausweather",
     packages=["ausweather"],
-    use_scm_version=True,
+    use_scm_version={"version_scheme": "post-release"},
     setup_requires=["setuptools_scm"],
     description="Python package to download Australian rainfall data from the Bureau of Meteorology via the Queensland Government's SILO Patched Point Data service",
     long_description=open("README.md", mode="r").read(),

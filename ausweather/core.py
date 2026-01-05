@@ -101,6 +101,14 @@ class RainfallStationData:
             data_start (pd.Timestamp): date to download data from, default is to use
                 the first observation per the BoM's Weather Station Directory.
             exclude_incomplete_years (bool): only show complete years
+            data_end (pd.Timestamp): date to download to. If not provided,
+                either the end of data collection at the station will
+                be used, or 5 days prior to the current day, whichever is
+                earlier. Remember that data is being obtained from SILO
+                which will interpolate values if necessary, so if you
+                want data beyond the date at which the station closed
+                you will need to specify the end date.
+            clip_ends (bool): ...
 
         Returns:
             :class:`ausweather.RainfallStationData`
@@ -415,6 +423,21 @@ def download_bom_rainfall(
         email (str): put your email in here
         data_start (pd.Timestamp): date to download data from. If
             not provided, will use the first observation.
+        data_end (pd.Timestamp): date to download to. If not provided,
+            either the end of data collection at the station will
+            be used, or 5 days prior to the current day, whichever is
+            earlier. Remember that data is being obtained from SILO
+            which will interpolate values if necessary, so if you
+            want data beyond the date at which the station closed
+            you will need to specify the end date.
+        clip_ends (bool): if True, restrict the dataset to a period
+            between the first instance of observed data and the last
+            instance. This means any interpolated periods within
+            the station's history are preserved, but any interpolated
+            periods before the station opened and after the station
+            closed are removed automatically. See note above - you
+            may need to manually set this to False depending on the
+            intent of your query.
 
     Returns:
         dict: Has four keys: 'df', 'annual', 'srn', and 'wateruse_year'
