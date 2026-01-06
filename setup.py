@@ -17,6 +17,6 @@ setup(
         "Topic :: Scientific/Engineering",
     ),
     keywords="rainfall australia bom silo python data-access",
-    install_requires=("pandas", "requests", "matplotlib"),
+    install_requires=("pandas", "requests", "matplotlib", "scipy"),
     include_package_data=True,
 )
