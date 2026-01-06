@@ -99,6 +99,9 @@ Released under the [MIT License](LICENSE.md).
 
 ## Version history
 
+### Version 0.12 (6 January 2026)
+- Change to use importlib.metadata for __version__
+
 ### Version 0.11 (5 January 2026)
 - Many undescribed changes and new classes.
 
