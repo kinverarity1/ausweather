@@ -41,10 +41,7 @@ def get_sa_rainfall_site_list():
         how="inner",
     )
     df["station_id"] = df.station_id.astype(str)
-    df["current"] = df["end"].apply(
-        lambda end: (pd.Timestamp(datetime.now()) - pd.Timestamp(end))
-        < pd.Timedelta(days=120)
-    )
+    df["current"] = (pd.Timestamp(datetime.now()) - df["end"]) < pd.Timedelta(days=120)
     df["total_span_yrs"] = df.apply(
         lambda row: (row.end - row.start).days / 365.25, axis=1
     )

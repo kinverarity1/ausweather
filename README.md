@@ -99,7 +99,10 @@ Released under the [MIT License](LICENSE.md).
 
 ## Version history
 
-### Version 0.13 (6 January 2020)
+### Version 0.14 (17 February 2026)
+- Correct generation of current in SA site list.
+
+### Version 0.13 (6 January 2026)
 - Add missing dependency (scipy)
 
 ### Version 0.12 (6 January 2026)
