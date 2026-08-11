@@ -99,6 +99,9 @@ Released under the [MIT License](LICENSE.md).
 
 ## Version history
 
+### Version 0.15 (11 August 2026)
+- Update some bits of code to align with dependent code use.
+
 ### Version 0.14 (17 February 2026)
 - Correct generation of current in SA site list.
 
