@@ -113,7 +113,7 @@ class RainfallStationData:
         Note that this will download the data afresh from the SILO website.
 
         """
-        self = cls(station_id, **kwargs)
+        self = cls(station_id, exclude_incomplete_years=kwargs.get("exclude_incomplete_years", None))
         self.df = download_bom_rainfall(
             station_id,
             email,
@@ -141,7 +141,7 @@ class RainfallStationData:
         """
         if data_start is None:
             data_start = pd.Timestamp("1950-01-01")
-        self = cls(station_id, **kwargs)
+        self = cls(station_id, exclude_incomplete_years=kwargs.get("exclude_incomplete_years", None))
         self.df = download_aquarius_rainfall(station_id, data_start)
         self.df["month"] = self.df.date.dt.month
         return self
@@ -155,7 +155,7 @@ class RainfallStationData:
             df (pd.DataFrame): data, see source for required columns
 
         """
-        self = cls(station_id, **kwargs)
+        self = cls(station_id, exclude_incomplete_years=kwargs.get("exclude_incomplete_years", None))
         logger.debug(f"creating from_data df=\n{df}")
         self.df = df
         self.df["month"] = self.df.date.dt.month
@@ -185,7 +185,6 @@ class RainfallStationData:
                 df[col] = pd.to_datetime(df[col])
         df["interpolated_desc"] = df.interpolated_code.map(INTERPOLATION_CODES)
         df["rainfall"] = df.rainfall.round(decimals=1)
-        # cols = ["year", "finyear", "month", "date", "dayofyear", "rainfall", "interpolated_code", "quality", "station_id"]
         return df
 
     @property
@@ -242,6 +241,7 @@ class RainfallStationData:
             - quality_count (int): number of days with non-null quality code.
 
         """
+        assert grouping_column in self.df.columns
         return self.df.groupby(grouping_column, as_index=False).agg(
             rainfall=("rainfall", "sum"),
             rainfall_count=("rainfall", "count"),
@@ -444,7 +444,7 @@ def download_bom_rainfall(
 
     """
     station_id = int(f"{float(station_id):.0f}")
-    logger.debug(f"Downloading {station_id} from {data_start}")
+    logger.debug(f"Downloading {station_id} from {data_start} to {data_end} identifying as {email}")
 
     data = fetch_bom_station_from_silo(
         station_id, email, query_from=data_start, query_to=data_end
@@ -465,12 +465,16 @@ def download_bom_rainfall(
     df["dayofyear"] = df["date"].dt.dayofyear
     df["finyear"] = [date_to_finyear(d) for d in df["date"]]
 
+    logger.debug(f"Before clipping ({clip_ends}) first row: {df.iloc[0]['date']} ; Last row: {df.iloc[-1]['date']}")
+
     if clip_ends:
         df = df.reset_index()
         df_obs = df[df.interpolated_code == 0]
         first_obs = df_obs.index.values[0]
         last_obs = df_obs.index.values[-1]
         df = df.loc[first_obs:last_obs]
+
+        logger.debug(f"After clipping - first row: {df.iloc[0]['date']} ; Last row: {df.iloc[-1]['date']}")
 
     cols = [
         "date",
@@ -487,6 +491,25 @@ def download_bom_rainfall(
 def fetch_bom_station_from_silo(
     bom_station, email, query_from=None, query_to=None, only_use_complete_years=False
 ):
+    """Fetch rainfall data from SILO.
+    
+    Args:
+        bom_station (str/int): to be converted to integer
+        email (str):
+        query_from (str or pd.Timestamp): see logic below
+        query_to (str or pd.Timestamp):  see logic below
+        only_use_complete_years (bool): default False. If True, any years
+            in the dataset which do not have 365 days of records (records
+            can be interpolated or observed) will be removed
+
+    The date logic is complex. If either query_to or query_from are None,
+    then, if the station ID is in SA_BOM_RAINFALL_LIST, query_from (if it were None)
+    is set to the start of data recorded at the site, and query_to (if
+    it were None) is initially set to the day after the end/most recent
+    data at the site; if it's in the future, it will be set to 5 days ago.
+    query_from also cannot be set earlier than 1 Jan 1889.
+        
+    """
     bom_station = int(bom_station)
     if query_from is None or query_to is None:
         rows = SA_BOM_RAINFALL_LIST.loc[
@@ -512,11 +535,14 @@ def fetch_bom_station_from_silo(
     query_from = pd.Timestamp(query_from)
     if query_from < pd.Timestamp("1889-01-01"):
         query_from = pd.Timestamp("1889-01-01")
+    query_to = pd.Timestamp(query_to)
+
+    logger.debug(f"Fetching data from SILO from {query_from} to {query_to}")
 
     rf_data = silo_alldata(
         bom_station,
         email,
-        start=int(query_from.strftime("%Y%m%d")),
+        start=query_from,
         finish=query_to,
         return_comments=True,
     )

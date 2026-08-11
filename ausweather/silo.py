@@ -80,7 +80,7 @@ def silo_alldata(station_code, email, start=None, finish=None, return_comments=F
         f"/PatchedPointDataset.php?start={start}&finish={finish}"
         f"&station={station_code}&format=alldata&username={email}"
     )
-    print(f"SILO url: {url}")
+    logger.debug(f"SILO url: {url}")
     r = requests.get(url)
     if len(r.text) > 300:
         snippet = r.text[:300]
@@ -91,7 +91,7 @@ def silo_alldata(station_code, email, start=None, finish=None, return_comments=F
         snippet = r.text[:300]
     else:
         snippet = r.text
-    print(f"SILO response first 300 chars:\n{snippet}")
+    logger.debug(f"SILO response first 300 chars:\n{snippet}")
 
     df = pd.read_csv(buffer, sep=r"\s+", comment='"', low_memory=False).iloc[1:]
     df["Date"] = pd.to_datetime(df["Date"], format="%Y%m%d")
@@ -116,6 +116,7 @@ def silo_alldata(station_code, email, start=None, finish=None, return_comments=F
         "MSLPres",
     ):
         df[col] = df[col].astype(float)
+    logger.debug(f"First row: {df.iloc[0]['Date']} ; Last row: {df.iloc[-1]['Date']}")
     if return_comments:
         comments = []
         for line in r.text.splitlines():
