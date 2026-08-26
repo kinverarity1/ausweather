@@ -4,9 +4,13 @@ import re
 import io
 
 import pandas as pd
+import numpy as np
 import requests
 from scipy import stats
+import matplotlib.pyplot as plt
+import matplotlib as mpl
 
+import ausweather
 from ausweather.silo import silo_alldata, get_silo_station_list
 from ausweather.bom import parse_bom_rainfall_station_list
 
@@ -23,6 +27,16 @@ INTERPOLATION_CODES = {
     35: "interpolated_by_anomaly",
     42: "satellite_estimate",
     75: "interpolated_by_long_term_averages",
+}
+
+INTERPOLATION_COLOURS = {
+    "observed": "#1e90ff",
+    "deaccumulated": "#00bfff",
+    "interpolated": "#dda0dd",
+    "synthetic": "black",
+    "interpolated_by_anomaly": "grey",
+    "satellite_estimate": "purple",
+    "interpolated_by_long_term_averages": "green"
 }
 
 
@@ -184,32 +198,38 @@ class RainfallStationData:
             if col.startswith("date"):
                 df[col] = pd.to_datetime(df[col])
         df["interpolated_desc"] = df.interpolated_code.map(INTERPOLATION_CODES)
-        df["rainfall"] = df.rainfall.round(decimals=1)
+        df["rainfall"] = pd.to_numeric(df.rainfall, errors='coerce').round(decimals=1)
         return df
 
     @property
     def calendar(self):
         df = self.groupby("year").assign(station_id=self.station_id)
-        df.insert(1, "start_date", [pd.Timestamp(f"{y}-01-01") for y in df.year])
+        df.insert(1, "start_date", pd.to_datetime([pd.Timestamp(f"{y}-01-01") for y in df.year]))
         if self.exclude_incomplete_years:
             missing = find_missing_days(
                 self.daily, dt_col="date", year_type="calendar", value_col="rainfall"
             )
             complete = missing[missing == 0]
             df = df[df.year.isin(complete.index.values)]
-        return df.reset_index()
+        df = df.reset_index()
+        if "index" in df.columns:
+            df = df.drop(["index"], axis=1)
+        return df
 
     @property
     def financial(self):
         df = self.groupby("finyear").assign(station_id=self.station_id)
-        df.insert(1, "start_date", [pd.Timestamp(f"{y[:4]}-07-01") for y in df.finyear])
+        df.insert(1, "start_date", pd.to_datetime([pd.Timestamp(f"{y[:4]}-07-01") for y in df.finyear]))
         if self.exclude_incomplete_years:
             missing = find_missing_days(
                 self.daily, dt_col="date", year_type="financial", value_col="rainfall"
             )
             complete = missing[missing == 0]
             df = df[df.finyear.isin(complete.index.values)]
-        return df.reset_index()
+        df = df.reset_index()
+        if "index" in df.columns:
+            df = df.drop(["index"], axis=1)
+        return df
 
     @property
     def month(self):
@@ -253,7 +273,171 @@ class RainfallStationData:
                 "quality",
                 lambda x: len([xi for xi in x if not pd.isnull(xi)]),
             ),
+            first_date=(
+                "date",
+                lambda x: min([d for d in x if not pd.isnull(d)])
+            ),
+            last_date=(
+                "date",
+                lambda x: max([d for d in x if not pd.isnull(d)])
+            ),
         )
+    
+    def clip_to_dates(self, start=None, finish=None, inplace=False):
+        """Clip rainfall dataset to given dates. 
+
+        Args:
+            start (str/pd.Timestamp/None): if None, use the existing
+                date in the data.
+            start (str/pd.Timestamp/None): if None, use the existing
+                date in the data.
+            inplace (bool): by default, return a new RainfallStationData
+                instance. If True, operates in-place.
+        
+        Returns:
+            null
+            
+        """
+        if start is None:
+            start = self.df["date"].min()
+        if finish is None:
+            finish = self.df["date"].max()
+        start = pd.Timestamp(start)
+        finish = pd.Timestamp(finish)
+        df = self.df[(self.df["date"] >= start) & (self.df["date"] <= finish)]
+        if inplace:
+            self.df = df
+        else:
+            rf = RainfallStationData.from_data(self.station_id, df)
+            if hasattr(self, "defn"):
+                rf.defn = self.defn
+            return rf
+
+
+def calculate_annual_rainfall_by_interpolation_type(
+    daily: pd.DataFrame,
+    rainfall_col: str = "rainfall",
+    grouping_col: str = "year",
+    interpolation_col: str = "interpolated_desc",
+    order_codes_by: tuple = tuple(INTERPOLATION_CODES.values())
+) -> pd.DataFrame:
+    """Calculate annual rainfall totals, broken down by interpolation code.
+
+    Args:
+        daily (pd.DataFrame): must contain columns with the total rainfall,
+            the column to group by (e.g. year "year", financial year "finyear"),
+            and the interpolation type (can be any type e.g. integer or string).
+            A dataset suitable for passing directly can be obtained through the "daily"
+            attribute of a RainfallStationData instance.
+        rainfall_col (str): column with floating point rainfall total in *daily*, 
+            "rainfall" by default
+        grouping_col (str): column with the year in *daily*, "year" by default, 
+            another option may be "finyear".
+        interpolation_col (str): column with the interpolated type in *daily*, 
+            "interpolated_desc" by default. Another option may be "interpolated_code".
+        order_codes_by (tuple): preferred ordering of the result columns.
+
+    Returns:
+        pd.DataFrame: the index of the returned dataframe are the values found in
+        *grouping_col* of *daily*, and the columns are the values found in
+        *interpolation_col* of *daily* (ordered by the order in which the relevant
+        column values are found in *order_codes_by*. The values are the total
+        rainfall found in *rainfall_col* for each year and interpolation code.
+
+    You can plot the result with plot_annual_rainfall_by_interpolation_type.
+
+    """        
+    ann_rf_c = daily.groupby([grouping_col, interpolation_col])[rainfall_col].sum().unstack(level=1).fillna(0)
+    ann_rf_c = ann_rf_c[[c for c in order_codes_by if c in ann_rf_c.columns] + [c for c in ann_rf_c.columns if not c in order_codes_by]]
+    return ann_rf_c
+
+
+def plot_annual_rainfall_by_interpolation_type(
+    annual_by_icode=None, 
+    daily=None,
+    start="unknown",
+    finish="unknown",
+    colours=INTERPOLATION_COLOURS,
+    **kwargs
+):
+    """Plot annual rainfall totals, broken down by interpolation code.
+
+    Args:
+        annual_by_icode (pd.DataFrame): a table of rainfall totals per
+            interpolation type. The main index (rows) should be each year/financial year,
+            and the secondary index (columns) should be each interpolation type.
+            This is the standard output from calculate_annual_rainfall_by_interpolation_type.
+            It's optional, you can provide the daily data directly and the calculation
+            function can be called from here.
+        daily (pd.DataFrame): optional. If provided, it will be used for the start and finish
+            dates of the underlying data (printed on the figure). If annual data is
+            not provided, this will be used to calculate the annual data.
+            If being used for the latter purpose, it must contain columns with the total rainfall,
+            the column to group by (e.g. year "year", financial year "finyear"),
+            and the interpolation type (can be any type e.g. integer or string).
+            A dataset suitable for passing directly can be obtained through the "daily"
+            attribute of a RainfallStationData instance.
+        start (str): optional, start date of the underlying data (for printing on chart)
+        finish (str): optional, finish date of the underlying data (for printing on chart)
+        fig (pyplot.Figure): optional
+        ax (pyplot.Axes): optional
+        rainfall_col (str): column with floating point rainfall total in *daily*, 
+            "rainfall" by default
+        grouping_col (str): column with the year in *daily*, "year" by default, 
+            another option may be "finyear".
+        interpolation_col (str): column with the interpolated type in *daily*, 
+            "interpolated_desc" by default. Another option may be "interpolated_code".
+        order_codes_by (tuple): preferred ordering of the result columns.
+
+    """
+    if annual_by_icode is None:
+        if daily is None:
+            raise Exception("Please supply either annual dataset, or daily data.")
+        else:
+            annual_by_icode = calculate_annual_rainfall_by_interpolation_type(
+                daily, **{k: v for k, v in kwargs.items() if k in (
+                    "rainfall_col", "grouping_col", "interpolation_col", "order_codes_by"
+                )}
+            )
+       
+    if daily is not None:
+        start = daily.date.min().strftime("%d/%m/%Y")
+        finish = daily.date.max().strftime("%d/%m/%Y")
+
+    if not "ax" in kwargs:
+        fig = kwargs.get("fig", plt.figure())
+        ax = fig.add_subplot(111)
+    
+    annual_index = annual_by_icode.index.values
+    minor_interval = 1
+    if len(annual_index) < 35:
+        interval = 5
+    elif len(annual_index) < 65:
+        interval = 10
+    else:
+        interval = 20
+        minor_interval = 2
+    offset = 0
+    if annual_by_icode.index.name == "finyear":
+        offset = [i for i, value in enumerate(annual_index) if value[3] == str(interval)[-1]][0]
+    
+    bar_tops = np.zeros_like(annual_by_icode.sum(axis=1))
+    for col in annual_by_icode.columns:
+        series = annual_by_icode[col]
+        colour = colours.get(col, None)
+        ax.bar(series.index, series.values, bottom=bar_tops, label=str(col)[0].upper() + str(col)[1:], linewidth=0.2, edgecolor="k", color=colour, width=1)
+        bar_tops += series.values
+    ax.xaxis.set_major_locator(mpl.ticker.MultipleLocator(interval, offset=offset))
+    ax.xaxis.set_minor_locator(mpl.ticker.MultipleLocator(minor_interval))
+    ax.tick_params(top=True, bottom=True, left=True, right=True, which="both")
+    ax.legend(bbox_to_anchor=(1.05, 0.9), loc='upper left', title="Observation type")
+    ax.text(1.05, 1, f"Rainfall dataset from\n{start} to {finish}", transform=ax.transAxes, va="top")
+    if annual_by_icode.index.name == "finyear":
+        ax.set_xlim(-1, len(annual_index))
+    else:
+        ax.set_xlim(annual_index[0] - 1, annual_index[-1] + 0.5)
+    ax.set_ylabel("Rainfall (mm)")
+    return ax
 
 
 def annual_stats(
