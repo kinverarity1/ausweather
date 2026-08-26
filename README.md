@@ -99,6 +99,11 @@ Released under the [MIT License](LICENSE.md).
 
 ## Version history
 
+### Version 0.16 (27 August 2026)
+- Add RainfallStationData.clip_to_dates
+- Add calculate_annual_rainfall_by_interpolation_type
+- Add plot_annual_rainfall_by_interpolation_type
+
 ### Version 0.15 (11 August 2026)
 - Update some bits of code to align with dependent code use.
 
